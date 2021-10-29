@@ -1,0 +1,42 @@
+#!/bin/sh
+currentlabday=$(date -u +%Y%m%d)
+
+add(){
+  if test -z "$LABDIR"; then
+    echo "$LABDIR environment variable is unset"
+    return
+  fi
+
+  if test -e "$LABDIR/$currentlabday"; then
+    printf "%b$currentlabday%b at %b$LABDIR%b Exists \n" "\e[31m" "\e[0m" "\e[31m" "\e[0m"
+    return
+  fi
+
+  printf  "%b Adding new lab %s %b" "\e[33m" "$currentlabday" "\e[0m\n" 
+  mkdir "$LABDIR/$currentlabday"
+  touch "$LABDIR/$currentlabday/notes.md"
+  touch "$LABDIR/$currentlabday/lab.md"
+  return
+}
+
+help(){
+  printf "%bCommands:%b \n %s %s\n" \
+   "\e[33m" "\e[0m" "add" "help"
+}
+
+rc(){
+  if test "$#" -eq "0" -o "$1" = "help"; then
+    help     
+    return
+  fi
+  if test "$1" = "add" -a "$#" -eq 1; then
+    add
+    return
+  fi
+}
+
+main(){
+  rc "$@"
+}
+
+main "$@"

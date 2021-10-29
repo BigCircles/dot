@@ -9,8 +9,10 @@ export TERM=xterm-256color
 # Exports added by @stremler
 export GIT_USERNAME="BigCircles"
 export GIT_PASSWORD="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"
-export PATH="$PATH:/home/stremler/repos/scripts"
+export PATH='$PATH:~/repos/scripts'
+export DOTPATH="/home/stremler/repos/dotfiles"
 export WEATHER_API="b7eabd4f923c3357d060db217e7c6f39"
+export ZETPATH="/home/stremler/repos/zet"
 export CDPATH=$CDPATH:"/home/stremler/bookmarks"
 
 #-------------- Prompt --------------------------
@@ -50,7 +52,7 @@ pathprepend(){
 done
 }
 
-export SCRIPTS=~/repos/scripts
+export SCRIPTS=~/repos/dotfiles/scripts
 mkdir -p "$SCRIPTS" &>/dev/null
 
 #remember first arg will be first in the path
@@ -125,6 +127,7 @@ shopt -s histappend
 # Alias added by @Stremler
 alias c='clear'
 alias scripts='cd $SCRIPTS'
+alias dot='cd $DOTPATH'
 alias ?='duck'
 alias ??='google'
 alias ???='bing'

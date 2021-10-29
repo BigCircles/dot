@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if test -z "$ZETPATH"; then
+  printf "%s\n" "Please set 'ZETPATH' in your bashrc!"
+  exit 1
+fi
+
+ISO=($isosec)
+
+cd $ZETPATH;
+mkdir -v $ISO
+touch $ZETPATH/$ISO/README.md
+git add .
+

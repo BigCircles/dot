@@ -1,0 +1,89 @@
+#!/bin/bash
+
+yellow="\e[0;33m"
+green="\e[0;32m"
+reset_color="\e[m"
+# Call the current weather api at openweathermap.org. Pull the API key from env variables. Put that information 
+
+if test -z "$WEATHER_API"; then 
+  printf "%s\n" "Weather API environment variable isn't currently set"
+  exit 1
+fi
+
+
+curr_weather_at_location(){
+    curl -s GET "api.openweathermap.org/data/2.5/weather?zip={$1},us&units=imperial&appid={$WEATHER_API}" | jq "." |
+      (
+          result="$(cat)"
+          name="$(echo "$result" | jq ".name")"
+          temp="$(echo "$result" | jq ".main.temp")"
+          feels_like="$(echo "$result" | jq ".main.feels_like")"
+          condition="$(echo "$result" | jq ".weather[].main?")"
+          humidity="$(echo "$result" | jq ".main.humidity")"
+          wind_speed="$(echo "$result" | jq ".wind.speed")"
+          wind_gust="$(echo "$result" | jq ".wind.gust")"
+          sunrise="$(echo "$result" | jq ".sys.sunrise" | (temp_to_convert_sunrise="$(cat)"; date -d @"$temp_to_convert_sunrise" ))"
+          sunset="$(echo "$result" | jq ".sys.sunset" | (temp_to_convert_sunset="$(cat)"; date -d @"$temp_to_convert_sunset"))"
+          printf " %bLocation:%b%s\n %bTemperature:%b%s°F\n %bFeels Like:%b%s°F\n %bCondition:%b%s\n %bHumidity:%b%s%%\n %bWind Speed:%b%s\n %bWind Gust:%b%s\n %bSunrise:%b%s\n %bSunset:%b%s\n" \
+          "$yellow" "$reset_color" "$name" \
+          "$green" "$reset_color" "$temp" \
+          "$yellow" "$reset_color" "$feels_like" \
+          "$green" "$reset_color" "$condition" \
+          "$yellow" "$reset_color" "$humidity" \
+          "$green" "$reset_color" "$wind_speed" \
+          "$yellow" "$reset_color" "$wind_gust" \
+          "$green" "$reset_color" "$sunrise" \
+          "$yellow" "$reset_color" "$sunset" \
+     )
+}
+
+shortcut_check(){
+  home_zip="48198"
+  tim_zip="19102"
+  dave_zip="94559"
+
+  if test "$1" == "home"; then
+    curr_weather_at_location "$home_zip"
+    exit 
+  fi
+  
+  if test "$1" == "tim"; then
+    curr_weather_at_location "$tim_zip"
+    exit 
+  fi
+
+  if test "$1" == "dave"; then
+    curr_weather_at_location "$dave_zip"
+    exit
+  fi
+}
+
+rc(){
+  if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
+    shortcut_check "$@"
+  fi
+
+  if test "$#" -eq 0; then
+    curr_weather_at_location "$home_zip"
+    return
+  fi 
+
+  if test "$#" -eq 1; then
+    curr_weather_at_location "$@"
+    return
+  fi
+}
+
+main(){
+ rc "$@"
+}
+
+omgdontoverrideotherfunctions(){
+  if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then   
+    echo "Test input was TRUE"
+    return
+  fi
+    echo "Test input was FALSE"
+}
+
+main "$@"

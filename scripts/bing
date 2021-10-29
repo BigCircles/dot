@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Short Script to call bing search engine in lynx. Using arguments passed.
+
+exec lynx "https://www.bing.com/search?q=$*"

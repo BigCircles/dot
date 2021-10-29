@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Calls Lynx with the text argument passed. Using google as the search engine.
+
+GOOGLE_URL="https://www.google.com/search?q="
+exec lynx "$GOOGLE_URL$*"
+
