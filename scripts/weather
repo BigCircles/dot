@@ -33,8 +33,8 @@ curr_weather_at_location(){
           "$green" "$reset_color" "$wind_speed" \
           "$yellow" "$reset_color" "$wind_gust" \
           "$green" "$reset_color" "$sunrise" \
-          "$yellow" "$reset_color" "$sunset" \
-     )
+          "$yellow" "$reset_color" "$sunset"; exit 0
+     ) 
 }
 
 shortcut_check(){
@@ -55,35 +55,51 @@ shortcut_check(){
   if test "$1" == "dave"; then
     curr_weather_at_location "$dave_zip"
     exit
+  else
+    printf "%s\n" "'$1' is not a valid shortcut."
+    exit 1
   fi
 }
 
 rc(){
-  if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
-    shortcut_check "$@"
+  # If weather command is called with no args then print "help" to show commands
+  if test "$#" -eq 0 -o "$#" -eq 1 -a "$1" = "help"; then
+    help
+    exit 0
+  fi 
+
+  if test "$1" = "current" -o "$1" = "curr" -o  "$1" = "-c"; then
+    shift 1
+    if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
+      shortcut_check "$@"
+    fi
+  fi
+  
+  if test "$1" = "forecast" -o "$1" = "-f"; then
+    # for now exit 0 because its not implemented yet
+    # TODO
+    echo "To be implemented."
+    exit 1
+    shift 1
+    if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
+      shortcut_check "$@"
+    fi
   fi
 
-  if test "$#" -eq 0; then
-    curr_weather_at_location "$home_zip"
-    return
-  fi 
 
   if test "$#" -eq 1; then
     curr_weather_at_location "$@"
-    return
+    exit 0 
   fi
+}
+
+# Print possible commands related to weather
+help(){
+  printf "%s\n" "Usage:weather ([current | -c] | [forecast | -f] | help)"
 }
 
 main(){
  rc "$@"
-}
-
-omgdontoverrideotherfunctions(){
-  if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then   
-    echo "Test input was TRUE"
-    return
-  fi
-    echo "Test input was FALSE"
 }
 
 main "$@"

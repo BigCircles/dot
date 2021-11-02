@@ -14,8 +14,9 @@ export DOTPATH="/home/stremler/repos/dotfiles"
 export WEATHER_API="b7eabd4f923c3357d060db217e7c6f39"
 export ZETPATH="/home/stremler/repos/zet"
 export CDPATH=$CDPATH:"/home/stremler/bookmarks"
+export LABDIR="$HOME/repos/labs"
+#------------- -Prompt --------------------------
 
-#-------------- Prompt --------------------------
 
 
 export PS1='\[\e[0;36m\]\u\[\e[0;33m\]@\[\e[0;35m\]\h \[\e[0;33m\]\W\$\[\e[0m\] '
