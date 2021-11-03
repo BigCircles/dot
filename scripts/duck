@@ -1,5 +1,4 @@
 #!/bin/sh
 
 # Short script to call duckduckgo search engine using arguments passed.
-
-exec lynx "https://duckduckgo.com/?q=$*&kp=-1&kl=us-en"
+exec lynx "https://lite.duckduckgo.com/lite?kd=-1&kp=-1&q=$*"
