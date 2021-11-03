@@ -1,5 +1,5 @@
 #!/bin/bash
-
+current_minimized=false
 yellow="\e[0;33m"
 green="\e[0;32m"
 reset_color="\e[m"
@@ -37,14 +37,31 @@ curr_weather_at_location(){
      ) 
 }
 
+short_curr_weather_at_location(){
+    curl -s GET "api.openweathermap.org/data/2.5/weather?zip={$1},us&units=imperial&appid={$WEATHER_API}" | jq "." |
+      (   
+          result="$(cat)"
+          temp="$(echo "$result" | jq ".main.temp")"
+          condition="$(echo "$result" | jq ".weather[].main?")"
+          printf "Temp:%s°F Condition:%s" \
+          "$temp" \
+          "$condition"; exit 0
+     )   
+}
+
+
 shortcut_check(){
   home_zip="48198"
   tim_zip="19102"
   dave_zip="94559"
 
   if test "$1" == "home"; then
+    if test "$current_minimized" = true; then
+      short_curr_weather_at_location "$home_zip" 
+      exit 0
+    fi
     curr_weather_at_location "$home_zip"
-    exit 
+    exit 0
   fi
   
   if test "$1" == "tim"; then
@@ -70,6 +87,16 @@ rc(){
 
   if test "$1" = "current" -o "$1" = "curr" -o  "$1" = "-c"; then
     shift 1
+    if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
+      shortcut_check "$@"
+    fi
+  fi
+
+
+  # Testing IN progress
+  if test "$1" = "-cm"; then
+    shift 1
+    current_minimized=true
     if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
       shortcut_check "$@"
     fi
