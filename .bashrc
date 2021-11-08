@@ -15,7 +15,7 @@ export DOTPATH="/home/stremler/repos/dotfiles"
 export WEATHER_API="b7eabd4f923c3357d060db217e7c6f39"
 export ZETPATH="/home/stremler/repos/zet"
 export CDPATH=$CDPATH:"/home/stremler/bookmarks"
-export LABDIR="$HOME/repos/labs"
+export LABDIR="/home/stremler/repos/labs"
 #------------- -Prompt --------------------------
 
 
@@ -81,6 +81,7 @@ export CDPATH=.:\
 ~/.local/bin/scripts:\
 ~/repos:\
 ~/repos/scripts:\
+~/repos/labs:\
 
 # example path ~/repos/zet:\
 
@@ -128,6 +129,7 @@ shopt -s histappend
 
 # Alias added by @Stremler
 alias c='clear'
+alias labs='cd $LABDIR'
 alias scripts='cd $SCRIPTS'
 alias dot='cd $DOTPATH'
 alias ?='duck'

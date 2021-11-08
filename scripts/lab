@@ -16,6 +16,8 @@ add(){
   mkdir "$LABDIR/$currentlabday"
   touch "$LABDIR/$currentlabday/notes.md"
   touch "$LABDIR/$currentlabday/lab.md"
+  cd "$LABDIR"
+  git add -A
   return
 }
 

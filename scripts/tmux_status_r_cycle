@@ -1,0 +1,33 @@
+#!/bin/sh
+#TODO Add time since last weather call check, so that it doesnt repeat calls
+# to the api
+
+#---------------- Constants --------------
+INTERVAL_BETWEEN_API_CALLS=180 # Constants
+SLEEP_CONSTANT=20
+#------------------------------------------
+previous_time=0
+current_time=0
+last_weather_call_result=""
+tmux_status_right_cycle(){
+while true; do  
+  date '+%a %b %d %r'
+  sleep "$SLEEP_CONSTANT"
+  current_time=$(date "+%s")
+  time_to_api_call=$(echo "$current_time-$previous_time" | bc) 
+  if test "$time_to_api_call" -ge "$INTERVAL_BETWEEN_API_CALLS"; then
+    last_weather_call_result="$(weather -cm home)"
+    previous_time="$current_time"
+    echo "+$last_weather_call_result"
+  else
+    echo "$last_weather_call_result"
+  fi
+  sleep "$SLEEP_CONSTANT" 
+done
+}
+
+main(){
+  tmux_status_right_cycle
+}
+
+main 
