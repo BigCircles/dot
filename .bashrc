@@ -5,6 +5,7 @@ esac
 # man bash - search for PROMPTING for prompt options and cmd sequences.
 # Environment Variables
 
+
 export TERM=xterm-256color
 # Exports added by @stremler
 export GIT_USERNAME="BigCircles"
