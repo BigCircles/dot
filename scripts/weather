@@ -91,8 +91,6 @@ rc(){
       shortcut_check "$@"
     fi
   fi
-
-
   # Testing IN progress
   if test "$1" = "-cm"; then
     shift 1
