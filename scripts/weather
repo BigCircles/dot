@@ -1,15 +1,26 @@
 #!/bin/bash
+
+declare -a COMMANDS=(current -c  help)
+#----------------------------- Completion --------------------------
+# complete -C completiontest completiontest - Use this program to do completion
+# All completion logic goes here
+if [[ -n $COMP_LINE ]]; then
+  for c in ${COMMANDS[@]}; do
+    [[ ${c:0:${#2}} = $2 ]] && echo "$c"
+  done
+  exit
+fi
+#--------------------------- End Completion ------------------------
 current_minimized=false
 yellow="\e[0;33m"
 green="\e[0;32m"
 reset_color="\e[m"
-# Call the current weather api at openweathermap.org. Pull the API key from env variables. Put that information 
+#Weather api at openweathermap.org. Pull the API key from env variables
 
 if test -z "$WEATHER_API"; then 
   printf "%s\n" "Weather API environment variable isn't currently set"
   exit 1
 fi
-
 
 curr_weather_at_location(){
     curl -s GET "api.openweathermap.org/data/2.5/weather?zip={$1},us&units=imperial&appid={$WEATHER_API}" | jq "." |
@@ -81,7 +92,7 @@ shortcut_check(){
 rc(){
   # If weather command is called with no args then print "help" to show commands
   if test "$#" -eq 0 -o "$#" -eq 1 -a "$1" = "help"; then
-    help
+    _help
     exit 0
   fi 
 
@@ -91,7 +102,6 @@ rc(){
       shortcut_check "$@"
     fi
   fi
-  # Testing IN progress
   if test "$1" = "-cm"; then
     shift 1
     current_minimized=true
@@ -99,28 +109,10 @@ rc(){
       shortcut_check "$@"
     fi
   fi
-  
-  if test "$1" = "forecast" -o "$1" = "-f"; then
-    # for now exit 0 because its not implemented yet
-    # TODO
-    echo "To be implemented."
-    exit 1
-    shift 1
-    if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
-      shortcut_check "$@"
-    fi
-  fi
-
-
-  if test "$#" -eq 1; then
-    curr_weather_at_location "$@"
-    exit 0 
-  fi
 }
-
 # Print possible commands related to weather
-help(){
-  printf "%s\n" "Usage:weather ([current | -c] | [forecast | -f] | help)"
+_help(){
+  printf "%s\n" "Usage:weather ([current | -c] | help)"
 }
 
 main(){

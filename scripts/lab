@@ -1,6 +1,18 @@
-#!/bin/sh
-currentlabday=$(date -u +%Y%m%d)
+#!/bin/bash
 
+declare -a COMMANDS=(add help)
+# ----------------------------- Completion --------------------------
+# complete -C completiontest completiontest - Use this program to do completion
+# All completion logic goes here
+if [[ -n $COMP_LINE ]]; then
+  for c in ${COMMANDS[@]}; do
+    [[ ${c:0:${#2}} = $2 ]] && echo "$c"
+  done
+  exit
+fi
+#--------------------------- End Completion ------------------------
+
+currentlabday="$(date -u +%Y%m%d)"
 add(){
   if test -z "$LABDIR"; then
     echo "$LABDIR environment variable is unset"
@@ -16,19 +28,18 @@ add(){
   mkdir "$LABDIR/$currentlabday"
   touch "$LABDIR/$currentlabday/notes.md"
   touch "$LABDIR/$currentlabday/lab.md"
-  cd "$LABDIR"
-  git add -A
+  cd "$LABDIR";git add -A
   return
 }
 
-help(){
+_help(){
   printf "%bCommands:%b \n %s %s\n" \
    "\e[33m" "\e[0m" "add" "help"
 }
 
 rc(){
   if test "$#" -eq "0" -o "$1" = "help"; then
-    help     
+    _help     
     return
   fi
   if test "$1" = "add" -a "$#" -eq 1; then

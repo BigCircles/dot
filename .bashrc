@@ -147,4 +147,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
+complete -C completiontest completiontest
+complete -C weather weather
+complete -C lab lab
