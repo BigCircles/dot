@@ -1,0 +1,2401 @@
+2021-11-09 18:42:05		New key binding (context "default"): meta2-1;5P => /bar scroll buflist * -100%
+2021-11-09 18:42:05		New key binding (context "default"): meta2-1;5Q => /bar scroll buflist * +100%
+2021-11-09 18:42:05		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2021-11-09 18:42:05		New key binding (context "default"): meta2-1;3Q => /bar scroll buflist * e
+2021-11-09 18:42:05		New key binding (context "default"): meta2-1;3P => /bar scroll buflist * b
+2021-11-09 18:42:05		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2021-11-09 18:42:05		New key binding (context "default"): meta-B => /buflist toggle
+2021-11-09 18:42:05		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2021-11-09 18:42:05		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2021-11-09 18:42:05		New key binding (context "default"): meta-meta2-12~ => /bar scroll buflist * e
+2021-11-09 18:42:05		New key binding (context "default"): meta-meta2-11~ => /bar scroll buflist * b
+2021-11-09 18:42:05		New key binding (context "default"): meta2-12^ => /bar scroll buflist * +100%
+2021-11-09 18:42:05		New key binding (context "default"): meta2-12~ => /bar scroll buflist * +100%
+2021-11-09 18:42:05		New key binding (context "default"): meta2-11^ => /bar scroll buflist * -100%
+2021-11-09 18:42:05		New key binding (context "default"): meta2-11~ => /bar scroll buflist * -100%
+2021-11-09 18:42:05		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 18:42:37	=!=	You can not write text in this buffer
+2021-11-09 18:43:29	=!=	You can not write text in this buffer
+2021-11-09 18:43:33	=!=	You can not write text in this buffer
+2021-11-09 18:46:30	=!=	You can not write text in this buffer
+2021-11-09 18:46:35	=!=	You can not write text in this buffer
+2021-11-09 18:47:15		fifo: pipe closed
+2021-11-09 18:48:34		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 18:55:37		List of bars:
+2021-11-09 18:55:37		  input: window, bottom, height: auto
+2021-11-09 18:55:37		  title: window, top, height: 1
+2021-11-09 18:55:37		  status: window, bottom, height: 1
+2021-11-09 18:55:37		  nicklist: window, right, width: auto
+2021-11-09 18:55:37		  fset: window, top, height: 3
+2021-11-09 18:55:37		  buflist: root, left, width: auto
+2021-11-09 18:55:40		[crypt] (sec.conf)
+2021-11-09 18:55:40		  sec.crypt.cipher = aes256
+2021-11-09 18:55:40		  sec.crypt.hash_algo = sha256
+2021-11-09 18:55:40		  sec.crypt.passphrase_file = ""
+2021-11-09 18:55:40		  sec.crypt.salt = on
+2021-11-09 18:55:40		[startup] (weechat.conf)
+2021-11-09 18:55:40		  weechat.startup.command_after_plugins = ""
+2021-11-09 18:55:40		  weechat.startup.command_before_plugins = ""
+2021-11-09 18:55:40		  weechat.startup.display_logo = on
+2021-11-09 18:55:40		  weechat.startup.display_version = on
+2021-11-09 18:55:40		  weechat.startup.sys_rlimit = ""
+2021-11-09 18:55:40		[look] (weechat.conf)
+2021-11-09 18:55:40		  weechat.look.align_end_of_lines = message
+2021-11-09 18:55:40		  weechat.look.align_multiline_words = on
+2021-11-09 18:55:40		  weechat.look.bar_more_down = "++"
+2021-11-09 18:55:40		  weechat.look.bar_more_left = "<<"
+2021-11-09 18:55:40		  weechat.look.bar_more_right = ">>"
+2021-11-09 18:55:40		  weechat.look.bar_more_up = "--"
+2021-11-09 18:55:40		  weechat.look.bare_display_exit_on_input = on
+2021-11-09 18:55:40		  weechat.look.bare_display_time_format = "%H:%M"
+2021-11-09 18:55:40		  weechat.look.buffer_auto_renumber = on
+2021-11-09 18:55:40		  weechat.look.buffer_notify_default = all
+2021-11-09 18:55:40		  weechat.look.buffer_position = end
+2021-11-09 18:55:40		  weechat.look.buffer_search_case_sensitive = off
+2021-11-09 18:55:40		  weechat.look.buffer_search_force_default = off
+2021-11-09 18:55:40		  weechat.look.buffer_search_regex = off
+2021-11-09 18:55:40		  weechat.look.buffer_search_where = prefix_message
+2021-11-09 18:55:40		  weechat.look.buffer_time_format = "%H:%M:%S"
+2021-11-09 18:55:40		  weechat.look.buffer_time_same = ""
+2021-11-09 18:55:40		  weechat.look.color_basic_force_bold = off
+2021-11-09 18:55:40		  weechat.look.color_inactive_buffer = on
+2021-11-09 18:55:40		  weechat.look.color_inactive_message = on
+2021-11-09 18:55:40		  weechat.look.color_inactive_prefix = on
+2021-11-09 18:55:40		  weechat.look.color_inactive_prefix_buffer = on
+2021-11-09 18:55:40		  weechat.look.color_inactive_time = off
+2021-11-09 18:55:40		  weechat.look.color_inactive_window = on
+2021-11-09 18:55:40		  weechat.look.color_nick_offline = off
+2021-11-09 18:55:40		  weechat.look.color_pairs_auto_reset = 5
+2021-11-09 18:55:40		  weechat.look.color_real_white = off
+2021-11-09 18:55:40		  weechat.look.command_chars = ""
+2021-11-09 18:55:40		  weechat.look.command_incomplete = off
+2021-11-09 18:55:40		  weechat.look.confirm_quit = off
+2021-11-09 18:55:40		  weechat.look.confirm_upgrade = off
+2021-11-09 18:55:40		  weechat.look.day_change = on
+2021-11-09 18:55:40		  weechat.look.day_change_message_1date = "-- %a, %d %b %Y --"
+2021-11-09 18:55:40		  weechat.look.day_change_message_2dates = "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --"
+2021-11-09 18:55:40		  weechat.look.eat_newline_glitch = off
+2021-11-09 18:55:40		  weechat.look.emphasized_attributes = ""
+2021-11-09 18:55:40		  weechat.look.highlight = ""
+2021-11-09 18:55:40		  weechat.look.highlight_regex = ""
+2021-11-09 18:55:40		  weechat.look.highlight_tags = ""
+2021-11-09 18:55:40		  weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0 || ${info:relay_client_count,weechat,connected} > 0"
+2021-11-09 18:55:40		  weechat.look.hotlist_buffer_separator = ", "
+2021-11-09 18:55:40		  weechat.look.hotlist_count_max = 2
+2021-11-09 18:55:40		  weechat.look.hotlist_count_min_msg = 2
+2021-11-09 18:55:40		  weechat.look.hotlist_names_count = 3
+2021-11-09 18:55:40		  weechat.look.hotlist_names_length = 0
+2021-11-09 18:55:40		  weechat.look.hotlist_names_level = 12
+2021-11-09 18:55:40		  weechat.look.hotlist_names_merged_buffers = off
+2021-11-09 18:55:40		  weechat.look.hotlist_prefix = "H: "
+2021-11-09 18:55:40		  weechat.look.hotlist_remove = merged
+2021-11-09 18:55:40		  weechat.look.hotlist_short_names = on
+2021-11-09 18:55:40		  weechat.look.hotlist_sort = group_time_asc
+2021-11-09 18:55:40		  weechat.look.hotlist_suffix = ""
+2021-11-09 18:55:40		  weechat.look.hotlist_unique_numbers = on
+2021-11-09 18:55:40		  weechat.look.input_cursor_scroll = 20
+2021-11-09 18:55:40		  weechat.look.input_share = none
+2021-11-09 18:55:40		  weechat.look.input_share_overwrite = off
+2021-11-09 18:55:40		  weechat.look.input_undo_max = 32
+2021-11-09 18:55:40		  weechat.look.item_away_message = on
+2021-11-09 18:55:40		  weechat.look.item_buffer_filter = "*"
+2021-11-09 18:55:40		  weechat.look.item_buffer_zoom = "!"
+2021-11-09 18:55:40		  weechat.look.item_mouse_status = "M"
+2021-11-09 18:55:40		  weechat.look.item_time_format = "%H:%M"
+2021-11-09 18:55:40		  weechat.look.jump_current_to_previous_buffer = on
+2021-11-09 18:55:40		  weechat.look.jump_previous_buffer_when_closing = on
+2021-11-09 18:55:40		  weechat.look.jump_smart_back_to_buffer = on
+2021-11-09 18:55:40		  weechat.look.key_bind_safe = on
+2021-11-09 18:55:40		  weechat.look.key_grab_delay = 800
+2021-11-09 18:55:40		  weechat.look.mouse = off
+2021-11-09 18:55:40		  weechat.look.mouse_timer_delay = 100
+2021-11-09 18:55:40		  weechat.look.nick_color_force = ""
+2021-11-09 18:55:40		  weechat.look.nick_color_hash = djb2
+2021-11-09 18:55:40		  weechat.look.nick_color_hash_salt = ""
+2021-11-09 18:55:40		  weechat.look.nick_color_stop_chars = "_|["
+2021-11-09 18:55:40		  weechat.look.nick_prefix = ""
+2021-11-09 18:55:40		  weechat.look.nick_suffix = ""
+2021-11-09 18:55:40		  weechat.look.paste_auto_add_newline = on
+2021-11-09 18:55:40		  weechat.look.paste_bracketed = on
+2021-11-09 18:55:40		  weechat.look.paste_bracketed_timer_delay = 10
+2021-11-09 18:55:40		  weechat.look.paste_max_lines = 1
+2021-11-09 18:55:40		  weechat.look.prefix_action = " *"
+2021-11-09 18:55:40		  weechat.look.prefix_align = right
+2021-11-09 18:55:40		  weechat.look.prefix_align_max = 0
+2021-11-09 18:55:40		  weechat.look.prefix_align_min = 0
+2021-11-09 18:55:40		  weechat.look.prefix_align_more = "+"
+2021-11-09 18:55:40		  weechat.look.prefix_align_more_after = on
+2021-11-09 18:55:40		  weechat.look.prefix_buffer_align = right
+2021-11-09 18:55:40		  weechat.look.prefix_buffer_align_max = 0
+2021-11-09 18:55:40		  weechat.look.prefix_buffer_align_more = "+"
+2021-11-09 18:55:40		  weechat.look.prefix_buffer_align_more_after = on
+2021-11-09 18:55:40		  weechat.look.prefix_error = "=!="
+2021-11-09 18:55:40		  weechat.look.prefix_join = "-->"
+2021-11-09 18:55:40		  weechat.look.prefix_network = "--"
+2021-11-09 18:55:40		  weechat.look.prefix_quit = "<--"
+2021-11-09 18:55:40		  weechat.look.prefix_same_nick = ""
+2021-11-09 18:55:40		  weechat.look.prefix_same_nick_middle = ""
+2021-11-09 18:55:40		  weechat.look.prefix_suffix = "|"
+2021-11-09 18:55:40		  weechat.look.quote_nick_prefix = "<"
+2021-11-09 18:55:40		  weechat.look.quote_nick_suffix = ">"
+2021-11-09 18:55:40		  weechat.look.quote_time_format = "%H:%M:%S"
+2021-11-09 18:55:40		  weechat.look.read_marker = line
+2021-11-09 18:55:40		  weechat.look.read_marker_always_show = off
+2021-11-09 18:55:40		  weechat.look.read_marker_string = "- "
+2021-11-09 18:55:40		  weechat.look.save_config_on_exit = on
+2021-11-09 18:55:40		  weechat.look.save_config_with_fsync = off
+2021-11-09 18:55:40		  weechat.look.save_layout_on_exit = none
+2021-11-09 18:55:40		  weechat.look.scroll_amount = 3
+2021-11-09 18:55:40		  weechat.look.scroll_bottom_after_switch = off
+2021-11-09 18:55:40		  weechat.look.scroll_page_percent = 100
+2021-11-09 18:55:40		  weechat.look.search_text_not_found_alert = on
+2021-11-09 18:55:40		  weechat.look.separator_horizontal = "-"
+2021-11-09 18:55:40		  weechat.look.separator_vertical = ""
+2021-11-09 18:55:40		  weechat.look.tab_width = 1
+2021-11-09 18:55:40		  weechat.look.time_format = "%a, %d %b %Y %T"
+2021-11-09 18:55:40		  weechat.look.window_auto_zoom = off
+2021-11-09 18:55:40		  weechat.look.window_separator_horizontal = on
+2021-11-09 18:55:40		  weechat.look.window_separator_vertical = on
+2021-11-09 18:55:40		  weechat.look.window_title = ""
+2021-11-09 18:55:40		  weechat.look.word_chars_highlight = "!\u00A0,-,_,|,alnum"
+2021-11-09 18:55:40		  weechat.look.word_chars_input = "!\u00A0,-,_,|,alnum"
+2021-11-09 18:55:40		[color] (weechat.conf)
+2021-11-09 18:55:40		  weechat.color.bar_more = lightmagenta
+2021-11-09 18:55:40		  weechat.color.chat = default
+2021-11-09 18:55:40		  weechat.color.chat_bg = default
+2021-11-09 18:55:40		  weechat.color.chat_buffer = white
+2021-11-09 18:55:40		  weechat.color.chat_channel = white
+2021-11-09 18:55:40		  weechat.color.chat_day_change = cyan
+2021-11-09 18:55:40		  weechat.color.chat_delimiters = green
+2021-11-09 18:55:40		  weechat.color.chat_highlight = yellow
+2021-11-09 18:55:40		  weechat.color.chat_highlight_bg = magenta
+2021-11-09 18:55:40		  weechat.color.chat_host = cyan
+2021-11-09 18:55:40		  weechat.color.chat_inactive_buffer = default
+2021-11-09 18:55:40		  weechat.color.chat_inactive_window = default
+2021-11-09 18:55:40		  weechat.color.chat_nick = lightcyan
+2021-11-09 18:55:40		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue"
+2021-11-09 18:55:40		  weechat.color.chat_nick_offline = default
+2021-11-09 18:55:40		  weechat.color.chat_nick_offline_highlight = default
+2021-11-09 18:55:40		  weechat.color.chat_nick_offline_highlight_bg = blue
+2021-11-09 18:55:40		  weechat.color.chat_nick_other = cyan
+2021-11-09 18:55:40		  weechat.color.chat_nick_prefix = green
+2021-11-09 18:55:40		  weechat.color.chat_nick_self = white
+2021-11-09 18:55:40		  weechat.color.chat_nick_suffix = green
+2021-11-09 18:55:40		  weechat.color.chat_prefix_action = white
+2021-11-09 18:55:40		  weechat.color.chat_prefix_buffer = brown
+2021-11-09 18:55:40		  weechat.color.chat_prefix_buffer_inactive_buffer = default
+2021-11-09 18:55:40		  weechat.color.chat_prefix_error = yellow
+2021-11-09 18:55:40		  weechat.color.chat_prefix_join = lightgreen
+2021-11-09 18:55:40		  weechat.color.chat_prefix_more = lightmagenta
+2021-11-09 18:55:40		  weechat.color.chat_prefix_network = magenta
+2021-11-09 18:55:40		  weechat.color.chat_prefix_quit = lightred
+2021-11-09 18:55:40		  weechat.color.chat_prefix_suffix = green
+2021-11-09 18:55:40		  weechat.color.chat_read_marker = magenta
+2021-11-09 18:55:40		  weechat.color.chat_read_marker_bg = default
+2021-11-09 18:55:40		  weechat.color.chat_server = brown
+2021-11-09 18:55:40		  weechat.color.chat_tags = red
+2021-11-09 18:55:40		  weechat.color.chat_text_found = yellow
+2021-11-09 18:55:40		  weechat.color.chat_text_found_bg = lightmagenta
+2021-11-09 18:55:40		  weechat.color.chat_time = default
+2021-11-09 18:55:40		  weechat.color.chat_time_delimiters = brown
+2021-11-09 18:55:40		  weechat.color.chat_value = cyan
+2021-11-09 18:55:40		  weechat.color.chat_value_null = blue
+2021-11-09 18:55:40		  weechat.color.emphasized = yellow
+2021-11-09 18:55:40		  weechat.color.emphasized_bg = magenta
+2021-11-09 18:55:40		  weechat.color.input_actions = lightgreen
+2021-11-09 18:55:40		  weechat.color.input_text_not_found = red
+2021-11-09 18:55:40		  weechat.color.item_away = yellow
+2021-11-09 18:55:40		  weechat.color.nicklist_away = cyan
+2021-11-09 18:55:40		  weechat.color.nicklist_group = green
+2021-11-09 18:55:40		  weechat.color.separator = blue
+2021-11-09 18:55:40		  weechat.color.status_count_highlight = magenta
+2021-11-09 18:55:40		  weechat.color.status_count_msg = brown
+2021-11-09 18:55:40		  weechat.color.status_count_other = default
+2021-11-09 18:55:40		  weechat.color.status_count_private = green
+2021-11-09 18:55:40		  weechat.color.status_data_highlight = lightmagenta
+2021-11-09 18:55:40		  weechat.color.status_data_msg = yellow
+2021-11-09 18:55:40		  weechat.color.status_data_other = default
+2021-11-09 18:55:40		  weechat.color.status_data_private = lightgreen
+2021-11-09 18:55:40		  weechat.color.status_filter = green
+2021-11-09 18:55:40		  weechat.color.status_more = yellow
+2021-11-09 18:55:40		  weechat.color.status_mouse = green
+2021-11-09 18:55:40		  weechat.color.status_name = white
+2021-11-09 18:55:40		  weechat.color.status_name_ssl = lightgreen
+2021-11-09 18:55:40		  weechat.color.status_nicklist_count = default
+2021-11-09 18:55:40		  weechat.color.status_number = yellow
+2021-11-09 18:55:40		  weechat.color.status_time = default
+2021-11-09 18:55:40		[completion] (weechat.conf)
+2021-11-09 18:55:40		  weechat.completion.base_word_until_cursor = on
+2021-11-09 18:55:40		  weechat.completion.command_inline = on
+2021-11-09 18:55:40		  weechat.completion.default_template = "%(nicks)|%(irc_channels)"
+2021-11-09 18:55:40		  weechat.completion.nick_add_space = on
+2021-11-09 18:55:40		  weechat.completion.nick_case_sensitive = off
+2021-11-09 18:55:40		  weechat.completion.nick_completer = ": "
+2021-11-09 18:55:40		  weechat.completion.nick_first_only = off
+2021-11-09 18:55:40		  weechat.completion.nick_ignore_chars = "[]`_-^"
+2021-11-09 18:55:40		  weechat.completion.partial_completion_alert = on
+2021-11-09 18:55:40		  weechat.completion.partial_completion_command = off
+2021-11-09 18:55:40		  weechat.completion.partial_completion_command_arg = off
+2021-11-09 18:55:40		  weechat.completion.partial_completion_count = on
+2021-11-09 18:55:40		  weechat.completion.partial_completion_other = off
+2021-11-09 18:55:40		  weechat.completion.partial_completion_templates = "config_options"
+2021-11-09 18:55:40		[history] (weechat.conf)
+2021-11-09 18:55:40		  weechat.history.display_default = 5
+2021-11-09 18:55:40		  weechat.history.max_buffer_lines_minutes = 0
+2021-11-09 18:55:40		  weechat.history.max_buffer_lines_number = 4096
+2021-11-09 18:55:40		  weechat.history.max_commands = 100
+2021-11-09 18:55:40		  weechat.history.max_visited_buffers = 50
+2021-11-09 18:55:40		[network] (weechat.conf)
+2021-11-09 18:55:40		  weechat.network.connection_timeout = 60
+2021-11-09 18:55:40		  weechat.network.gnutls_ca_file = "/etc/ssl/certs/ca-certificates.crt"
+2021-11-09 18:55:40		  weechat.network.gnutls_handshake_timeout = 30
+2021-11-09 18:55:40		  weechat.network.proxy_curl = ""
+2021-11-09 18:55:40		[plugin] (weechat.conf)
+2021-11-09 18:55:40		  weechat.plugin.autoload = "*"
+2021-11-09 18:55:40		  weechat.plugin.debug = off
+2021-11-09 18:55:40		  weechat.plugin.extension = ".so,.dll"
+2021-11-09 18:55:40		  weechat.plugin.path = "%h/plugins"
+2021-11-09 18:55:40		  weechat.plugin.save_config_on_unload = on
+2021-11-09 18:55:40		[bar] (weechat.conf)
+2021-11-09 18:55:40		  weechat.bar.buflist.color_bg = default
+2021-11-09 18:55:40		  weechat.bar.buflist.color_bg_inactive = default
+2021-11-09 18:55:40		  weechat.bar.buflist.color_delim = default
+2021-11-09 18:55:40		  weechat.bar.buflist.color_fg = default
+2021-11-09 18:55:40		  weechat.bar.buflist.conditions = ""
+2021-11-09 18:55:40		  weechat.bar.buflist.filling_left_right = vertical
+2021-11-09 18:55:40		  weechat.bar.buflist.filling_top_bottom = columns_vertical
+2021-11-09 18:55:40		  weechat.bar.buflist.hidden = off
+2021-11-09 18:55:40		  weechat.bar.buflist.items = "buflist"  (default: "")
+2021-11-09 18:55:40		  weechat.bar.buflist.position = left
+2021-11-09 18:55:40		  weechat.bar.buflist.priority = 0
+2021-11-09 18:55:40		  weechat.bar.buflist.separator = on
+2021-11-09 18:55:40		  weechat.bar.buflist.size = 0
+2021-11-09 18:55:40		  weechat.bar.buflist.size_max = 0
+2021-11-09 18:55:40		  weechat.bar.buflist.type = root
+2021-11-09 18:55:40		  weechat.bar.fset.color_bg = default
+2021-11-09 18:55:40		  weechat.bar.fset.color_bg_inactive = default
+2021-11-09 18:55:40		  weechat.bar.fset.color_delim = cyan
+2021-11-09 18:55:40		  weechat.bar.fset.color_fg = default
+2021-11-09 18:55:40		  weechat.bar.fset.conditions = "${buffer.full_name} == fset.fset"
+2021-11-09 18:55:40		  weechat.bar.fset.filling_left_right = vertical
+2021-11-09 18:55:40		  weechat.bar.fset.filling_top_bottom = horizontal
+2021-11-09 18:55:40		  weechat.bar.fset.hidden = off
+2021-11-09 18:55:40		  weechat.bar.fset.items = "fset"  (default: "")
+2021-11-09 18:55:40		  weechat.bar.fset.position = top
+2021-11-09 18:55:40		  weechat.bar.fset.priority = 0
+2021-11-09 18:55:40		  weechat.bar.fset.separator = on
+2021-11-09 18:55:40		  weechat.bar.fset.size = 3
+2021-11-09 18:55:40		  weechat.bar.fset.size_max = 3
+2021-11-09 18:55:40		  weechat.bar.fset.type = window
+2021-11-09 18:55:40		  weechat.bar.input.color_bg = default
+2021-11-09 18:55:40		  weechat.bar.input.color_bg_inactive = default
+2021-11-09 18:55:40		  weechat.bar.input.color_delim = cyan
+2021-11-09 18:55:40		  weechat.bar.input.color_fg = default
+2021-11-09 18:55:40		  weechat.bar.input.conditions = ""
+2021-11-09 18:55:40		  weechat.bar.input.filling_left_right = vertical
+2021-11-09 18:55:40		  weechat.bar.input.filling_top_bottom = horizontal
+2021-11-09 18:55:40		  weechat.bar.input.hidden = off
+2021-11-09 18:55:40		  weechat.bar.input.items = "[input_prompt]+(away),[input_search],[input_paste],input_text"
+2021-11-09 18:55:40		  weechat.bar.input.position = bottom
+2021-11-09 18:55:40		  weechat.bar.input.priority = 1000
+2021-11-09 18:55:40		  weechat.bar.input.separator = off
+2021-11-09 18:55:40		  weechat.bar.input.size = 0
+2021-11-09 18:55:40		  weechat.bar.input.size_max = 0
+2021-11-09 18:55:40		  weechat.bar.input.type = window
+2021-11-09 18:55:40		  weechat.bar.nicklist.color_bg = default
+2021-11-09 18:55:40		  weechat.bar.nicklist.color_bg_inactive = default
+2021-11-09 18:55:40		  weechat.bar.nicklist.color_delim = cyan
+2021-11-09 18:55:40		  weechat.bar.nicklist.color_fg = default
+2021-11-09 18:55:40		  weechat.bar.nicklist.conditions = "${nicklist}"
+2021-11-09 18:55:40		  weechat.bar.nicklist.filling_left_right = vertical
+2021-11-09 18:55:40		  weechat.bar.nicklist.filling_top_bottom = columns_vertical
+2021-11-09 18:55:40		  weechat.bar.nicklist.hidden = off
+2021-11-09 18:55:40		  weechat.bar.nicklist.items = "buffer_nicklist"
+2021-11-09 18:55:40		  weechat.bar.nicklist.position = right
+2021-11-09 18:55:40		  weechat.bar.nicklist.priority = 200
+2021-11-09 18:55:40		  weechat.bar.nicklist.separator = on
+2021-11-09 18:55:40		  weechat.bar.nicklist.size = 0
+2021-11-09 18:55:40		  weechat.bar.nicklist.size_max = 0
+2021-11-09 18:55:40		  weechat.bar.nicklist.type = window
+2021-11-09 18:55:40		  weechat.bar.status.color_bg = blue
+2021-11-09 18:55:40		  weechat.bar.status.color_bg_inactive = darkgray
+2021-11-09 18:55:40		  weechat.bar.status.color_delim = cyan
+2021-11-09 18:55:40		  weechat.bar.status.color_fg = default
+2021-11-09 18:55:40		  weechat.bar.status.conditions = ""
+2021-11-09 18:55:40		  weechat.bar.status.filling_left_right = vertical
+2021-11-09 18:55:40		  weechat.bar.status.filling_top_bottom = horizontal
+2021-11-09 18:55:40		  weechat.bar.status.hidden = off
+2021-11-09 18:55:40		  weechat.bar.status.items = "[time],[buffer_last_number],[buffer_plugin],buffer_number+:+buffer_name+(buffer_modes)+{buffer_nicklist_count}+buffer_zoom+buffer_filter,scroll,[lag],[hotlist],completion"
+2021-11-09 18:55:40		  weechat.bar.status.position = bottom
+2021-11-09 18:55:40		  weechat.bar.status.priority = 500
+2021-11-09 18:55:40		  weechat.bar.status.separator = off
+2021-11-09 18:55:40		  weechat.bar.status.size = 1
+2021-11-09 18:55:40		  weechat.bar.status.size_max = 0
+2021-11-09 18:55:40		  weechat.bar.status.type = window
+2021-11-09 18:55:40		  weechat.bar.title.color_bg = blue
+2021-11-09 18:55:40		  weechat.bar.title.color_bg_inactive = darkgray
+2021-11-09 18:55:40		  weechat.bar.title.color_delim = cyan
+2021-11-09 18:55:40		  weechat.bar.title.color_fg = default
+2021-11-09 18:55:40		  weechat.bar.title.conditions = ""
+2021-11-09 18:55:40		  weechat.bar.title.filling_left_right = vertical
+2021-11-09 18:55:40		  weechat.bar.title.filling_top_bottom = horizontal
+2021-11-09 18:55:40		  weechat.bar.title.hidden = off
+2021-11-09 18:55:40		  weechat.bar.title.items = "buffer_title"
+2021-11-09 18:55:40		  weechat.bar.title.position = top
+2021-11-09 18:55:40		  weechat.bar.title.priority = 500
+2021-11-09 18:55:40		  weechat.bar.title.separator = off
+2021-11-09 18:55:40		  weechat.bar.title.size = 1
+2021-11-09 18:55:40		  weechat.bar.title.size_max = 0
+2021-11-09 18:55:40		  weechat.bar.title.type = window
+2021-11-09 18:55:40		[default] (charset.conf)
+2021-11-09 18:55:40		  charset.default.decode = "iso-8859-1"
+2021-11-09 18:55:40		  charset.default.encode = ""
+2021-11-09 18:55:40		[look] (logger.conf)
+2021-11-09 18:55:40		  logger.look.backlog = 20
+2021-11-09 18:55:40		  logger.look.backlog_conditions = ""
+2021-11-09 18:55:40		[color] (logger.conf)
+2021-11-09 18:55:40		  logger.color.backlog_end = default
+2021-11-09 18:55:40		  logger.color.backlog_line = default
+2021-11-09 18:55:40		[file] (logger.conf)
+2021-11-09 18:55:40		  logger.file.auto_log = on
+2021-11-09 18:55:40		  logger.file.color_lines = off
+2021-11-09 18:55:40		  logger.file.flush_delay = 120
+2021-11-09 18:55:40		  logger.file.fsync = off
+2021-11-09 18:55:40		  logger.file.info_lines = off
+2021-11-09 18:55:40		  logger.file.mask = "$plugin.$name.weechatlog"
+2021-11-09 18:55:40		  logger.file.name_lower_case = on
+2021-11-09 18:55:40		  logger.file.nick_prefix = ""
+2021-11-09 18:55:40		  logger.file.nick_suffix = ""
+2021-11-09 18:55:40		  logger.file.path = "%h/logs/"
+2021-11-09 18:55:40		  logger.file.replacement_char = "_"
+2021-11-09 18:55:40		  logger.file.time_format = "%Y-%m-%d %H:%M:%S"
+2021-11-09 18:55:40		[command] (exec.conf)
+2021-11-09 18:55:40		  exec.command.default_options = ""
+2021-11-09 18:55:40		  exec.command.purge_delay = 0
+2021-11-09 18:55:40		  exec.command.shell = "${env:SHELL}"
+2021-11-09 18:55:40		[color] (exec.conf)
+2021-11-09 18:55:40		  exec.color.flag_finished = lightred
+2021-11-09 18:55:40		  exec.color.flag_running = lightgreen
+2021-11-09 18:55:40		[look] (trigger.conf)
+2021-11-09 18:55:40		  trigger.look.enabled = on
+2021-11-09 18:55:40		  trigger.look.monitor_strip_colors = off
+2021-11-09 18:55:40		[color] (trigger.conf)
+2021-11-09 18:55:40		  trigger.color.flag_command = lightgreen
+2021-11-09 18:55:40		  trigger.color.flag_conditions = yellow
+2021-11-09 18:55:40		  trigger.color.flag_post_action = lightblue
+2021-11-09 18:55:40		  trigger.color.flag_regex = lightcyan
+2021-11-09 18:55:40		  trigger.color.flag_return_code = lightmagenta
+2021-11-09 18:55:40		  trigger.color.regex = white
+2021-11-09 18:55:40		  trigger.color.replace = cyan
+2021-11-09 18:55:40		  trigger.color.trigger = green
+2021-11-09 18:55:40		  trigger.color.trigger_disabled = red
+2021-11-09 18:55:40		[trigger] (trigger.conf)
+2021-11-09 18:55:40		  trigger.trigger.beep.arguments = ""
+2021-11-09 18:55:40		  trigger.trigger.beep.command = "/print -beep"
+2021-11-09 18:55:40		  trigger.trigger.beep.conditions = "${tg_displayed} && ${tg_tags} !!- ,notify_none, && (${tg_highlight} || ${tg_msg_pv})"
+2021-11-09 18:55:40		  trigger.trigger.beep.enabled = on
+2021-11-09 18:55:40		  trigger.trigger.beep.hook = print
+2021-11-09 18:55:40		  trigger.trigger.beep.post_action = none
+2021-11-09 18:55:40		  trigger.trigger.beep.regex = ""
+2021-11-09 18:55:40		  trigger.trigger.beep.return_code = ok
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.command = ""
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.conditions = ""
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.enabled = on
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.hook = modifier
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.post_action = none
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.regex = "==^((/(msg|m|quote) +(-server +[^ ]+ +)?nickserv +(id|identify|set +password|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)|/oper +[^ ]+ +|/quote +pass +|/secure +(passphrase|decrypt|set +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass.return_code = ok
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.arguments = "5000|input_text_display;5000|history_add;5000|irc_command_auth"
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.command = ""
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.conditions = ""
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.enabled = on
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.hook = modifier
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.post_action = none
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.regex = "==^(/(msg|m|quote) +nickserv +register +)([^ ]+)(.*)==${re:1}${hide:*,${re:3}}${re:4}"
+2021-11-09 18:55:40		  trigger.trigger.cmd_pass_register.return_code = ok
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.arguments = "5000|irc_message_auth"
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.command = ""
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.conditions = ""
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.enabled = on
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.hook = modifier
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.post_action = none
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.regex = "==^(.*(id|identify|set +password|register|ghost +[^ ]+|release +[^ ]+|regain +[^ ]+|recover +[^ ]+) +)(.*)==${re:1}${hide:*,${re:+}}"
+2021-11-09 18:55:40		  trigger.trigger.msg_auth.return_code = ok
+2021-11-09 18:55:40		  trigger.trigger.server_pass.arguments = "5000|input_text_display;5000|history_add"
+2021-11-09 18:55:40		  trigger.trigger.server_pass.command = ""
+2021-11-09 18:55:40		  trigger.trigger.server_pass.conditions = ""
+2021-11-09 18:55:40		  trigger.trigger.server_pass.enabled = on
+2021-11-09 18:55:40		  trigger.trigger.server_pass.hook = modifier
+2021-11-09 18:55:40		  trigger.trigger.server_pass.post_action = none
+2021-11-09 18:55:40		  trigger.trigger.server_pass.regex = "==^(/(server|connect) .*-(sasl_)?password=)([^ ]+)(.*)==${re:1}${hide:*,${re:4}}${re:5}"
+2021-11-09 18:55:40		  trigger.trigger.server_pass.return_code = ok
+2021-11-09 18:55:40		[color] (spell.conf)
+2021-11-09 18:55:40		  spell.color.misspelled = lightred
+2021-11-09 18:55:40		  spell.color.suggestion = default
+2021-11-09 18:55:40		  spell.color.suggestion_delimiter_dict = cyan
+2021-11-09 18:55:40		  spell.color.suggestion_delimiter_word = cyan
+2021-11-09 18:55:40		[check] (spell.conf)
+2021-11-09 18:55:40		  spell.check.commands = "away,command,cycle,kick,kickban,me,msg,notice,part,query,quit,topic"
+2021-11-09 18:55:40		  spell.check.default_dict = ""
+2021-11-09 18:55:40		  spell.check.during_search = off
+2021-11-09 18:55:40		  spell.check.enabled = off
+2021-11-09 18:55:40		  spell.check.real_time = off
+2021-11-09 18:55:40		  spell.check.suggestions = -1
+2021-11-09 18:55:40		  spell.check.word_min_length = 2
+2021-11-09 18:55:40		[look] (spell.conf)
+2021-11-09 18:55:40		  spell.look.suggestion_delimiter_dict = " / "
+2021-11-09 18:55:40		  spell.look.suggestion_delimiter_word = ","
+2021-11-09 18:55:40		[cmd] (alias.conf)
+2021-11-09 18:55:40		  alias.cmd.AAWAY = "allserv /away"
+2021-11-09 18:55:40		  alias.cmd.ANICK = "allserv /nick"
+2021-11-09 18:55:40		  alias.cmd.BEEP = "print -beep"
+2021-11-09 18:55:40		  alias.cmd.BYE = "quit"
+2021-11-09 18:55:40		  alias.cmd.C = "buffer clear"
+2021-11-09 18:55:40		  alias.cmd.CHAT = "dcc chat"
+2021-11-09 18:55:40		  alias.cmd.CL = "buffer clear"
+2021-11-09 18:55:40		  alias.cmd.CLOSE = "buffer close"
+2021-11-09 18:55:40		  alias.cmd.EXIT = "quit"
+2021-11-09 18:55:40		  alias.cmd.IG = "ignore"
+2021-11-09 18:55:40		  alias.cmd.J = "join"
+2021-11-09 18:55:40		  alias.cmd.K = "kick"
+2021-11-09 18:55:40		  alias.cmd.KB = "kickban"
+2021-11-09 18:55:40		  alias.cmd.LEAVE = "part"
+2021-11-09 18:55:40		  alias.cmd.M = "msg"
+2021-11-09 18:55:40		  alias.cmd.MSGBUF = "command -buffer $1 * /input send $2-"
+2021-11-09 18:55:40		  alias.cmd.MUB = "unban *"
+2021-11-09 18:55:40		  alias.cmd.N = "names"
+2021-11-09 18:55:40		  alias.cmd.Q = "query"
+2021-11-09 18:55:40		  alias.cmd.REDRAW = "window refresh"
+2021-11-09 18:55:40		  alias.cmd.SAY = "msg *"
+2021-11-09 18:55:40		  alias.cmd.SIGNOFF = "quit"
+2021-11-09 18:55:40		  alias.cmd.T = "topic"
+2021-11-09 18:55:40		  alias.cmd.UB = "unban"
+2021-11-09 18:55:40		  alias.cmd.UMODE = "mode $nick"
+2021-11-09 18:55:40		  alias.cmd.V = "command core version"
+2021-11-09 18:55:40		  alias.cmd.W = "who"
+2021-11-09 18:55:40		  alias.cmd.WC = "window close"
+2021-11-09 18:55:40		  alias.cmd.WI = "whois"
+2021-11-09 18:55:40		  alias.cmd.WII = "whois $1 $1"
+2021-11-09 18:55:40		  alias.cmd.WM = "window merge"
+2021-11-09 18:55:40		  alias.cmd.WW = "whowas"
+2021-11-09 18:55:40		[completion] (alias.conf)
+2021-11-09 18:55:40		  alias.completion.MSGBUF = "%(buffers_plugins_names)"
+2021-11-09 18:55:40		[look] (buflist.conf)
+2021-11-09 18:55:40		  buflist.look.add_newline = on
+2021-11-09 18:55:40		  buflist.look.auto_scroll = 50
+2021-11-09 18:55:40		  buflist.look.display_conditions = "${buffer.hidden}==0"
+2021-11-09 18:55:40		  buflist.look.enabled = on
+2021-11-09 18:55:40		  buflist.look.mouse_jump_visited_buffer = off
+2021-11-09 18:55:40		  buflist.look.mouse_move_buffer = on
+2021-11-09 18:55:40		  buflist.look.mouse_wheel = on
+2021-11-09 18:55:40		  buflist.look.nick_prefix = off
+2021-11-09 18:55:40		  buflist.look.nick_prefix_empty = on
+2021-11-09 18:55:40		  buflist.look.signals_refresh = ""
+2021-11-09 18:55:40		  buflist.look.sort = "number,-active"
+2021-11-09 18:55:40		[format] (buflist.conf)
+2021-11-09 18:55:40		  buflist.format.buffer = "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}"
+2021-11-09 18:55:40		  buflist.format.buffer_current = "${color:,blue}${format_buffer}"
+2021-11-09 18:55:40		  buflist.format.hotlist = " ${color:green}(${hotlist}${color:green})"
+2021-11-09 18:55:40		  buflist.format.hotlist_highlight = "${color:magenta}"
+2021-11-09 18:55:40		  buflist.format.hotlist_low = "${color:white}"
+2021-11-09 18:55:40		  buflist.format.hotlist_message = "${color:brown}"
+2021-11-09 18:55:40		  buflist.format.hotlist_none = "${color:default}"
+2021-11-09 18:55:40		  buflist.format.hotlist_private = "${color:green}"
+2021-11-09 18:55:40		  buflist.format.hotlist_separator = "${color:default},"
+2021-11-09 18:55:40		  buflist.format.indent = "  "
+2021-11-09 18:55:40		  buflist.format.lag = " ${color:green}[${color:brown}${lag}${color:green}]"
+2021-11-09 18:55:40		  buflist.format.name = "${name}"
+2021-11-09 18:55:40		  buflist.format.nick_prefix = "${color_nick_prefix}${nick_prefix}"
+2021-11-09 18:55:40		  buflist.format.number = "${color:green}${number}${if:${number_displayed}?.: }"
+2021-11-09 18:55:40		[file] (fifo.conf)
+2021-11-09 18:55:40		  fifo.file.enabled = on
+2021-11-09 18:55:40		  fifo.file.path = "%h/weechat_fifo"
+2021-11-09 18:55:40		[look] (xfer.conf)
+2021-11-09 18:55:40		  xfer.look.auto_open_buffer = on
+2021-11-09 18:55:40		  xfer.look.progress_bar_size = 20
+2021-11-09 18:55:40		  xfer.look.pv_tags = "notify_private"
+2021-11-09 18:55:40		[color] (xfer.conf)
+2021-11-09 18:55:40		  xfer.color.status_aborted = lightred
+2021-11-09 18:55:40		  xfer.color.status_active = lightblue
+2021-11-09 18:55:40		  xfer.color.status_connecting = yellow
+2021-11-09 18:55:40		  xfer.color.status_done = lightgreen
+2021-11-09 18:55:40		  xfer.color.status_failed = lightred
+2021-11-09 18:55:40		  xfer.color.status_waiting = lightcyan
+2021-11-09 18:55:40		  xfer.color.text = default
+2021-11-09 18:55:40		  xfer.color.text_bg = default
+2021-11-09 18:55:40		  xfer.color.text_selected = white
+2021-11-09 18:55:40		[network] (xfer.conf)
+2021-11-09 18:55:40		  xfer.network.blocksize = 65536
+2021-11-09 18:55:40		  xfer.network.fast_send = on
+2021-11-09 18:55:40		  xfer.network.own_ip = ""
+2021-11-09 18:55:40		  xfer.network.port_range = ""
+2021-11-09 18:55:40		  xfer.network.send_ack = on
+2021-11-09 18:55:40		  xfer.network.speed_limit_recv = 0
+2021-11-09 18:55:40		  xfer.network.speed_limit_send = 0
+2021-11-09 18:55:40		  xfer.network.timeout = 300
+2021-11-09 18:55:40		[file] (xfer.conf)
+2021-11-09 18:55:40		  xfer.file.auto_accept_chats = off
+2021-11-09 18:55:40		  xfer.file.auto_accept_files = off
+2021-11-09 18:55:40		  xfer.file.auto_accept_nicks = ""
+2021-11-09 18:55:40		  xfer.file.auto_check_crc32 = off
+2021-11-09 18:55:40		  xfer.file.auto_rename = on
+2021-11-09 18:55:40		  xfer.file.auto_resume = on
+2021-11-09 18:55:40		  xfer.file.convert_spaces = on
+2021-11-09 18:55:40		  xfer.file.download_path = "%h/xfer"
+2021-11-09 18:55:40		  xfer.file.download_temporary_suffix = ".part"
+2021-11-09 18:55:40		  xfer.file.upload_path = "~"
+2021-11-09 18:55:40		  xfer.file.use_nick_in_filename = on
+2021-11-09 18:55:40		[look] (irc.conf)
+2021-11-09 18:55:40		  irc.look.buffer_open_before_autojoin = on
+2021-11-09 18:55:40		  irc.look.buffer_open_before_join = off
+2021-11-09 18:55:40		  irc.look.buffer_switch_autojoin = on
+2021-11-09 18:55:40		  irc.look.buffer_switch_join = on
+2021-11-09 18:55:40		  irc.look.color_nicks_in_names = off
+2021-11-09 18:55:40		  irc.look.color_nicks_in_nicklist = off
+2021-11-09 18:55:40		  irc.look.color_nicks_in_server_messages = on
+2021-11-09 18:55:40		  irc.look.color_pv_nick_like_channel = on
+2021-11-09 18:55:40		  irc.look.ctcp_time_format = "%a, %d %b %Y %T %z"
+2021-11-09 18:55:40		  irc.look.display_away = local
+2021-11-09 18:55:40		  irc.look.display_ctcp_blocked = on
+2021-11-09 18:55:40		  irc.look.display_ctcp_reply = on
+2021-11-09 18:55:40		  irc.look.display_ctcp_unknown = on
+2021-11-09 18:55:40		  irc.look.display_host_join = on
+2021-11-09 18:55:40		  irc.look.display_host_join_local = on
+2021-11-09 18:55:40		  irc.look.display_host_quit = on
+2021-11-09 18:55:40		  irc.look.display_join_message = "329,332,333,366"
+2021-11-09 18:55:40		  irc.look.display_old_topic = on
+2021-11-09 18:55:40		  irc.look.display_pv_away_once = on
+2021-11-09 18:55:40		  irc.look.display_pv_back = on
+2021-11-09 18:55:40		  irc.look.display_pv_warning_address = off
+2021-11-09 18:55:40		  irc.look.highlight_channel = "$nick"
+2021-11-09 18:55:40		  irc.look.highlight_pv = "$nick"
+2021-11-09 18:55:40		  irc.look.highlight_server = "$nick"
+2021-11-09 18:55:40		  irc.look.highlight_tags_restrict = "irc_privmsg,irc_notice"
+2021-11-09 18:55:40		  irc.look.item_channel_modes_hide_args = "k"
+2021-11-09 18:55:40		  irc.look.item_display_server = buffer_plugin
+2021-11-09 18:55:40		  irc.look.item_nick_modes = on
+2021-11-09 18:55:40		  irc.look.item_nick_prefix = on
+2021-11-09 18:55:40		  irc.look.join_auto_add_chantype = off
+2021-11-09 18:55:40		  irc.look.msgbuffer_fallback = current
+2021-11-09 18:55:40		  irc.look.new_channel_position = none
+2021-11-09 18:55:40		  irc.look.new_pv_position = none
+2021-11-09 18:55:40		  irc.look.nick_completion_smart = speakers
+2021-11-09 18:55:40		  irc.look.nick_mode = prefix
+2021-11-09 18:55:40		  irc.look.nick_mode_empty = off
+2021-11-09 18:55:40		  irc.look.nicks_hide_password = "nickserv"
+2021-11-09 18:55:40		  irc.look.notice_as_pv = auto
+2021-11-09 18:55:40		  irc.look.notice_welcome_redirect = on
+2021-11-09 18:55:40		  irc.look.notice_welcome_tags = ""
+2021-11-09 18:55:40		  irc.look.notify_tags_ison = "notify_message"
+2021-11-09 18:55:40		  irc.look.notify_tags_whois = "notify_message"
+2021-11-09 18:55:40		  irc.look.part_closes_buffer = off
+2021-11-09 18:55:40		  irc.look.pv_buffer = independent
+2021-11-09 18:55:40		  irc.look.pv_tags = "notify_private"
+2021-11-09 18:55:40		  irc.look.raw_messages = 256
+2021-11-09 18:55:40		  irc.look.server_buffer = merge_with_core
+2021-11-09 18:55:40		  irc.look.smart_filter = on
+2021-11-09 18:55:40		  irc.look.smart_filter_account = on
+2021-11-09 18:55:40		  irc.look.smart_filter_chghost = on
+2021-11-09 18:55:40		  irc.look.smart_filter_delay = 5
+2021-11-09 18:55:40		  irc.look.smart_filter_join = on
+2021-11-09 18:55:40		  irc.look.smart_filter_join_unmask = 30
+2021-11-09 18:55:40		  irc.look.smart_filter_mode = "+"
+2021-11-09 18:55:40		  irc.look.smart_filter_nick = on
+2021-11-09 18:55:40		  irc.look.smart_filter_quit = on
+2021-11-09 18:55:40		  irc.look.temporary_servers = off
+2021-11-09 18:55:40		  irc.look.topic_strip_colors = off
+2021-11-09 18:55:40		[color] (irc.conf)
+2021-11-09 18:55:40		  irc.color.input_nick = lightcyan
+2021-11-09 18:55:40		  irc.color.item_channel_modes = default
+2021-11-09 18:55:40		  irc.color.item_lag_counting = default
+2021-11-09 18:55:40		  irc.color.item_lag_finished = yellow
+2021-11-09 18:55:40		  irc.color.item_nick_modes = default
+2021-11-09 18:55:40		  irc.color.message_account = cyan
+2021-11-09 18:55:40		  irc.color.message_chghost = brown
+2021-11-09 18:55:40		  irc.color.message_join = green
+2021-11-09 18:55:40		  irc.color.message_kick = red
+2021-11-09 18:55:40		  irc.color.message_quit = red
+2021-11-09 18:55:40		  irc.color.mirc_remap = "1,-1:darkgray"
+2021-11-09 18:55:40		  irc.color.nick_prefixes = "y:lightred;q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2021-11-09 18:55:40		  irc.color.notice = green
+2021-11-09 18:55:40		  irc.color.reason_kick = default
+2021-11-09 18:55:40		  irc.color.reason_quit = default
+2021-11-09 18:55:40		  irc.color.topic_current = default
+2021-11-09 18:55:40		  irc.color.topic_new = white
+2021-11-09 18:55:40		  irc.color.topic_old = default
+2021-11-09 18:55:40		[network] (irc.conf)
+2021-11-09 18:55:40		  irc.network.autoreconnect_delay_growing = 2
+2021-11-09 18:55:40		  irc.network.autoreconnect_delay_max = 600
+2021-11-09 18:55:40		  irc.network.ban_mask_default = "*!$ident@$host"
+2021-11-09 18:55:40		  irc.network.colors_receive = on
+2021-11-09 18:55:40		  irc.network.colors_send = on
+2021-11-09 18:55:40		  irc.network.lag_check = 60
+2021-11-09 18:55:40		  irc.network.lag_max = 1800
+2021-11-09 18:55:40		  irc.network.lag_min_show = 500
+2021-11-09 18:55:40		  irc.network.lag_reconnect = 300
+2021-11-09 18:55:40		  irc.network.lag_refresh_interval = 1
+2021-11-09 18:55:40		  irc.network.notify_check_ison = 1
+2021-11-09 18:55:40		  irc.network.notify_check_whois = 5
+2021-11-09 18:55:40		  irc.network.sasl_fail_unavailable = on
+2021-11-09 18:55:40		  irc.network.send_unknown_commands = off
+2021-11-09 18:55:40		  irc.network.whois_double_nick = off
+2021-11-09 18:55:40		[server_default] (irc.conf)
+2021-11-09 18:55:40		  irc.server_default.addresses = ""
+2021-11-09 18:55:40		  irc.server_default.anti_flood_prio_high = 2
+2021-11-09 18:55:40		  irc.server_default.anti_flood_prio_low = 2
+2021-11-09 18:55:40		  irc.server_default.autoconnect = off
+2021-11-09 18:55:40		  irc.server_default.autojoin = ""
+2021-11-09 18:55:40		  irc.server_default.autoreconnect = on
+2021-11-09 18:55:40		  irc.server_default.autoreconnect_delay = 10
+2021-11-09 18:55:40		  irc.server_default.autorejoin = off
+2021-11-09 18:55:40		  irc.server_default.autorejoin_delay = 30
+2021-11-09 18:55:40		  irc.server_default.away_check = 0
+2021-11-09 18:55:40		  irc.server_default.away_check_max_nicks = 25
+2021-11-09 18:55:40		  irc.server_default.capabilities = ""
+2021-11-09 18:55:40		  irc.server_default.charset_message = message
+2021-11-09 18:55:40		  irc.server_default.command = ""
+2021-11-09 18:55:40		  irc.server_default.command_delay = 0
+2021-11-09 18:55:40		  irc.server_default.connection_timeout = 60
+2021-11-09 18:55:40		  irc.server_default.ipv6 = on
+2021-11-09 18:55:40		  irc.server_default.local_hostname = ""
+2021-11-09 18:55:40		  irc.server_default.msg_kick = ""
+2021-11-09 18:55:40		  irc.server_default.msg_part = "WeeChat ${info:version}"
+2021-11-09 18:55:40		  irc.server_default.msg_quit = "WeeChat ${info:version}"
+2021-11-09 18:55:40		  irc.server_default.nicks = "stremler,stremler1,stremler2,stremler3,stremler4"  (default: "")
+2021-11-09 18:55:40		  irc.server_default.nicks_alternate = on
+2021-11-09 18:55:40		  irc.server_default.notify = ""
+2021-11-09 18:55:40		  irc.server_default.password = ""
+2021-11-09 18:55:40		  irc.server_default.proxy = ""
+2021-11-09 18:55:40		  irc.server_default.realname = ""
+2021-11-09 18:55:40		  irc.server_default.sasl_fail = continue
+2021-11-09 18:55:40		  irc.server_default.sasl_key = ""
+2021-11-09 18:55:40		  irc.server_default.sasl_mechanism = plain
+2021-11-09 18:55:40		  irc.server_default.sasl_password = ""
+2021-11-09 18:55:40		  irc.server_default.sasl_timeout = 15
+2021-11-09 18:55:40		  irc.server_default.sasl_username = ""
+2021-11-09 18:55:40		  irc.server_default.split_msg_max_length = 512
+2021-11-09 18:55:40		  irc.server_default.ssl = off
+2021-11-09 18:55:40		  irc.server_default.ssl_cert = ""
+2021-11-09 18:55:40		  irc.server_default.ssl_dhkey_size = 2048
+2021-11-09 18:55:40		  irc.server_default.ssl_fingerprint = ""
+2021-11-09 18:55:40		  irc.server_default.ssl_password = ""
+2021-11-09 18:55:40		  irc.server_default.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2021-11-09 18:55:40		  irc.server_default.ssl_verify = on
+2021-11-09 18:55:40		  irc.server_default.usermode = ""
+2021-11-09 18:55:40		  irc.server_default.username = "stremler"  (default: "")
+2021-11-09 18:55:40		[server] (irc.conf)
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.addresses = "irc.chat.twitch.tv/6697"  (default if null: "")
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.anti_flood_prio_high = null -> 2
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.anti_flood_prio_low = null -> 2
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.autoconnect = on  (default if null: off)
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.autojoin = "#rwxrob"  (default if null: "")
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.autoreconnect = null -> on
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.autoreconnect_delay = null -> 10
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.autorejoin = null -> off
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.autorejoin_delay = null -> 30
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.away_check = null -> 0
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.away_check_max_nicks = null -> 25
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.capabilities = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.charset_message = null -> message
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.command = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.command_delay = null -> 0
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.connection_timeout = null -> 60
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ipv6 = off  (default if null: on)
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.local_hostname = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.msg_kick = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.msg_part = null -> "WeeChat ${info:version}"
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.msg_quit = null -> "WeeChat ${info:version}"
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.nicks = "rwxrob,rwxrob1,rwxrob2,rwxrob3,rwxrob4"  (default if null: "stremler,stremler1,stremler2,stremler3,stremler4")
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.nicks_alternate = null -> on
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.notify = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.password = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.proxy = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.realname = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.sasl_fail = null -> continue
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.sasl_key = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.sasl_mechanism = null -> plain
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.sasl_password = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.sasl_timeout = null -> 15
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.sasl_username = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.split_msg_max_length = null -> 512
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ssl = off  (default if null: off)
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ssl_cert = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ssl_dhkey_size = null -> 2048
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ssl_fingerprint = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ssl_password = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.ssl_verify = null -> on
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.usermode = null -> ""
+2021-11-09 18:55:40		  irc.server.irc.chat.twitch.tv.username = null -> "stremler"
+2021-11-09 18:55:40		[look] (relay.conf)
+2021-11-09 18:55:40		  relay.look.auto_open_buffer = on
+2021-11-09 18:55:40		  relay.look.raw_messages = 256
+2021-11-09 18:55:40		[color] (relay.conf)
+2021-11-09 18:55:40		  relay.color.client = cyan
+2021-11-09 18:55:40		  relay.color.status_active = green
+2021-11-09 18:55:40		  relay.color.status_auth_failed = lightmagenta
+2021-11-09 18:55:40		  relay.color.status_connecting = white
+2021-11-09 18:55:40		  relay.color.status_disconnected = lightred
+2021-11-09 18:55:40		  relay.color.status_waiting_auth = yellow
+2021-11-09 18:55:40		  relay.color.text = default
+2021-11-09 18:55:40		  relay.color.text_bg = default
+2021-11-09 18:55:40		  relay.color.text_selected = white
+2021-11-09 18:55:40		[network] (relay.conf)
+2021-11-09 18:55:40		  relay.network.allow_empty_password = off
+2021-11-09 18:55:40		  relay.network.allowed_ips = ""
+2021-11-09 18:55:40		  relay.network.auth_timeout = 60
+2021-11-09 18:55:40		  relay.network.bind_address = ""
+2021-11-09 18:55:40		  relay.network.clients_purge_delay = 0
+2021-11-09 18:55:40		  relay.network.compression_level = 6
+2021-11-09 18:55:40		  relay.network.ipv6 = on
+2021-11-09 18:55:40		  relay.network.max_clients = 5
+2021-11-09 18:55:40		  relay.network.nonce_size = 16
+2021-11-09 18:55:40		  relay.network.password = ""
+2021-11-09 18:55:40		  relay.network.password_hash_algo = "*"
+2021-11-09 18:55:40		  relay.network.password_hash_iterations = 100000
+2021-11-09 18:55:40		  relay.network.ssl_cert_key = "%h/ssl/relay.pem"
+2021-11-09 18:55:40		  relay.network.ssl_priorities = "NORMAL:-VERS-SSL3.0"
+2021-11-09 18:55:40		  relay.network.totp_secret = ""
+2021-11-09 18:55:40		  relay.network.totp_window = 0
+2021-11-09 18:55:40		  relay.network.websocket_allowed_origins = ""
+2021-11-09 18:55:40		[irc] (relay.conf)
+2021-11-09 18:55:40		  relay.irc.backlog_max_minutes = 0
+2021-11-09 18:55:40		  relay.irc.backlog_max_number = 1024
+2021-11-09 18:55:40		  relay.irc.backlog_since_last_disconnect = on
+2021-11-09 18:55:40		  relay.irc.backlog_since_last_message = off
+2021-11-09 18:55:40		  relay.irc.backlog_tags = "irc_privmsg"
+2021-11-09 18:55:40		  relay.irc.backlog_time_format = "[%H:%M] "
+2021-11-09 18:55:40		[weechat] (relay.conf)
+2021-11-09 18:55:40		  relay.weechat.commands = ""
+2021-11-09 18:55:40		[look] (perl.conf)
+2021-11-09 18:55:40		  perl.look.check_license = off
+2021-11-09 18:55:40		  perl.look.eval_keep_context = on
+2021-11-09 18:55:40		[look] (ruby.conf)
+2021-11-09 18:55:40		  ruby.look.check_license = off
+2021-11-09 18:55:40		  ruby.look.eval_keep_context = on
+2021-11-09 18:55:40		[look] (python.conf)
+2021-11-09 18:55:40		  python.look.check_license = off
+2021-11-09 18:55:40		  python.look.eval_keep_context = on
+2021-11-09 18:55:40		[look] (script.conf)
+2021-11-09 18:55:40		  script.look.columns = "%s %n %V %v %u | %d | %t"
+2021-11-09 18:55:40		  script.look.diff_color = on
+2021-11-09 18:55:40		  script.look.diff_command = "auto"
+2021-11-09 18:55:40		  script.look.display_source = on
+2021-11-09 18:55:40		  script.look.quiet_actions = on
+2021-11-09 18:55:40		  script.look.sort = "i,p,n"
+2021-11-09 18:55:40		  script.look.translate_description = on
+2021-11-09 18:55:40		  script.look.use_keys = on
+2021-11-09 18:55:40		[color] (script.conf)
+2021-11-09 18:55:40		  script.color.status_autoloaded = cyan
+2021-11-09 18:55:40		  script.color.status_held = white
+2021-11-09 18:55:40		  script.color.status_installed = lightcyan
+2021-11-09 18:55:40		  script.color.status_obsolete = lightmagenta
+2021-11-09 18:55:40		  script.color.status_popular = yellow
+2021-11-09 18:55:40		  script.color.status_running = lightgreen
+2021-11-09 18:55:40		  script.color.status_unknown = lightred
+2021-11-09 18:55:40		  script.color.text = default
+2021-11-09 18:55:40		  script.color.text_bg = default
+2021-11-09 18:55:40		  script.color.text_bg_selected = red
+2021-11-09 18:55:40		  script.color.text_date = default
+2021-11-09 18:55:40		  script.color.text_date_selected = white
+2021-11-09 18:55:40		  script.color.text_delimiters = default
+2021-11-09 18:55:40		  script.color.text_description = default
+2021-11-09 18:55:40		  script.color.text_description_selected = white
+2021-11-09 18:55:40		  script.color.text_extension = default
+2021-11-09 18:55:40		  script.color.text_extension_selected = white
+2021-11-09 18:55:40		  script.color.text_name = cyan
+2021-11-09 18:55:40		  script.color.text_name_selected = lightcyan
+2021-11-09 18:55:40		  script.color.text_selected = white
+2021-11-09 18:55:40		  script.color.text_tags = brown
+2021-11-09 18:55:40		  script.color.text_tags_selected = yellow
+2021-11-09 18:55:40		  script.color.text_version = magenta
+2021-11-09 18:55:40		  script.color.text_version_loaded = default
+2021-11-09 18:55:40		  script.color.text_version_loaded_selected = white
+2021-11-09 18:55:40		  script.color.text_version_selected = lightmagenta
+2021-11-09 18:55:40		[scripts] (script.conf)
+2021-11-09 18:55:40		  script.scripts.autoload = on
+2021-11-09 18:55:40		  script.scripts.cache_expire = 1440
+2021-11-09 18:55:40		  script.scripts.download_enabled = off
+2021-11-09 18:55:40		  script.scripts.download_timeout = 30
+2021-11-09 18:55:40		  script.scripts.hold = ""
+2021-11-09 18:55:40		  script.scripts.path = "%h/script"
+2021-11-09 18:55:40		  script.scripts.url = "https://weechat.org/files/plugins.xml.gz"
+2021-11-09 18:55:40		[look] (fset.conf)
+2021-11-09 18:55:40		  fset.look.auto_refresh = "*"
+2021-11-09 18:55:40		  fset.look.auto_unmark = off
+2021-11-09 18:55:40		  fset.look.condition_catch_set = "${count} >= 1"
+2021-11-09 18:55:40		  fset.look.export_help_default = on
+2021-11-09 18:55:40		  fset.look.format_number = 1
+2021-11-09 18:55:40		  fset.look.marked_string = "*"
+2021-11-09 18:55:40		  fset.look.scroll_horizontal = 10
+2021-11-09 18:55:40		  fset.look.show_plugins_desc = off
+2021-11-09 18:55:40		  fset.look.sort = "~name"
+2021-11-09 18:55:40		  fset.look.unmarked_string = " "
+2021-11-09 18:55:40		  fset.look.use_color_value = off
+2021-11-09 18:55:40		  fset.look.use_keys = on
+2021-11-09 18:55:40		  fset.look.use_mute = off
+2021-11-09 18:55:40		[format] (fset.conf)
+2021-11-09 18:55:40		  fset.format.export_help = "# ${description2}"
+2021-11-09 18:55:40		  fset.format.export_option = "/set ${name} ${quoted_value}"
+2021-11-09 18:55:40		  fset.format.export_option_null = "/unset ${name}"
+2021-11-09 18:55:40		  fset.format.option1 = ""
+2021-11-09 18:55:40		  fset.format.option2 = "${marked} ${name}  ${type}  ${value2}${newline}  ${empty_name}  ${_default_value}${color:darkgray} -- ${min}..${max}${newline}  ${empty_name}  ${description}"
+2021-11-09 18:55:40		[color] (fset.conf)
+2021-11-09 18:55:40		  fset.color.default_value = default
+2021-11-09 18:55:40		  fset.color.default_value_selected = white
+2021-11-09 18:55:40		  fset.color.description = default
+2021-11-09 18:55:40		  fset.color.description_selected = white
+2021-11-09 18:55:40		  fset.color.file = default
+2021-11-09 18:55:40		  fset.color.file_changed = brown
+2021-11-09 18:55:40		  fset.color.file_changed_selected = yellow
+2021-11-09 18:55:40		  fset.color.file_selected = white
+2021-11-09 18:55:40		  fset.color.help_default_value = white
+2021-11-09 18:55:40		  fset.color.help_description = default
+2021-11-09 18:55:40		  fset.color.help_name = white
+2021-11-09 18:55:40		  fset.color.help_quotes = darkgray
+2021-11-09 18:55:40		  fset.color.help_values = default
+2021-11-09 18:55:40		  fset.color.index = cyan
+2021-11-09 18:55:40		  fset.color.index_selected = lightcyan
+2021-11-09 18:55:40		  fset.color.line_marked_bg1 = default
+2021-11-09 18:55:40		  fset.color.line_marked_bg2 = default
+2021-11-09 18:55:40		  fset.color.line_selected_bg1 = blue
+2021-11-09 18:55:40		  fset.color.line_selected_bg2 = red
+2021-11-09 18:55:40		  fset.color.marked = brown
+2021-11-09 18:55:40		  fset.color.marked_selected = yellow
+2021-11-09 18:55:40		  fset.color.max = default
+2021-11-09 18:55:40		  fset.color.max_selected = white
+2021-11-09 18:55:40		  fset.color.min = default
+2021-11-09 18:55:40		  fset.color.min_selected = white
+2021-11-09 18:55:40		  fset.color.name = default
+2021-11-09 18:55:40		  fset.color.name_changed = brown
+2021-11-09 18:55:40		  fset.color.name_changed_selected = yellow
+2021-11-09 18:55:40		  fset.color.name_selected = white
+2021-11-09 18:55:40		  fset.color.option = default
+2021-11-09 18:55:40		  fset.color.option_changed = brown
+2021-11-09 18:55:40		  fset.color.option_changed_selected = yellow
+2021-11-09 18:55:40		  fset.color.option_selected = white
+2021-11-09 18:55:40		  fset.color.parent_name = default
+2021-11-09 18:55:40		  fset.color.parent_name_selected = white
+2021-11-09 18:55:40		  fset.color.parent_value = cyan
+2021-11-09 18:55:40		  fset.color.parent_value_selected = lightcyan
+2021-11-09 18:55:40		  fset.color.quotes = darkgray
+2021-11-09 18:55:40		  fset.color.quotes_changed = default
+2021-11-09 18:55:40		  fset.color.quotes_changed_selected = white
+2021-11-09 18:55:40		  fset.color.quotes_selected = default
+2021-11-09 18:55:40		  fset.color.section = default
+2021-11-09 18:55:40		  fset.color.section_changed = brown
+2021-11-09 18:55:40		  fset.color.section_changed_selected = yellow
+2021-11-09 18:55:40		  fset.color.section_selected = white
+2021-11-09 18:55:40		  fset.color.string_values = default
+2021-11-09 18:55:40		  fset.color.string_values_selected = white
+2021-11-09 18:55:40		  fset.color.title_count_options = cyan
+2021-11-09 18:55:40		  fset.color.title_current_option = lightcyan
+2021-11-09 18:55:40		  fset.color.title_filter = yellow
+2021-11-09 18:55:40		  fset.color.title_marked_options = lightgreen
+2021-11-09 18:55:40		  fset.color.title_sort = white
+2021-11-09 18:55:40		  fset.color.type = green
+2021-11-09 18:55:40		  fset.color.type_selected = lightgreen
+2021-11-09 18:55:40		  fset.color.unmarked = default
+2021-11-09 18:55:40		  fset.color.unmarked_selected = white
+2021-11-09 18:55:40		  fset.color.value = cyan
+2021-11-09 18:55:40		  fset.color.value_changed = brown
+2021-11-09 18:55:40		  fset.color.value_changed_selected = yellow
+2021-11-09 18:55:40		  fset.color.value_selected = lightcyan
+2021-11-09 18:55:40		  fset.color.value_undef = magenta
+2021-11-09 18:55:40		  fset.color.value_undef_selected = lightmagenta
+2021-11-09 18:55:40		827 options
+2021-11-09 18:55:42	=!=	Too few arguments for command "/unset" (help on command: /help unset)
+2021-11-09 18:55:44	=!=	Error: unknown command "/clear" (type /help for help)
+2021-11-09 18:55:47	=!=	Error: unknown command "/reset" (type /help for help)
+2021-11-09 18:55:49	=!=	Error: unknown command "/hide" (type /help for help)
+2021-11-09 18:56:36		[buflist]  /buflist  enable|disable|toggle
+2021-11-09 18:56:36		                     bar
+2021-11-09 18:56:36		                     refresh
+2021-11-09 18:56:36		bar item with list of buffers
+2021-11-09 18:56:36		 enable: enable buflist
+2021-11-09 18:56:36		disable: disable buflist
+2021-11-09 18:56:36		 toggle: toggle buflist
+2021-11-09 18:56:36		    bar: add the "buflist" bar
+2021-11-09 18:56:36		refresh: force the refresh of the bar items (buflist, buflist2 and buflist3)
+2021-11-09 18:56:36		The lines with buffers are displayed using string evaluation (see /help eval for the format), with these options:
+2021-11-09 18:56:36		  - buflist.look.display_conditions: conditions to display a buffer in the list
+2021-11-09 18:56:36		  - buflist.format.buffer: format for a buffer which is not current buffer
+2021-11-09 18:56:36		  - buflist.format.buffer_current: format for the current buffer
+2021-11-09 18:56:36		The following variables can be used in these options:
+2021-11-09 18:56:36		  - bar item data (see hdata "bar_item" in API doc for a complete list), for example:
+2021-11-09 18:56:36		    - ${bar_item.name}
+2021-11-09 18:56:36		  - window data, where the bar item is displayed (there's no window in root bars, see hdata "window" in API doc for a complete list), for example:
+2021-11-09 18:56:36		    - ${window.number}
+2021-11-09 18:56:36		    - ${window.buffer.full_name}
+2021-11-09 18:56:36		  - buffer data (see hdata "buffer" in API doc for a complete list), for example:
+2021-11-09 18:56:36		    - ${buffer.number}
+2021-11-09 18:56:36		    - ${buffer.name}
+2021-11-09 18:56:36		    - ${buffer.full_name}
+2021-11-09 18:56:36		    - ${buffer.short_name}
+2021-11-09 18:56:36		    - ${buffer.nicklist_nicks_count}
+2021-11-09 18:56:36		  - irc_server: IRC server data, defined only on an IRC buffer (see hdata "irc_server" in API doc)
+2021-11-09 18:56:36		  - irc_channel: IRC channel data, defined only on an IRC channel buffer (see hdata "irc_channel" in API doc)
+2021-11-09 18:56:36		  - extra variables added by buflist for convenience:
+2021-11-09 18:56:36		    - ${format_buffer}: the evaluated value of option buflist.format.buffer; this can be used in option buflist.format.buffer_current to just change the background color for example
+2021-11-09 18:56:36		    - ${current_buffer}: a boolean ("0" or "1"), "1" if this is the current buffer; it can be used in a condition: ${if:${current_buffer}?...:...}
+2021-11-09 18:56:36		    - ${merged}: a boolean ("0" or "1"), "1" if the buffer is merged with at least another buffer; it can be used in a condition: ${if:${merged}?...:...}
+2021-11-09 18:56:36		    - ${format_number}: indented number with separator (evaluation of option buflist.format.number)
+2021-11-09 18:56:36		    - ${number}: indented number, for example " 1" if there are between 10 and 99 buffers; for merged buffers, this variable is set with number for the first buffer and spaces for the next buffers with same number
+2021-11-09 18:56:36		    - ${number2}: indented number, for example " 1" if there are between 10 and 99 buffers
+2021-11-09 18:56:36		    - ${number_displayed}: "1" if the number is displayed, otherwise "0"
+2021-11-09 18:56:36		    - ${indent}: indentation for name (channel and private buffers are indented) (evaluation of option buflist.format.indent)
+2021-11-09 18:56:36		    - ${format_nick_prefix}: colored nick prefix for a channel (evaluation of option buflist.format.nick_prefix)
+2021-11-09 18:56:36		    - ${color_nick_prefix}: color of nick prefix for a channel (set only if the option buflist.look.nick_prefix is enabled)
+2021-11-09 18:56:36		    - ${nick_prefix}: nick prefix for a channel (set only if the option buflist.look.nick_prefix is enabled)
+2021-11-09 18:56:36		    - ${format_name}: formatted name (evaluation of option buflist.format.name)
+2021-11-09 18:56:36		    - ${name}: the short name (if set), with a fallback on the name
+2021-11-09 18:56:36		    - ${color_hotlist}: the color depending on the highest hotlist level for the buffer (evaluation of option buflist.format.hotlist_xxx where xxx is the level)
+2021-11-09 18:56:36		    - ${format_hotlist}: the formatted hotlist (evaluation of option buflist.format.hotlist)
+2021-11-09 18:56:36		    - ${hotlist}: the raw hotlist
+2021-11-09 18:56:36		    - ${hotlist_priority}: "none", "low", "message", "private" or "highlight"
+2021-11-09 18:56:36		    - ${format_lag}: the lag for an IRC server buffer, empty if there's no lag (evaluation of option buflist.format.lag)
+2021-11-09 18:57:07		fifo: pipe closed
+2021-11-09 18:57:13		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 18:59:07	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 18:59:19	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 18:59:46	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 18:59:47	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:00:39		fifo: pipe closed
+2021-11-09 19:00:57		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:01:37	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:01:52		fifo: pipe closed
+2021-11-09 19:03:32		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:03:39	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:04:49		fifo: pipe closed
+2021-11-09 19:05:10		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:05:30	=!=	irc: command "join" must be executed on irc buffer (server, channel or private)
+2021-11-09 19:12:04		irc: server added: twitch
+2021-11-09 19:12:33		Option changed: irc.server.twitch.autoconnect = on  (default if null: off)
+2021-11-09 19:13:48		All servers:
+2021-11-09 19:13:48		   twitch
+2021-11-09 19:14:06	=!=	Error with command "/server twitch remove" (help on command: /help server)
+2021-11-09 19:14:10		[irc]  /server  list|listfull [<name>]
+2021-11-09 19:14:10		                add <name> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2021-11-09 19:14:10		                copy|rename <name> <new_name>
+2021-11-09 19:14:10		                reorder <name> [<name>...]
+2021-11-09 19:14:10		                open <name>|-all [<name>...]
+2021-11-09 19:14:10		                del|keep <name>
+2021-11-09 19:14:10		                deloutq|jump
+2021-11-09 19:14:10		                raw [<filter>]
+2021-11-09 19:14:10		list, add or remove IRC servers
+2021-11-09 19:14:10		    list: list servers (without argument, this list is displayed)
+2021-11-09 19:14:10		listfull: list servers with detailed info for each server
+2021-11-09 19:14:10		     add: add a new server
+2021-11-09 19:14:10		    name: server name, for internal and display use; this name is used to connect to the server (/connect name) and to set server options: irc.server.name.xxx
+2021-11-09 19:14:10		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2021-11-09 19:14:10		   -temp: add a temporary server (not saved)
+2021-11-09 19:14:10		  option: set option for server (for boolean option, value can be omitted)
+2021-11-09 19:14:10		nooption: set boolean option to 'off' (for example: -nossl)
+2021-11-09 19:14:10		    copy: duplicate a server
+2021-11-09 19:14:10		  rename: rename a server
+2021-11-09 19:14:10		 reorder: reorder list of servers
+2021-11-09 19:14:10		    open: open the server buffer without connecting
+2021-11-09 19:14:10		    keep: keep server in config file (for temporary servers only)
+2021-11-09 19:14:10		     del: delete a server
+2021-11-09 19:14:10		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2021-11-09 19:14:10		    jump: jump to server buffer
+2021-11-09 19:14:10		     raw: open buffer with raw IRC data
+2021-11-09 19:14:10		  filter: set a new filter to see only matching messages (this filter can be used as input in raw IRC data buffer as well); allowed formats are:
+2021-11-09 19:14:10		            *       show all messages (no filter)
+2021-11-09 19:14:10		            xxx     show only messages containing "xxx"
+2021-11-09 19:14:10		            s:xxx   show only messages for server "xxx"
+2021-11-09 19:14:10		            f:xxx   show only messages with a flag: recv (message received), sent (message sent), modified (message modified by a modifier), redirected (message redirected)
+2021-11-09 19:14:10		            m:xxx   show only IRC command "xxx"
+2021-11-09 19:14:10		            c:xxx   show only messages matching the evaluated condition "xxx", using following variables: output of function irc_message_parse (like nick, command, channel, text, etc., see function info_get_hashtable in plugin API reference for the list of all variables), date (format: "yyyy-mm-dd hh:mm:ss"), server, recv, sent, modified, redirected
+2021-11-09 19:14:10		Examples:
+2021-11-09 19:14:10		  /server listfull
+2021-11-09 19:14:10		  /server add freenode chat.freenode.net
+2021-11-09 19:14:10		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2021-11-09 19:14:10		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2021-11-09 19:14:10		  /server copy freenode freenode-test
+2021-11-09 19:14:10		  /server rename freenode-test freenode2
+2021-11-09 19:14:10		  /server reorder freenode2 freenode
+2021-11-09 19:14:10		  /server del freenode
+2021-11-09 19:14:10		  /server deloutq
+2021-11-09 19:14:10		  /server raw
+2021-11-09 19:14:10		  /server raw s:freenode
+2021-11-09 19:14:10		  /server raw c:${recv} && ${command}==PRIVMSG && ${nick}==foo
+2021-11-09 19:14:29		irc: server twitch has been deleted
+2021-11-09 19:14:31		fifo: pipe closed
+2021-11-09 19:14:34		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:15:11		irc: server added: twitch
+2021-11-09 19:16:59		irc: server twitch has been deleted
+2021-11-09 19:17:01		No server
+2021-11-09 19:17:07		[irc]  /server  list|listfull [<name>]
+2021-11-09 19:17:07		                add <name> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2021-11-09 19:17:07		                copy|rename <name> <new_name>
+2021-11-09 19:17:07		                reorder <name> [<name>...]
+2021-11-09 19:17:07		                open <name>|-all [<name>...]
+2021-11-09 19:17:07		                del|keep <name>
+2021-11-09 19:17:07		                deloutq|jump
+2021-11-09 19:17:07		                raw [<filter>]
+2021-11-09 19:17:07		list, add or remove IRC servers
+2021-11-09 19:17:07		    list: list servers (without argument, this list is displayed)
+2021-11-09 19:17:07		listfull: list servers with detailed info for each server
+2021-11-09 19:17:07		     add: add a new server
+2021-11-09 19:17:07		    name: server name, for internal and display use; this name is used to connect to the server (/connect name) and to set server options: irc.server.name.xxx
+2021-11-09 19:17:07		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2021-11-09 19:17:07		   -temp: add a temporary server (not saved)
+2021-11-09 19:17:07		  option: set option for server (for boolean option, value can be omitted)
+2021-11-09 19:17:07		nooption: set boolean option to 'off' (for example: -nossl)
+2021-11-09 19:17:07		    copy: duplicate a server
+2021-11-09 19:17:07		  rename: rename a server
+2021-11-09 19:17:07		 reorder: reorder list of servers
+2021-11-09 19:17:07		    open: open the server buffer without connecting
+2021-11-09 19:17:07		    keep: keep server in config file (for temporary servers only)
+2021-11-09 19:17:07		     del: delete a server
+2021-11-09 19:17:07		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2021-11-09 19:17:07		    jump: jump to server buffer
+2021-11-09 19:17:07		     raw: open buffer with raw IRC data
+2021-11-09 19:17:07		  filter: set a new filter to see only matching messages (this filter can be used as input in raw IRC data buffer as well); allowed formats are:
+2021-11-09 19:17:07		            *       show all messages (no filter)
+2021-11-09 19:17:07		            xxx     show only messages containing "xxx"
+2021-11-09 19:17:07		            s:xxx   show only messages for server "xxx"
+2021-11-09 19:17:07		            f:xxx   show only messages with a flag: recv (message received), sent (message sent), modified (message modified by a modifier), redirected (message redirected)
+2021-11-09 19:17:07		            m:xxx   show only IRC command "xxx"
+2021-11-09 19:17:07		            c:xxx   show only messages matching the evaluated condition "xxx", using following variables: output of function irc_message_parse (like nick, command, channel, text, etc., see function info_get_hashtable in plugin API reference for the list of all variables), date (format: "yyyy-mm-dd hh:mm:ss"), server, recv, sent, modified, redirected
+2021-11-09 19:17:07		Examples:
+2021-11-09 19:17:07		  /server listfull
+2021-11-09 19:17:07		  /server add freenode chat.freenode.net
+2021-11-09 19:17:07		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2021-11-09 19:17:07		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2021-11-09 19:17:07		  /server copy freenode freenode-test
+2021-11-09 19:17:07		  /server rename freenode-test freenode2
+2021-11-09 19:17:07		  /server reorder freenode2 freenode
+2021-11-09 19:17:07		  /server del freenode
+2021-11-09 19:17:07		  /server deloutq
+2021-11-09 19:17:07		  /server raw
+2021-11-09 19:17:07		  /server raw s:freenode
+2021-11-09 19:17:07		  /server raw c:${recv} && ${command}==PRIVMSG && ${nick}==foo
+2021-11-09 19:19:21		irc: server added: twitch
+2021-11-09 19:19:42		fifo: pipe closed
+2021-11-09 19:19:43		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:19:49		irc: server twitch has been deleted
+2021-11-09 19:19:56		irc: server added: twitch
+2021-11-09 19:20:01		irc: server twitch has been deleted
+2021-11-09 19:20:08		irc: server added: twitch
+2021-11-09 19:20:30		fifo: pipe closed
+2021-11-09 19:20:31		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:20:33		irc: server twitch has been deleted
+2021-11-09 19:32:46		fifo: pipe closed
+2021-11-09 19:32:56		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:34:25	=!=	Error: unknown command "/bufflist" (type /help for help)
+2021-11-09 19:34:26		[core]
+2021-11-09 19:34:26		  away     input    save   
+2021-11-09 19:34:26		  bar      key      secure 
+2021-11-09 19:34:26		  buffer   layout   set    
+2021-11-09 19:34:26		  color    mouse    unset  
+2021-11-09 19:34:26		  command  mute     upgrade
+2021-11-09 19:34:26		  cursor   plugin   uptime 
+2021-11-09 19:34:26		  debug    print    version
+2021-11-09 19:34:26		  eval     proxy    wait   
+2021-11-09 19:34:26		  filter   quit     window 
+2021-11-09 19:34:26		  help     reload 
+2021-11-09 19:34:26		  history  repeat 
+2021-11-09 19:34:26		[perl]
+2021-11-09 19:34:26		  perl
+2021-11-09 19:34:26		[relay]
+2021-11-09 19:34:26		  relay
+2021-11-09 19:34:26		[logger]
+2021-11-09 19:34:26		  logger
+2021-11-09 19:34:26		[spell]
+2021-11-09 19:34:26		  spell
+2021-11-09 19:34:26		[script]
+2021-11-09 19:34:26		  script
+2021-11-09 19:34:26		[fset]
+2021-11-09 19:34:26		  fset
+2021-11-09 19:34:26		[exec]
+2021-11-09 19:34:26		  exec
+2021-11-09 19:34:26		[fifo]
+2021-11-09 19:34:26		  fifo
+2021-11-09 19:34:26		[ruby]
+2021-11-09 19:34:26		  ruby
+2021-11-09 19:34:26		[charset]
+2021-11-09 19:34:26		  charset
+2021-11-09 19:34:26		[xfer]
+2021-11-09 19:34:26		  me  xfer
+2021-11-09 19:34:26		[irc]
+2021-11-09 19:34:26		  admin       oper      
+2021-11-09 19:34:26		  allchan     part      
+2021-11-09 19:34:26		  allpv       ping      
+2021-11-09 19:34:26		  allserv     pong      
+2021-11-09 19:34:26		  ban         query     
+2021-11-09 19:34:26		  cap         quiet     
+2021-11-09 19:34:26		  connect     quote     
+2021-11-09 19:34:26		  ctcp        reconnect 
+2021-11-09 19:34:26		  cycle       rehash    
+2021-11-09 19:34:26		  dcc         remove    
+2021-11-09 19:34:26		  dehalfop    restart   
+2021-11-09 19:34:26		  deop        sajoin    
+2021-11-09 19:34:26		  devoice     samode    
+2021-11-09 19:34:26		  die         sanick    
+2021-11-09 19:34:26		  disconnect  sapart    
+2021-11-09 19:34:26		  halfop      saquit    
+2021-11-09 19:34:26		  ignore      server    
+2021-11-09 19:34:26		  info        service   
+2021-11-09 19:34:26		  invite      servlist  
+2021-11-09 19:34:26		  ison        squery    
+2021-11-09 19:34:26		  join        squit     
+2021-11-09 19:34:26		  kick        stats     
+2021-11-09 19:34:26		  kickban     summon    
+2021-11-09 19:34:26		  kill        time      
+2021-11-09 19:34:26		  links       topic     
+2021-11-09 19:34:26		  list        trace     
+2021-11-09 19:34:26		  lusers      unban     
+2021-11-09 19:34:26		  map         unquiet   
+2021-11-09 19:34:26		  me          userhost  
+2021-11-09 19:34:26		  mode        users     
+2021-11-09 19:34:26		  motd        version   
+2021-11-09 19:34:26		  msg         voice     
+2021-11-09 19:34:26		  names       wallchops 
+2021-11-09 19:34:26		  nick        wallops   
+2021-11-09 19:34:26		  notice      who       
+2021-11-09 19:34:26		  notify      whois     
+2021-11-09 19:34:26		  op          whowas    
+2021-11-09 19:34:26		[trigger]
+2021-11-09 19:34:26		  trigger
+2021-11-09 19:34:26		[buflist]
+2021-11-09 19:34:26		  buflist
+2021-11-09 19:34:26		[python]
+2021-11-09 19:34:26		  python
+2021-11-09 19:34:26		[alias]
+2021-11-09 19:34:26		  AAWAY    J        SIGNOFF
+2021-11-09 19:34:26		  alias    K        T      
+2021-11-09 19:34:26		  ANICK    KB       UB     
+2021-11-09 19:34:26		  BEEP     LEAVE    UMODE  
+2021-11-09 19:34:26		  BYE      M        V      
+2021-11-09 19:34:26		  C        MSGBUF   W      
+2021-11-09 19:34:26		  CHAT     MUB      WC     
+2021-11-09 19:34:26		  CL       N        WI     
+2021-11-09 19:34:26		  CLOSE    Q        WII    
+2021-11-09 19:34:26		  EXIT     REDRAW   WM     
+2021-11-09 19:34:26		  IG       SAY      WW     
+2021-11-09 19:34:33		fifo: pipe closed
+2021-11-09 19:34:38		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:35:06	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:35:19	=!=	irc: unable to add temporary server "twitch" because the addition of temporary servers with command /connect is currently disabled
+2021-11-09 19:35:19	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2021-11-09 19:35:29	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:35:42	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:37:33		fifo: pipe closed
+2021-11-09 19:37:40		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:37:52		fifo: pipe closed
+2021-11-09 19:37:55		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:38:37		[irc]  /join  [-noswitch] [-server <server>] [<channel1>[,<channel2>...]] [<key1>[,<key2>...]]
+2021-11-09 19:38:37		join a channel
+2021-11-09 19:38:37		-noswitch: do not switch to new buffer
+2021-11-09 19:38:37		   server: send to this server (internal name)
+2021-11-09 19:38:37		  channel: channel name to join
+2021-11-09 19:38:37		      key: key to join the channel (channels with a key must be the first in list)
+2021-11-09 19:38:37		Examples:
+2021-11-09 19:38:37		  /join #weechat
+2021-11-09 19:38:37		  /join #protectedchan,#weechat key
+2021-11-09 19:38:37		  /join -server freenode #weechat
+2021-11-09 19:38:37		  /join -noswitch #weechat
+2021-11-09 19:39:10	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:39:36		fifo: pipe closed
+2021-11-09 19:39:48		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:39:54		irc: server added: twitch
+2021-11-09 19:40:10	=!=	irc: command "servlist" must be executed on connected irc server
+2021-11-09 19:40:13		[irc]  /server  list|listfull [<name>]
+2021-11-09 19:40:13		                add <name> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2021-11-09 19:40:13		                copy|rename <name> <new_name>
+2021-11-09 19:40:13		                reorder <name> [<name>...]
+2021-11-09 19:40:13		                open <name>|-all [<name>...]
+2021-11-09 19:40:13		                del|keep <name>
+2021-11-09 19:40:13		                deloutq|jump
+2021-11-09 19:40:13		                raw [<filter>]
+2021-11-09 19:40:13		list, add or remove IRC servers
+2021-11-09 19:40:13		    list: list servers (without argument, this list is displayed)
+2021-11-09 19:40:13		listfull: list servers with detailed info for each server
+2021-11-09 19:40:13		     add: add a new server
+2021-11-09 19:40:13		    name: server name, for internal and display use; this name is used to connect to the server (/connect name) and to set server options: irc.server.name.xxx
+2021-11-09 19:40:13		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2021-11-09 19:40:13		   -temp: add a temporary server (not saved)
+2021-11-09 19:40:13		  option: set option for server (for boolean option, value can be omitted)
+2021-11-09 19:40:13		nooption: set boolean option to 'off' (for example: -nossl)
+2021-11-09 19:40:13		    copy: duplicate a server
+2021-11-09 19:40:13		  rename: rename a server
+2021-11-09 19:40:13		 reorder: reorder list of servers
+2021-11-09 19:40:13		    open: open the server buffer without connecting
+2021-11-09 19:40:13		    keep: keep server in config file (for temporary servers only)
+2021-11-09 19:40:13		     del: delete a server
+2021-11-09 19:40:13		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2021-11-09 19:40:13		    jump: jump to server buffer
+2021-11-09 19:40:13		     raw: open buffer with raw IRC data
+2021-11-09 19:40:13		  filter: set a new filter to see only matching messages (this filter can be used as input in raw IRC data buffer as well); allowed formats are:
+2021-11-09 19:40:13		            *       show all messages (no filter)
+2021-11-09 19:40:13		            xxx     show only messages containing "xxx"
+2021-11-09 19:40:13		            s:xxx   show only messages for server "xxx"
+2021-11-09 19:40:13		            f:xxx   show only messages with a flag: recv (message received), sent (message sent), modified (message modified by a modifier), redirected (message redirected)
+2021-11-09 19:40:13		            m:xxx   show only IRC command "xxx"
+2021-11-09 19:40:13		            c:xxx   show only messages matching the evaluated condition "xxx", using following variables: output of function irc_message_parse (like nick, command, channel, text, etc., see function info_get_hashtable in plugin API reference for the list of all variables), date (format: "yyyy-mm-dd hh:mm:ss"), server, recv, sent, modified, redirected
+2021-11-09 19:40:13		Examples:
+2021-11-09 19:40:13		  /server listfull
+2021-11-09 19:40:13		  /server add freenode chat.freenode.net
+2021-11-09 19:40:13		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2021-11-09 19:40:13		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2021-11-09 19:40:13		  /server copy freenode freenode-test
+2021-11-09 19:40:13		  /server rename freenode-test freenode2
+2021-11-09 19:40:13		  /server reorder freenode2 freenode
+2021-11-09 19:40:13		  /server del freenode
+2021-11-09 19:40:13		  /server deloutq
+2021-11-09 19:40:13		  /server raw
+2021-11-09 19:40:13		  /server raw s:freenode
+2021-11-09 19:40:13		  /server raw c:${recv} && ${command}==PRIVMSG && ${nick}==foo
+2021-11-09 19:40:16		All servers:
+2021-11-09 19:40:16		Server: twitch [not connected]
+2021-11-09 19:40:16		  addresses. . . . . . : 'irc://Lasting_:oauth:wqbyrrp2pl9qzqtkyucqyeo6a7dr8c@irc.chat.twitch.tv:6697'
+2021-11-09 19:40:16		  proxy. . . . . . . . :   ('')
+2021-11-09 19:40:16		  ipv6 . . . . . . . . :   (on)
+2021-11-09 19:40:16		  ssl. . . . . . . . . :   (off)
+2021-11-09 19:40:16		  ssl_cert . . . . . . :   ('')
+2021-11-09 19:40:16		  ssl_password . . . . :   (hidden)
+2021-11-09 19:40:16		  ssl_priorities . . . :   ('NORMAL:-VERS-SSL3.0')
+2021-11-09 19:40:16		  ssl_dhkey_size . . . :   (2048)
+2021-11-09 19:40:16		  ssl_fingerprint. . . :   ('')
+2021-11-09 19:40:16		  ssl_verify . . . . . :   (on)
+2021-11-09 19:40:16		  password . . . . . . :   (hidden)
+2021-11-09 19:40:16		  capabilities . . . . :   ('')
+2021-11-09 19:40:16		  sasl_mechanism . . . :   ('plain')
+2021-11-09 19:40:16		  sasl_username. . . . :   ('')
+2021-11-09 19:40:16		  sasl_password. . . . :   (hidden)
+2021-11-09 19:40:16		  sasl_key. .  . . . . :   ('')
+2021-11-09 19:40:16		  sasl_timeout . . . . :   (15 seconds)
+2021-11-09 19:40:16		  sasl_fail. . . . . . :   ('continue')
+2021-11-09 19:40:16		  autoconnect. . . . . :   (off)
+2021-11-09 19:40:16		  autoreconnect. . . . :   (on)
+2021-11-09 19:40:16		  autoreconnect_delay. :   (10 seconds)
+2021-11-09 19:40:16		  nicks. . . . . . . . :   ('stremler,stremler1,stremler2,stremler3,stremler4')
+2021-11-09 19:40:16		  nicks_alternate. . . :   (on)
+2021-11-09 19:40:16		  username . . . . . . :   ('stremler')
+2021-11-09 19:40:16		  realname . . . . . . :   ('')
+2021-11-09 19:40:16		  local_hostname . . . :   ('')
+2021-11-09 19:40:16		  usermode . . . . . . :   ('')
+2021-11-09 19:40:16		  command. . . . . . . :   ('')
+2021-11-09 19:40:16		  command_delay. . . . :   (0 seconds)
+2021-11-09 19:40:16		  autojoin . . . . . . :   ('')
+2021-11-09 19:40:16		  autorejoin . . . . . :   (off)
+2021-11-09 19:40:16		  autorejoin_delay . . :   (30 seconds)
+2021-11-09 19:40:16		  connection_timeout . :   (60 seconds)
+2021-11-09 19:40:16		  anti_flood_prio_high :   (2 seconds)
+2021-11-09 19:40:16		  anti_flood_prio_low. :   (2 seconds)
+2021-11-09 19:40:16		  away_check . . . . . :   (0 minutes)
+2021-11-09 19:40:16		  away_check_max_nicks :   (25)
+2021-11-09 19:40:16		  msg_kick . . . . . . :   ('')
+2021-11-09 19:40:16		  msg_part . . . . . . :   ('WeeChat ${info:version}')
+2021-11-09 19:40:16		  msg_quit . . . . . . :   ('WeeChat ${info:version}')
+2021-11-09 19:40:16		  notify . . . . . . . :   ('')
+2021-11-09 19:40:16		  split_msg_max_length :   (512)
+2021-11-09 19:40:16		  charset_message. . . :   ('message')
+2021-11-09 19:40:44		irc: server twitch has been deleted
+2021-11-09 19:41:02		irc: server added: twitch
+2021-11-09 19:42:09		fifo: pipe closed
+2021-11-09 19:42:16		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:42:20		[core]
+2021-11-09 19:42:20		  away     input    save   
+2021-11-09 19:42:20		  bar      key      secure 
+2021-11-09 19:42:20		  buffer   layout   set    
+2021-11-09 19:42:20		  color    mouse    unset  
+2021-11-09 19:42:20		  command  mute     upgrade
+2021-11-09 19:42:20		  cursor   plugin   uptime 
+2021-11-09 19:42:20		  debug    print    version
+2021-11-09 19:42:20		  eval     proxy    wait   
+2021-11-09 19:42:20		  filter   quit     window 
+2021-11-09 19:42:20		  help     reload 
+2021-11-09 19:42:20		  history  repeat 
+2021-11-09 19:42:20		[perl]
+2021-11-09 19:42:20		  perl
+2021-11-09 19:42:20		[relay]
+2021-11-09 19:42:20		  relay
+2021-11-09 19:42:20		[logger]
+2021-11-09 19:42:20		  logger
+2021-11-09 19:42:20		[spell]
+2021-11-09 19:42:20		  spell
+2021-11-09 19:42:20		[script]
+2021-11-09 19:42:20		  script
+2021-11-09 19:42:20		[fset]
+2021-11-09 19:42:20		  fset
+2021-11-09 19:42:20		[exec]
+2021-11-09 19:42:20		  exec
+2021-11-09 19:42:20		[fifo]
+2021-11-09 19:42:20		  fifo
+2021-11-09 19:42:20		[ruby]
+2021-11-09 19:42:20		  ruby
+2021-11-09 19:42:20		[charset]
+2021-11-09 19:42:20		  charset
+2021-11-09 19:42:20		[xfer]
+2021-11-09 19:42:20		  me  xfer
+2021-11-09 19:42:20		[irc]
+2021-11-09 19:42:20		  admin       oper      
+2021-11-09 19:42:20		  allchan     part      
+2021-11-09 19:42:20		  allpv       ping      
+2021-11-09 19:42:20		  allserv     pong      
+2021-11-09 19:42:20		  ban         query     
+2021-11-09 19:42:20		  cap         quiet     
+2021-11-09 19:42:20		  connect     quote     
+2021-11-09 19:42:20		  ctcp        reconnect 
+2021-11-09 19:42:20		  cycle       rehash    
+2021-11-09 19:42:20		  dcc         remove    
+2021-11-09 19:42:20		  dehalfop    restart   
+2021-11-09 19:42:20		  deop        sajoin    
+2021-11-09 19:42:20		  devoice     samode    
+2021-11-09 19:42:20		  die         sanick    
+2021-11-09 19:42:20		  disconnect  sapart    
+2021-11-09 19:42:20		  halfop      saquit    
+2021-11-09 19:42:20		  ignore      server    
+2021-11-09 19:42:20		  info        service   
+2021-11-09 19:42:20		  invite      servlist  
+2021-11-09 19:42:20		  ison        squery    
+2021-11-09 19:42:20		  join        squit     
+2021-11-09 19:42:20		  kick        stats     
+2021-11-09 19:42:20		  kickban     summon    
+2021-11-09 19:42:20		  kill        time      
+2021-11-09 19:42:20		  links       topic     
+2021-11-09 19:42:20		  list        trace     
+2021-11-09 19:42:20		  lusers      unban     
+2021-11-09 19:42:20		  map         unquiet   
+2021-11-09 19:42:20		  me          userhost  
+2021-11-09 19:42:20		  mode        users     
+2021-11-09 19:42:20		  motd        version   
+2021-11-09 19:42:20		  msg         voice     
+2021-11-09 19:42:20		  names       wallchops 
+2021-11-09 19:42:20		  nick        wallops   
+2021-11-09 19:42:20		  notice      who       
+2021-11-09 19:42:20		  notify      whois     
+2021-11-09 19:42:20		  op          whowas    
+2021-11-09 19:42:20		[trigger]
+2021-11-09 19:42:20		  trigger
+2021-11-09 19:42:20		[buflist]
+2021-11-09 19:42:20		  buflist
+2021-11-09 19:42:20		[python]
+2021-11-09 19:42:20		  python
+2021-11-09 19:42:20		[alias]
+2021-11-09 19:42:20		  AAWAY    J        SIGNOFF
+2021-11-09 19:42:20		  alias    K        T      
+2021-11-09 19:42:20		  ANICK    KB       UB     
+2021-11-09 19:42:20		  BEEP     LEAVE    UMODE  
+2021-11-09 19:42:20		  BYE      M        V      
+2021-11-09 19:42:20		  C        MSGBUF   W      
+2021-11-09 19:42:20		  CHAT     MUB      WC     
+2021-11-09 19:42:20		  CL       N        WI     
+2021-11-09 19:42:20		  CLOSE    Q        WII    
+2021-11-09 19:42:20		  EXIT     REDRAW   WM     
+2021-11-09 19:42:20		  IG       SAY      WW     
+2021-11-09 19:43:33	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:43:46	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:44:10		fifo: pipe closed
+2021-11-09 19:44:13		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:44:20	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2021-11-09 19:45:22	=!=	irc: server "twitch" already exists, can't add it!
+2021-11-09 19:45:27		irc: server twitch has been deleted
+2021-11-09 19:45:39		irc: server added: twitch
+2021-11-09 19:47:22		fifo: pipe closed
+2021-11-09 19:47:24		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:47:35	=!=	irc: command "join" must be executed on connected irc server
+2021-11-09 19:48:40		irc: server twitch has been deleted
+2021-11-09 19:48:42		fifo: pipe closed
+2021-11-09 19:48:56		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 19:50:18		irc: server added: twitch
+2021-11-09 19:51:07		Options saved to sec.conf
+2021-11-09 19:51:07		Options saved to weechat.conf
+2021-11-09 19:51:07		Options saved to plugins.conf
+2021-11-09 19:51:07		Options saved to charset.conf
+2021-11-09 19:51:07		Options saved to logger.conf
+2021-11-09 19:51:07		Options saved to exec.conf
+2021-11-09 19:51:07		Options saved to trigger.conf
+2021-11-09 19:51:07		Options saved to spell.conf
+2021-11-09 19:51:07		Options saved to alias.conf
+2021-11-09 19:51:07		Options saved to buflist.conf
+2021-11-09 19:51:07		Options saved to fifo.conf
+2021-11-09 19:51:07		Options saved to xfer.conf
+2021-11-09 19:51:07		Options saved to irc.conf
+2021-11-09 19:51:07		Options saved to relay.conf
+2021-11-09 19:51:07		Options saved to perl.conf
+2021-11-09 19:51:07		Options saved to ruby.conf
+2021-11-09 19:51:07		Options saved to python.conf
+2021-11-09 19:51:07		Options saved to script.conf
+2021-11-09 19:51:07		Options saved to fset.conf
+2021-11-09 19:51:29		Buffers list:
+2021-11-09 19:51:29		  [1] core.weechat (notify: all)
+2021-11-09 19:51:29		  [1] irc.server.twitch (notify: all)
+2021-11-09 19:51:29		  [2] irc.twitch.#rwxrob (notify: all)
+2021-11-09 19:58:44		[core]  /buffer  list
+2021-11-09 19:58:44		                 add [-free] [-switch] <name>
+2021-11-09 19:58:44		                 clear [<number>|<name>|-merged|-all [<number>|<name>...]]
+2021-11-09 19:58:44		                 move <number>|-|+
+2021-11-09 19:58:44		                 swap <number1>|<name1> [<number2>|<name2>]
+2021-11-09 19:58:44		                 cycle <number>|<name> [<number>|<name>...]
+2021-11-09 19:58:44		                 merge <number>|<name>
+2021-11-09 19:58:44		                 unmerge [<number>|-all]
+2021-11-09 19:58:44		                 hide [<number>|<name>|-all [<number>|<name>...]]
+2021-11-09 19:58:44		                 unhide [<number>|<name>|-all [<number>|<name>...]]
+2021-11-09 19:58:44		                 renumber [<number1> [<number2> [<start>]]]
+2021-11-09 19:58:44		                 close [<n1>[-<n2>]|<name>...]
+2021-11-09 19:58:44		                 notify [<level>]
+2021-11-09 19:58:44		                 localvar [<number>|<name>]
+2021-11-09 19:58:44		                 set <property> [<value>]
+2021-11-09 19:58:44		                 get <property>
+2021-11-09 19:58:44		                 <number>|-|+|<name>
+2021-11-09 19:58:44		manage buffers
+2021-11-09 19:58:44		    list: list buffers (without argument, this list is displayed)
+2021-11-09 19:58:44		     add: add a new buffer (it can be closed with "/buffer close" or input "q")
+2021-11-09 19:58:44		   clear: clear buffer content (number for a buffer, -merged for merged buffers, -all for all buffers, or nothing for current buffer)
+2021-11-09 19:58:44		    move: move buffer in the list (may be relative, for example -1); "-" = move to first buffer number, "+" = move to last buffer number + 1
+2021-11-09 19:58:44		    swap: swap two buffers (swap with current buffer if only one number/name given)
+2021-11-09 19:58:44		   cycle: jump loop between a list of buffers
+2021-11-09 19:58:44		   merge: merge current buffer to another buffer (chat area will be mix of both buffers)
+2021-11-09 19:58:44		          (by default ctrl-x switches between merged buffers)
+2021-11-09 19:58:44		 unmerge: unmerge buffer from other buffers which have same number
+2021-11-09 19:58:44		    hide: hide the buffer
+2021-11-09 19:58:44		  unhide: unhide the buffer
+2021-11-09 19:58:44		renumber: renumber buffers (works only if option weechat.look.buffer_auto_renumber is off)
+2021-11-09 19:58:44		   close: close buffer (number/range or name is optional)
+2021-11-09 19:58:44		  notify: display or set notify level for current buffer: this level determines whether buffer will be added to hotlist or not:
+2021-11-09 19:58:44		               none: never
+2021-11-09 19:58:44		          highlight: for highlights only
+2021-11-09 19:58:44		            message: for messages from users + highlights
+2021-11-09 19:58:44		                all: all messages
+2021-11-09 19:58:44		              reset: reset to default value (all)
+2021-11-09 19:58:44		localvar: display local variables for the buffer
+2021-11-09 19:58:44		     set: set a property for current buffer
+2021-11-09 19:58:44		     get: display a property of current buffer
+2021-11-09 19:58:44		  number: jump to buffer by number, possible prefix:
+2021-11-09 19:58:44		          '+': relative jump, add number to current
+2021-11-09 19:58:44		          '-': relative jump, sub number to current
+2021-11-09 19:58:44		          '*': jump to number, using option "weechat.look.jump_current_to_previous_buffer"
+2021-11-09 19:58:44		       -: jump to first buffer number
+2021-11-09 19:58:44		       +: jump to last buffer number
+2021-11-09 19:58:44		    name: jump to buffer by (partial) name
+2021-11-09 19:58:44		Examples:
+2021-11-09 19:58:44		  clear current buffer:
+2021-11-09 19:58:44		    /buffer clear
+2021-11-09 19:58:44		  move buffer to number 5:
+2021-11-09 19:58:44		    /buffer move 5
+2021-11-09 19:58:44		  swap buffer 1 with 3:
+2021-11-09 19:58:44		    /buffer swap 1 3
+2021-11-09 19:58:44		  swap buffer #weechat with current buffer:
+2021-11-09 19:58:44		    /buffer swap #weechat
+2021-11-09 19:58:44		  jump on #chan1, #chan2, #chan3 and loop:
+2021-11-09 19:58:44		    /buffer cycle #chan1 #chan2 #chan3
+2021-11-09 19:58:44		  merge with core buffer:
+2021-11-09 19:58:44		    /buffer merge 1
+2021-11-09 19:58:44		  merge with #weechat buffer:
+2021-11-09 19:58:44		    /buffer merge #weechat
+2021-11-09 19:58:44		  unmerge buffer:
+2021-11-09 19:58:44		    /buffer unmerge
+2021-11-09 19:58:44		  close current buffer:
+2021-11-09 19:58:44		    /buffer close
+2021-11-09 19:58:44		  close buffers 5 to 7:
+2021-11-09 19:58:44		    /buffer close 5-7
+2021-11-09 19:58:44		  jump to #weechat:
+2021-11-09 19:58:44		    /buffer #weechat
+2021-11-09 19:58:44		  jump to next buffer:
+2021-11-09 19:58:44		    /buffer +1
+2021-11-09 19:58:44		  jump to last buffer number:
+2021-11-09 19:58:44		    /buffer +
+2021-11-09 22:14:34		fifo: pipe closed
+2021-11-09 22:14:36		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 22:15:20		fifo: pipe closed
+2021-11-09 22:17:07		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-09 22:20:52		[core]
+2021-11-09 22:20:52		  away     filter   plugin   set    
+2021-11-09 22:20:52		  bar      help     print    unset  
+2021-11-09 22:20:52		  buffer   history  proxy    upgrade
+2021-11-09 22:20:52		  color    input    quit     uptime 
+2021-11-09 22:20:52		  command  key      reload   version
+2021-11-09 22:20:52		  cursor   layout   repeat   wait   
+2021-11-09 22:20:52		  debug    mouse    save     window 
+2021-11-09 22:20:52		  eval     mute     secure 
+2021-11-09 22:20:52		[perl]
+2021-11-09 22:20:52		  perl
+2021-11-09 22:20:52		[relay]
+2021-11-09 22:20:52		  relay
+2021-11-09 22:20:52		[logger]
+2021-11-09 22:20:52		  logger
+2021-11-09 22:20:52		[spell]
+2021-11-09 22:20:52		  spell
+2021-11-09 22:20:52		[script]
+2021-11-09 22:20:52		  script
+2021-11-09 22:20:52		[fset]
+2021-11-09 22:20:52		  fset
+2021-11-09 22:20:52		[exec]
+2021-11-09 22:20:52		  exec
+2021-11-09 22:20:52		[fifo]
+2021-11-09 22:20:52		  fifo
+2021-11-09 22:20:52		[ruby]
+2021-11-09 22:20:52		  ruby
+2021-11-09 22:20:52		[charset]
+2021-11-09 22:20:52		  charset
+2021-11-09 22:20:52		[xfer]
+2021-11-09 22:20:52		  me  xfer
+2021-11-09 22:20:52		[irc]
+2021-11-09 22:20:52		  admin       list        sanick    
+2021-11-09 22:20:52		  allchan     lusers      sapart    
+2021-11-09 22:20:52		  allpv       map         saquit    
+2021-11-09 22:20:52		  allserv     me          server    
+2021-11-09 22:20:52		  ban         mode        service   
+2021-11-09 22:20:52		  cap         motd        servlist  
+2021-11-09 22:20:52		  connect     msg         squery    
+2021-11-09 22:20:52		  ctcp        names       squit     
+2021-11-09 22:20:52		  cycle       nick        stats     
+2021-11-09 22:20:52		  dcc         notice      summon    
+2021-11-09 22:20:52		  dehalfop    notify      time      
+2021-11-09 22:20:52		  deop        op          topic     
+2021-11-09 22:20:52		  devoice     oper        trace     
+2021-11-09 22:20:52		  die         part        unban     
+2021-11-09 22:20:52		  disconnect  ping        unquiet   
+2021-11-09 22:20:52		  halfop      pong        userhost  
+2021-11-09 22:20:52		  ignore      query       users     
+2021-11-09 22:20:52		  info        quiet       version   
+2021-11-09 22:20:52		  invite      quote       voice     
+2021-11-09 22:20:52		  ison        reconnect   wallchops 
+2021-11-09 22:20:52		  join        rehash      wallops   
+2021-11-09 22:20:52		  kick        remove      who       
+2021-11-09 22:20:52		  kickban     restart     whois     
+2021-11-09 22:20:52		  kill        sajoin      whowas    
+2021-11-09 22:20:52		  links       samode    
+2021-11-09 22:20:52		[trigger]
+2021-11-09 22:20:52		  trigger
+2021-11-09 22:20:52		[buflist]
+2021-11-09 22:20:52		  buflist
+2021-11-09 22:20:52		[python]
+2021-11-09 22:20:52		  python
+2021-11-09 22:20:52		[alias]
+2021-11-09 22:20:52		  AAWAY    EXIT     N        W      
+2021-11-09 22:20:52		  alias    IG       Q        WC     
+2021-11-09 22:20:52		  ANICK    J        REDRAW   WI     
+2021-11-09 22:20:52		  BEEP     K        SAY      WII    
+2021-11-09 22:20:52		  BYE      KB       SIGNOFF  WM     
+2021-11-09 22:20:52		  C        LEAVE    T        WW     
+2021-11-09 22:20:52		  CHAT     M        UB     
+2021-11-09 22:20:52		  CL       MSGBUF   UMODE  
+2021-11-09 22:20:52		  CLOSE    MUB      V      
+2021-11-09 22:22:32		[irc]  /stats  [<query> [<target>]]
+2021-11-09 22:22:32		query statistics about server
+2021-11-09 22:22:32		 query: c/h/i/k/l/m/o/y/u (see RFC1459)
+2021-11-09 22:22:32		target: server name
+2021-11-09 22:22:52	=!=	No help available, "config" is not a command or an option
+2021-11-09 22:23:00		[core]
+2021-11-09 22:23:00		  away     filter   plugin   set    
+2021-11-09 22:23:00		  bar      help     print    unset  
+2021-11-09 22:23:00		  buffer   history  proxy    upgrade
+2021-11-09 22:23:00		  color    input    quit     uptime 
+2021-11-09 22:23:00		  command  key      reload   version
+2021-11-09 22:23:00		  cursor   layout   repeat   wait   
+2021-11-09 22:23:00		  debug    mouse    save     window 
+2021-11-09 22:23:00		  eval     mute     secure 
+2021-11-09 22:23:00		[perl]
+2021-11-09 22:23:00		  perl
+2021-11-09 22:23:00		[relay]
+2021-11-09 22:23:00		  relay
+2021-11-09 22:23:00		[logger]
+2021-11-09 22:23:00		  logger
+2021-11-09 22:23:00		[spell]
+2021-11-09 22:23:00		  spell
+2021-11-09 22:23:00		[script]
+2021-11-09 22:23:00		  script
+2021-11-09 22:23:00		[fset]
+2021-11-09 22:23:00		  fset
+2021-11-09 22:23:00		[exec]
+2021-11-09 22:23:00		  exec
+2021-11-09 22:23:00		[fifo]
+2021-11-09 22:23:00		  fifo
+2021-11-09 22:23:00		[ruby]
+2021-11-09 22:23:00		  ruby
+2021-11-09 22:23:00		[charset]
+2021-11-09 22:23:00		  charset
+2021-11-09 22:23:00		[xfer]
+2021-11-09 22:23:00		  me  xfer
+2021-11-09 22:23:00		[irc]
+2021-11-09 22:23:00		  admin       list        sanick    
+2021-11-09 22:23:00		  allchan     lusers      sapart    
+2021-11-09 22:23:00		  allpv       map         saquit    
+2021-11-09 22:23:00		  allserv     me          server    
+2021-11-09 22:23:00		  ban         mode        service   
+2021-11-09 22:23:00		  cap         motd        servlist  
+2021-11-09 22:23:00		  connect     msg         squery    
+2021-11-09 22:23:00		  ctcp        names       squit     
+2021-11-09 22:23:00		  cycle       nick        stats     
+2021-11-09 22:23:00		  dcc         notice      summon    
+2021-11-09 22:23:00		  dehalfop    notify      time      
+2021-11-09 22:23:00		  deop        op          topic     
+2021-11-09 22:23:00		  devoice     oper        trace     
+2021-11-09 22:23:00		  die         part        unban     
+2021-11-09 22:23:00		  disconnect  ping        unquiet   
+2021-11-09 22:23:00		  halfop      pong        userhost  
+2021-11-09 22:23:00		  ignore      query       users     
+2021-11-09 22:23:00		  info        quiet       version   
+2021-11-09 22:23:00		  invite      quote       voice     
+2021-11-09 22:23:00		  ison        reconnect   wallchops 
+2021-11-09 22:23:00		  join        rehash      wallops   
+2021-11-09 22:23:00		  kick        remove      who       
+2021-11-09 22:23:00		  kickban     restart     whois     
+2021-11-09 22:23:00		  kill        sajoin      whowas    
+2021-11-09 22:23:00		  links       samode    
+2021-11-09 22:23:00		[trigger]
+2021-11-09 22:23:00		  trigger
+2021-11-09 22:23:00		[buflist]
+2021-11-09 22:23:00		  buflist
+2021-11-09 22:23:00		[python]
+2021-11-09 22:23:00		  python
+2021-11-09 22:23:00		[alias]
+2021-11-09 22:23:00		  AAWAY    EXIT     N        W      
+2021-11-09 22:23:00		  alias    IG       Q        WC     
+2021-11-09 22:23:00		  ANICK    J        REDRAW   WI     
+2021-11-09 22:23:00		  BEEP     K        SAY      WII    
+2021-11-09 22:23:00		  BYE      KB       SIGNOFF  WM     
+2021-11-09 22:23:00		  C        LEAVE    T        WW     
+2021-11-09 22:23:00		  CHAT     M        UB     
+2021-11-09 22:23:00		  CL       MSGBUF   UMODE  
+2021-11-09 22:23:00		  CLOSE    MUB      V      
+2021-11-09 22:23:18		[spell]  /spell  enable|disable|toggle
+2021-11-09 22:23:18		                 listdict
+2021-11-09 22:23:18		                 setdict <dict>[,<dict>...]
+2021-11-09 22:23:18		                 deldict
+2021-11-09 22:23:18		                 addword [<dict>] <word>
+2021-11-09 22:23:18		spell plugin configuration
+2021-11-09 22:23:18		  enable: enable spell checker
+2021-11-09 22:23:18		 disable: disable spell checker
+2021-11-09 22:23:18		  toggle: toggle spell checker
+2021-11-09 22:23:18		listdict: show installed dictionaries
+2021-11-09 22:23:18		 setdict: set dictionary for current buffer (multiple dictionaries can be separated by a comma)
+2021-11-09 22:23:18		 deldict: delete dictionary used on current buffer
+2021-11-09 22:23:18		 addword: add a word in personal dictionary
+2021-11-09 22:23:18		Input line beginning with a '/' is not checked, except for some commands (see /set spell.check.commands).
+2021-11-09 22:23:18		To enable spell checker on all buffers, use option "default_dict", then enable spell checker, for example:
+2021-11-09 22:23:18		  /set spell.check.default_dict "en"
+2021-11-09 22:23:18		  /spell enable
+2021-11-09 22:23:18		To display a list of suggestions in a bar, use item "spell_suggest".
+2021-11-09 22:23:18		Default key to toggle spell checker is alt-s.
+2021-11-09 22:23:31		[core]  /save  [<file> [<file>...]]
+2021-11-09 22:23:31		save configuration files to disk
+2021-11-09 22:23:31		file: configuration file to save (without extension ".conf")
+2021-11-09 22:23:31		Without argument, all files (WeeChat and plugins) are saved.
+2021-11-09 22:23:31		By default all configuration files are saved to disk on /quit command (see option "weechat.look.save_config_on_exit").
+2021-11-09 22:25:26	=!=	Error: unknown command "/option" (type /help for help)
+2021-11-09 22:25:30		[core]
+2021-11-09 22:25:30		  away     eval     mouse    repeat   version
+2021-11-09 22:25:30		  bar      filter   mute     save     wait   
+2021-11-09 22:25:30		  buffer   help     plugin   secure   window 
+2021-11-09 22:25:30		  color    history  print    set    
+2021-11-09 22:25:30		  command  input    proxy    unset  
+2021-11-09 22:25:30		  cursor   key      quit     upgrade
+2021-11-09 22:25:30		  debug    layout   reload   uptime 
+2021-11-09 22:25:30		[perl]
+2021-11-09 22:25:30		  perl
+2021-11-09 22:25:30		[relay]
+2021-11-09 22:25:30		  relay
+2021-11-09 22:25:30		[logger]
+2021-11-09 22:25:30		  logger
+2021-11-09 22:25:30		[spell]
+2021-11-09 22:25:30		  spell
+2021-11-09 22:25:30		[script]
+2021-11-09 22:25:30		  script
+2021-11-09 22:25:30		[fset]
+2021-11-09 22:25:30		  fset
+2021-11-09 22:25:30		[exec]
+2021-11-09 22:25:30		  exec
+2021-11-09 22:25:30		[fifo]
+2021-11-09 22:25:30		  fifo
+2021-11-09 22:25:30		[ruby]
+2021-11-09 22:25:30		  ruby
+2021-11-09 22:25:30		[charset]
+2021-11-09 22:25:30		  charset
+2021-11-09 22:25:30		[xfer]
+2021-11-09 22:25:30		  me  xfer
+2021-11-09 22:25:30		[irc]
+2021-11-09 22:25:30		  admin       ison        part        squit     
+2021-11-09 22:25:30		  allchan     join        ping        stats     
+2021-11-09 22:25:30		  allpv       kick        pong        summon    
+2021-11-09 22:25:30		  allserv     kickban     query       time      
+2021-11-09 22:25:30		  ban         kill        quiet       topic     
+2021-11-09 22:25:30		  cap         links       quote       trace     
+2021-11-09 22:25:30		  connect     list        reconnect   unban     
+2021-11-09 22:25:30		  ctcp        lusers      rehash      unquiet   
+2021-11-09 22:25:30		  cycle       map         remove      userhost  
+2021-11-09 22:25:30		  dcc         me          restart     users     
+2021-11-09 22:25:30		  dehalfop    mode        sajoin      version   
+2021-11-09 22:25:30		  deop        motd        samode      voice     
+2021-11-09 22:25:30		  devoice     msg         sanick      wallchops 
+2021-11-09 22:25:30		  die         names       sapart      wallops   
+2021-11-09 22:25:30		  disconnect  nick        saquit      who       
+2021-11-09 22:25:30		  halfop      notice      server      whois     
+2021-11-09 22:25:30		  ignore      notify      service     whowas    
+2021-11-09 22:25:30		  info        op          servlist  
+2021-11-09 22:25:30		  invite      oper        squery    
+2021-11-09 22:25:30		[trigger]
+2021-11-09 22:25:30		  trigger
+2021-11-09 22:25:30		[buflist]
+2021-11-09 22:25:30		  buflist
+2021-11-09 22:25:30		[python]
+2021-11-09 22:25:30		  python
+2021-11-09 22:25:30		[alias]
+2021-11-09 22:25:30		  AAWAY    CL       LEAVE    SAY      WC     
+2021-11-09 22:25:30		  alias    CLOSE    M        SIGNOFF  WI     
+2021-11-09 22:25:30		  ANICK    EXIT     MSGBUF   T        WII    
+2021-11-09 22:25:30		  BEEP     IG       MUB      UB       WM     
+2021-11-09 22:25:30		  BYE      J        N        UMODE    WW     
+2021-11-09 22:25:30		  C        K        Q        V      
+2021-11-09 22:25:30		  CHAT     KB       REDRAW   W      
+2021-11-09 22:25:51		[core]  /set  [<option> [<value>]]
+2021-11-09 22:25:51		              diff [<option> [<option>...]]
+2021-11-09 22:25:51		              env [<variable> [<value>]]
+2021-11-09 22:25:51		set config options and environment variables
+2021-11-09 22:25:51		option: name of an option (wildcard "*" is allowed to list options, if no value is specified)
+2021-11-09 22:25:51		 value: new value for option, according to type:
+2021-11-09 22:25:51		          boolean: on, off or toggle
+2021-11-09 22:25:51		          integer: number, ++number or --number
+2021-11-09 22:25:51		           string: any string ("" for empty string)
+2021-11-09 22:25:51		            color: color name, ++number or --number
+2021-11-09 22:25:51		        Note: for all types, you can use null to remove option value (undefined value). This works only for some special plugin variables.
+2021-11-09 22:25:51		  diff: display only changed options
+2021-11-09 22:25:51		   env: display or set an environment variable (use value "" to unset a variable)
+2021-11-09 22:25:51		Examples:
+2021-11-09 22:25:51		  display options about highlight:
+2021-11-09 22:25:51		    /set *highlight*
+2021-11-09 22:25:51		  add a word to highlight:
+2021-11-09 22:25:51		    /set weechat.look.highlight "word"
+2021-11-09 22:25:51		  display changed options:
+2021-11-09 22:25:51		    /set diff
+2021-11-09 22:25:51		  display changed options in irc plugin:
+2021-11-09 22:25:51		    /set diff irc.*
+2021-11-09 22:25:51		  display value of environment variable LANG:
+2021-11-09 22:25:51		    /set env LANG
+2021-11-09 22:25:51		  set environment variable LANG and use it:
+2021-11-09 22:25:51		    /set env LANG fr_FR.UTF-8
+2021-11-09 22:25:51		    /upgrade
+2021-11-09 22:25:51		  unset environment variable ABC:
+2021-11-09 22:25:51		    /set env ABC ""
+2021-11-09 22:26:54		[core]  /set  [<option> [<value>]]
+2021-11-09 22:26:54		              diff [<option> [<option>...]]
+2021-11-09 22:26:54		              env [<variable> [<value>]]
+2021-11-09 22:26:54		set config options and environment variables
+2021-11-09 22:26:54		option: name of an option (wildcard "*" is allowed to list options, if no value is specified)
+2021-11-09 22:26:54		 value: new value for option, according to type:
+2021-11-09 22:26:54		          boolean: on, off or toggle
+2021-11-09 22:26:54		          integer: number, ++number or --number
+2021-11-09 22:26:54		           string: any string ("" for empty string)
+2021-11-09 22:26:54		            color: color name, ++number or --number
+2021-11-09 22:26:54		        Note: for all types, you can use null to remove option value (undefined value). This works only for some special plugin variables.
+2021-11-09 22:26:54		  diff: display only changed options
+2021-11-09 22:26:54		   env: display or set an environment variable (use value "" to unset a variable)
+2021-11-09 22:26:54		Examples:
+2021-11-09 22:26:54		  display options about highlight:
+2021-11-09 22:26:54		    /set *highlight*
+2021-11-09 22:26:54		  add a word to highlight:
+2021-11-09 22:26:54		    /set weechat.look.highlight "word"
+2021-11-09 22:26:54		  display changed options:
+2021-11-09 22:26:54		    /set diff
+2021-11-09 22:26:54		  display changed options in irc plugin:
+2021-11-09 22:26:54		    /set diff irc.*
+2021-11-09 22:26:54		  display value of environment variable LANG:
+2021-11-09 22:26:54		    /set env LANG
+2021-11-09 22:26:54		  set environment variable LANG and use it:
+2021-11-09 22:26:54		    /set env LANG fr_FR.UTF-8
+2021-11-09 22:26:54		    /upgrade
+2021-11-09 22:26:54		  unset environment variable ABC:
+2021-11-09 22:26:54		    /set env ABC ""
+2021-11-09 22:27:02		[core]  /set  [<option> [<value>]]
+2021-11-09 22:27:02		              diff [<option> [<option>...]]
+2021-11-09 22:27:02		              env [<variable> [<value>]]
+2021-11-09 22:27:02		set config options and environment variables
+2021-11-09 22:27:02		option: name of an option (wildcard "*" is allowed to list options, if no value is specified)
+2021-11-09 22:27:02		 value: new value for option, according to type:
+2021-11-09 22:27:02		          boolean: on, off or toggle
+2021-11-09 22:27:02		          integer: number, ++number or --number
+2021-11-09 22:27:02		           string: any string ("" for empty string)
+2021-11-09 22:27:02		            color: color name, ++number or --number
+2021-11-09 22:27:02		        Note: for all types, you can use null to remove option value (undefined value). This works only for some special plugin variables.
+2021-11-09 22:27:02		  diff: display only changed options
+2021-11-09 22:27:02		   env: display or set an environment variable (use value "" to unset a variable)
+2021-11-09 22:27:02		Examples:
+2021-11-09 22:27:02		  display options about highlight:
+2021-11-09 22:27:02		    /set *highlight*
+2021-11-09 22:27:02		  add a word to highlight:
+2021-11-09 22:27:02		    /set weechat.look.highlight "word"
+2021-11-09 22:27:02		  display changed options:
+2021-11-09 22:27:02		    /set diff
+2021-11-09 22:27:02		  display changed options in irc plugin:
+2021-11-09 22:27:02		    /set diff irc.*
+2021-11-09 22:27:02		  display value of environment variable LANG:
+2021-11-09 22:27:02		    /set env LANG
+2021-11-09 22:27:02		  set environment variable LANG and use it:
+2021-11-09 22:27:02		    /set env LANG fr_FR.UTF-8
+2021-11-09 22:27:02		    /upgrade
+2021-11-09 22:27:02		  unset environment variable ABC:
+2021-11-09 22:27:02		    /set env ABC ""
+2021-11-09 22:32:27		[spell]  /spell  enable|disable|toggle
+2021-11-09 22:32:27		                 listdict
+2021-11-09 22:32:27		                 setdict <dict>[,<dict>...]
+2021-11-09 22:32:27		                 deldict
+2021-11-09 22:32:27		                 addword [<dict>] <word>
+2021-11-09 22:32:27		spell plugin configuration
+2021-11-09 22:32:27		  enable: enable spell checker
+2021-11-09 22:32:27		 disable: disable spell checker
+2021-11-09 22:32:27		  toggle: toggle spell checker
+2021-11-09 22:32:27		listdict: show installed dictionaries
+2021-11-09 22:32:27		 setdict: set dictionary for current buffer (multiple dictionaries can be separated by a comma)
+2021-11-09 22:32:27		 deldict: delete dictionary used on current buffer
+2021-11-09 22:32:27		 addword: add a word in personal dictionary
+2021-11-09 22:32:27		Input line beginning with a '/' is not checked, except for some commands (see /set spell.check.commands).
+2021-11-09 22:32:27		To enable spell checker on all buffers, use option "default_dict", then enable spell checker, for example:
+2021-11-09 22:32:27		  /set spell.check.default_dict "en"
+2021-11-09 22:32:27		  /spell enable
+2021-11-09 22:32:27		To display a list of suggestions in a bar, use item "spell_suggest".
+2021-11-09 22:32:27		Default key to toggle spell checker is alt-s.
+2021-11-09 22:32:55		Option changed: spell.check.default_dict = "en"  (default: "")
+2021-11-09 22:33:23		Option changed: spell.check.default_dict = "en"  (default: "")
+2021-11-09 22:33:35		Spell checker enabled
+2021-11-09 22:38:17		[core]  /color  alias <color> <name>
+2021-11-09 22:38:17		                unalias <color>
+2021-11-09 22:38:17		                reset
+2021-11-09 22:38:17		                term2rgb <color>
+2021-11-09 22:38:17		                rgb2term <rgb> [<limit>]
+2021-11-09 22:38:17		                -o
+2021-11-09 22:38:17		define color aliases and display palette of colors
+2021-11-09 22:38:17		   alias: add an alias for a color
+2021-11-09 22:38:17		 unalias: delete an alias
+2021-11-09 22:38:17		   color: color number (greater than or equal to 0, max depends on terminal, commonly 63 or 255)
+2021-11-09 22:38:17		    name: alias name for color (for example: "orange")
+2021-11-09 22:38:17		   reset: reset all color pairs (required when no more color pairs are available if automatic reset is disabled, see option "weechat.look.color_pairs_auto_reset")
+2021-11-09 22:38:17		term2rgb: convert a terminal color (0-255) to RGB color
+2021-11-09 22:38:17		rgb2term: convert a RGB color to terminal color (0-255)
+2021-11-09 22:38:17		   limit: number of colors to use in terminal table (starting from 0); default is 256
+2021-11-09 22:38:17		      -o: send terminal/colors info to current buffer as input
+2021-11-09 22:38:17		Without argument, this command displays colors in a new buffer.
+2021-11-09 22:38:17		Examples:
+2021-11-09 22:38:17		  add alias "orange" for color 214:
+2021-11-09 22:38:17		    /color alias 214 orange
+2021-11-09 22:38:17		  delete color 214:
+2021-11-09 22:38:17		    /color unalias 214
+2021-11-09 22:42:25		Option changed: weechat.bar.title.color_bg = 10  (default: blue)
+2021-11-09 22:42:29		Option changed: weechat.bar.title.color_bg = 20  (default: blue)
+2021-11-09 22:42:31		Option changed: weechat.bar.title.color_bg = 30  (default: blue)
+2021-11-09 22:42:33		Option changed: weechat.bar.title.color_bg = 40  (default: blue)
+2021-11-09 22:42:37		Option changed: weechat.bar.title.color_bg = 0  (default: blue)
+2021-11-09 22:42:54	=!=	No help available, "weechat.bar" is not a command or an option
+2021-11-09 22:48:20		Option changed: weechat.bar.status.color_bg = 0  (default: blue)
+2021-11-09 22:48:27		Option changed: weechat.bar.status.color_fg = 40  (default: default)
+2021-11-09 22:48:30		Option changed: weechat.bar.status.color_fg = 50  (default: default)
+2021-11-09 22:48:32		Option changed: weechat.bar.status.color_fg = 60  (default: default)
+2021-11-09 22:49:12		Option changed: weechat.color.chat_delimiters = 29  (default: green)
+2021-11-09 22:49:32	=!=	Error: failed to set option "weechat.color.chat_host"
+2021-11-09 22:50:24		Option changed: irc.color.topic_new = 36  (default: white)
+2021-11-09 22:50:56		Option changed: weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2021-11-09 22:53:33		Option changed: weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2021-11-09 22:58:59	=!=	Error: option "color" not found
+2021-11-09 23:05:06		[core]  /buffer  list
+2021-11-09 23:05:06		                 add [-free] [-switch] <name>
+2021-11-09 23:05:06		                 clear [<number>|<name>|-merged|-all [<number>|<name>...]]
+2021-11-09 23:05:06		                 move <number>|-|+
+2021-11-09 23:05:06		                 swap <number1>|<name1> [<number2>|<name2>]
+2021-11-09 23:05:06		                 cycle <number>|<name> [<number>|<name>...]
+2021-11-09 23:05:06		                 merge <number>|<name>
+2021-11-09 23:05:06		                 unmerge [<number>|-all]
+2021-11-09 23:05:06		                 hide [<number>|<name>|-all [<number>|<name>...]]
+2021-11-09 23:05:06		                 unhide [<number>|<name>|-all [<number>|<name>...]]
+2021-11-09 23:05:06		                 renumber [<number1> [<number2> [<start>]]]
+2021-11-09 23:05:06		                 close [<n1>[-<n2>]|<name>...]
+2021-11-09 23:05:06		                 notify [<level>]
+2021-11-09 23:05:06		                 localvar [<number>|<name>]
+2021-11-09 23:05:06		                 set <property> [<value>]
+2021-11-09 23:05:06		                 get <property>
+2021-11-09 23:05:06		                 <number>|-|+|<name>
+2021-11-09 23:05:06		manage buffers
+2021-11-09 23:05:06		    list: list buffers (without argument, this list is displayed)
+2021-11-09 23:05:06		     add: add a new buffer (it can be closed with "/buffer close" or input "q")
+2021-11-09 23:05:06		   clear: clear buffer content (number for a buffer, -merged for merged buffers, -all for all buffers, or nothing for current buffer)
+2021-11-09 23:05:06		    move: move buffer in the list (may be relative, for example -1); "-" = move to first buffer number, "+" = move to last buffer number + 1
+2021-11-09 23:05:06		    swap: swap two buffers (swap with current buffer if only one number/name given)
+2021-11-09 23:05:06		   cycle: jump loop between a list of buffers
+2021-11-09 23:05:06		   merge: merge current buffer to another buffer (chat area will be mix of both buffers)
+2021-11-09 23:05:06		          (by default ctrl-x switches between merged buffers)
+2021-11-09 23:05:06		 unmerge: unmerge buffer from other buffers which have same number
+2021-11-09 23:05:06		    hide: hide the buffer
+2021-11-09 23:05:06		  unhide: unhide the buffer
+2021-11-09 23:05:06		renumber: renumber buffers (works only if option weechat.look.buffer_auto_renumber is off)
+2021-11-09 23:05:06		   close: close buffer (number/range or name is optional)
+2021-11-09 23:05:06		  notify: display or set notify level for current buffer: this level determines whether buffer will be added to hotlist or not:
+2021-11-09 23:05:06		               none: never
+2021-11-09 23:05:06		          highlight: for highlights only
+2021-11-09 23:05:06		            message: for messages from users + highlights
+2021-11-09 23:05:06		                all: all messages
+2021-11-09 23:05:06		              reset: reset to default value (all)
+2021-11-09 23:05:06		localvar: display local variables for the buffer
+2021-11-09 23:05:06		     set: set a property for current buffer
+2021-11-09 23:05:06		     get: display a property of current buffer
+2021-11-09 23:05:06		  number: jump to buffer by number, possible prefix:
+2021-11-09 23:05:06		          '+': relative jump, add number to current
+2021-11-09 23:05:06		          '-': relative jump, sub number to current
+2021-11-09 23:05:06		          '*': jump to number, using option "weechat.look.jump_current_to_previous_buffer"
+2021-11-09 23:05:06		       -: jump to first buffer number
+2021-11-09 23:05:06		       +: jump to last buffer number
+2021-11-09 23:05:06		    name: jump to buffer by (partial) name
+2021-11-09 23:05:06		Examples:
+2021-11-09 23:05:06		  clear current buffer:
+2021-11-09 23:05:06		    /buffer clear
+2021-11-09 23:05:06		  move buffer to number 5:
+2021-11-09 23:05:06		    /buffer move 5
+2021-11-09 23:05:06		  swap buffer 1 with 3:
+2021-11-09 23:05:06		    /buffer swap 1 3
+2021-11-09 23:05:06		  swap buffer #weechat with current buffer:
+2021-11-09 23:05:06		    /buffer swap #weechat
+2021-11-09 23:05:06		  jump on #chan1, #chan2, #chan3 and loop:
+2021-11-09 23:05:06		    /buffer cycle #chan1 #chan2 #chan3
+2021-11-09 23:05:06		  merge with core buffer:
+2021-11-09 23:05:06		    /buffer merge 1
+2021-11-09 23:05:06		  merge with #weechat buffer:
+2021-11-09 23:05:06		    /buffer merge #weechat
+2021-11-09 23:05:06		  unmerge buffer:
+2021-11-09 23:05:06		    /buffer unmerge
+2021-11-09 23:05:06		  close current buffer:
+2021-11-09 23:05:06		    /buffer close
+2021-11-09 23:05:06		  close buffers 5 to 7:
+2021-11-09 23:05:06		    /buffer close 5-7
+2021-11-09 23:05:06		  jump to #weechat:
+2021-11-09 23:05:06		    /buffer #weechat
+2021-11-09 23:05:06		  jump to next buffer:
+2021-11-09 23:05:06		    /buffer +1
+2021-11-09 23:05:06		  jump to last buffer number:
+2021-11-09 23:05:06		    /buffer +
+2021-11-09 23:06:27		Option changed: fset.color.name = blue  (default: default)
+2021-11-09 23:08:39	=!=	Error: unknown command "/host" (type /help for help)
+2021-11-09 23:10:11		Option changed: fset.color.name = yellow  (default: default)
+2021-11-09 23:14:08		[look] (weechat.conf)
+2021-11-09 23:14:08		  weechat.look.color_basic_force_bold = off
+2021-11-09 23:14:08		  weechat.look.color_inactive_buffer = on
+2021-11-09 23:14:08		  weechat.look.color_inactive_message = on
+2021-11-09 23:14:08		  weechat.look.color_inactive_prefix = on
+2021-11-09 23:14:08		  weechat.look.color_inactive_prefix_buffer = on
+2021-11-09 23:14:08		  weechat.look.color_inactive_time = off
+2021-11-09 23:14:08		  weechat.look.color_inactive_window = on
+2021-11-09 23:14:08		  weechat.look.color_nick_offline = off
+2021-11-09 23:14:08		  weechat.look.color_pairs_auto_reset = 5
+2021-11-09 23:14:08		  weechat.look.color_real_white = off
+2021-11-09 23:14:08		  weechat.look.nick_color_force = ""
+2021-11-09 23:14:08		  weechat.look.nick_color_hash = djb2
+2021-11-09 23:14:08		  weechat.look.nick_color_hash_salt = ""
+2021-11-09 23:14:08		  weechat.look.nick_color_stop_chars = "_|["
+2021-11-09 23:14:08		[color] (weechat.conf)
+2021-11-09 23:14:08		  weechat.color.bar_more = lightmagenta
+2021-11-09 23:14:08		  weechat.color.chat = default
+2021-11-09 23:14:08		  weechat.color.chat_bg = default
+2021-11-09 23:14:08		  weechat.color.chat_buffer = white
+2021-11-09 23:14:08		  weechat.color.chat_channel = white
+2021-11-09 23:14:08		  weechat.color.chat_day_change = cyan
+2021-11-09 23:14:08		  weechat.color.chat_delimiters = 29  (default: green)
+2021-11-09 23:14:08		  weechat.color.chat_highlight = yellow
+2021-11-09 23:14:08		  weechat.color.chat_highlight_bg = magenta
+2021-11-09 23:14:08		  weechat.color.chat_host = cyan
+2021-11-09 23:14:08		  weechat.color.chat_inactive_buffer = default
+2021-11-09 23:14:08		  weechat.color.chat_inactive_window = default
+2021-11-09 23:14:08		  weechat.color.chat_nick = lightcyan
+2021-11-09 23:14:08		  weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2021-11-09 23:14:08		  weechat.color.chat_nick_offline = default
+2021-11-09 23:14:08		  weechat.color.chat_nick_offline_highlight = default
+2021-11-09 23:14:08		  weechat.color.chat_nick_offline_highlight_bg = blue
+2021-11-09 23:14:08		  weechat.color.chat_nick_other = cyan
+2021-11-09 23:14:08		  weechat.color.chat_nick_prefix = green
+2021-11-09 23:14:08		  weechat.color.chat_nick_self = white
+2021-11-09 23:14:08		  weechat.color.chat_nick_suffix = green
+2021-11-09 23:14:08		  weechat.color.chat_prefix_action = white
+2021-11-09 23:14:08		  weechat.color.chat_prefix_buffer = brown
+2021-11-09 23:14:08		  weechat.color.chat_prefix_buffer_inactive_buffer = default
+2021-11-09 23:14:08		  weechat.color.chat_prefix_error = yellow
+2021-11-09 23:14:08		  weechat.color.chat_prefix_join = lightgreen
+2021-11-09 23:14:08		  weechat.color.chat_prefix_more = lightmagenta
+2021-11-09 23:14:08		  weechat.color.chat_prefix_network = magenta
+2021-11-09 23:14:08		  weechat.color.chat_prefix_quit = lightred
+2021-11-09 23:14:08		  weechat.color.chat_prefix_suffix = green
+2021-11-09 23:14:08		  weechat.color.chat_read_marker = magenta
+2021-11-09 23:14:08		  weechat.color.chat_read_marker_bg = default
+2021-11-09 23:14:08		  weechat.color.chat_server = brown
+2021-11-09 23:14:08		  weechat.color.chat_tags = red
+2021-11-09 23:14:08		  weechat.color.chat_text_found = yellow
+2021-11-09 23:14:08		  weechat.color.chat_text_found_bg = lightmagenta
+2021-11-09 23:14:08		  weechat.color.chat_time = default
+2021-11-09 23:14:08		  weechat.color.chat_time_delimiters = brown
+2021-11-09 23:14:08		  weechat.color.chat_value = cyan
+2021-11-09 23:14:08		  weechat.color.chat_value_null = blue
+2021-11-09 23:14:08		  weechat.color.emphasized = yellow
+2021-11-09 23:14:08		  weechat.color.emphasized_bg = magenta
+2021-11-09 23:14:08		  weechat.color.input_actions = lightgreen
+2021-11-09 23:14:08		  weechat.color.input_text_not_found = red
+2021-11-09 23:14:08		  weechat.color.item_away = yellow
+2021-11-09 23:14:08		  weechat.color.nicklist_away = cyan
+2021-11-09 23:14:08		  weechat.color.nicklist_group = green
+2021-11-09 23:14:08		  weechat.color.separator = blue
+2021-11-09 23:14:08		  weechat.color.status_count_highlight = magenta
+2021-11-09 23:14:08		  weechat.color.status_count_msg = brown
+2021-11-09 23:14:08		  weechat.color.status_count_other = default
+2021-11-09 23:14:08		  weechat.color.status_count_private = green
+2021-11-09 23:14:08		  weechat.color.status_data_highlight = lightmagenta
+2021-11-09 23:14:08		  weechat.color.status_data_msg = yellow
+2021-11-09 23:14:08		  weechat.color.status_data_other = default
+2021-11-09 23:14:08		  weechat.color.status_data_private = lightgreen
+2021-11-09 23:14:08		  weechat.color.status_filter = green
+2021-11-09 23:14:08		  weechat.color.status_more = yellow
+2021-11-09 23:14:08		  weechat.color.status_mouse = green
+2021-11-09 23:14:08		  weechat.color.status_name = white
+2021-11-09 23:14:08		  weechat.color.status_name_ssl = lightgreen
+2021-11-09 23:14:08		  weechat.color.status_nicklist_count = default
+2021-11-09 23:14:08		  weechat.color.status_number = yellow
+2021-11-09 23:14:08		  weechat.color.status_time = default
+2021-11-09 23:14:08		[bar] (weechat.conf)
+2021-11-09 23:14:08		  weechat.bar.buflist.color_bg = default
+2021-11-09 23:14:08		  weechat.bar.buflist.color_bg_inactive = default
+2021-11-09 23:14:08		  weechat.bar.buflist.color_delim = default
+2021-11-09 23:14:08		  weechat.bar.buflist.color_fg = default
+2021-11-09 23:14:08		  weechat.bar.fset.color_bg = default
+2021-11-09 23:14:08		  weechat.bar.fset.color_bg_inactive = default
+2021-11-09 23:14:08		  weechat.bar.fset.color_delim = cyan
+2021-11-09 23:14:08		  weechat.bar.fset.color_fg = default
+2021-11-09 23:14:08		  weechat.bar.input.color_bg = default
+2021-11-09 23:14:08		  weechat.bar.input.color_bg_inactive = default
+2021-11-09 23:14:08		  weechat.bar.input.color_delim = cyan
+2021-11-09 23:14:08		  weechat.bar.input.color_fg = default
+2021-11-09 23:14:08		  weechat.bar.nicklist.color_bg = default
+2021-11-09 23:14:08		  weechat.bar.nicklist.color_bg_inactive = default
+2021-11-09 23:14:08		  weechat.bar.nicklist.color_delim = cyan
+2021-11-09 23:14:08		  weechat.bar.nicklist.color_fg = default
+2021-11-09 23:14:08		  weechat.bar.status.color_bg = 0  (default: blue)
+2021-11-09 23:14:08		  weechat.bar.status.color_bg_inactive = darkgray
+2021-11-09 23:14:08		  weechat.bar.status.color_delim = cyan
+2021-11-09 23:14:08		  weechat.bar.status.color_fg = 60  (default: default)
+2021-11-09 23:14:08		  weechat.bar.title.color_bg = 0  (default: blue)
+2021-11-09 23:14:08		  weechat.bar.title.color_bg_inactive = darkgray
+2021-11-09 23:14:08		  weechat.bar.title.color_delim = cyan
+2021-11-09 23:14:08		  weechat.bar.title.color_fg = default
+2021-11-09 23:14:08		[color] (logger.conf)
+2021-11-09 23:14:08		  logger.color.backlog_end = default
+2021-11-09 23:14:08		  logger.color.backlog_line = default
+2021-11-09 23:14:08		[file] (logger.conf)
+2021-11-09 23:14:08		  logger.file.color_lines = off
+2021-11-09 23:14:08		[color] (exec.conf)
+2021-11-09 23:14:08		  exec.color.flag_finished = lightred
+2021-11-09 23:14:08		  exec.color.flag_running = lightgreen
+2021-11-09 23:14:08		[look] (trigger.conf)
+2021-11-09 23:14:08		  trigger.look.monitor_strip_colors = off
+2021-11-09 23:14:08		[color] (trigger.conf)
+2021-11-09 23:14:08		  trigger.color.flag_command = lightgreen
+2021-11-09 23:14:08		  trigger.color.flag_conditions = yellow
+2021-11-09 23:14:08		  trigger.color.flag_post_action = lightblue
+2021-11-09 23:14:08		  trigger.color.flag_regex = lightcyan
+2021-11-09 23:14:08		  trigger.color.flag_return_code = lightmagenta
+2021-11-09 23:14:08		  trigger.color.regex = white
+2021-11-09 23:14:08		  trigger.color.replace = cyan
+2021-11-09 23:14:08		  trigger.color.trigger = green
+2021-11-09 23:14:08		  trigger.color.trigger_disabled = red
+2021-11-09 23:14:08		[color] (spell.conf)
+2021-11-09 23:14:08		  spell.color.misspelled = lightred
+2021-11-09 23:14:08		  spell.color.suggestion = default
+2021-11-09 23:14:08		  spell.color.suggestion_delimiter_dict = cyan
+2021-11-09 23:14:08		  spell.color.suggestion_delimiter_word = cyan
+2021-11-09 23:14:08		[color] (xfer.conf)
+2021-11-09 23:14:08		  xfer.color.status_aborted = lightred
+2021-11-09 23:14:08		  xfer.color.status_active = lightblue
+2021-11-09 23:14:08		  xfer.color.status_connecting = yellow
+2021-11-09 23:14:08		  xfer.color.status_done = lightgreen
+2021-11-09 23:14:08		  xfer.color.status_failed = lightred
+2021-11-09 23:14:08		  xfer.color.status_waiting = lightcyan
+2021-11-09 23:14:08		  xfer.color.text = default
+2021-11-09 23:14:08		  xfer.color.text_bg = default
+2021-11-09 23:14:08		  xfer.color.text_selected = white
+2021-11-09 23:14:08		[look] (irc.conf)
+2021-11-09 23:14:08		  irc.look.color_nicks_in_names = off
+2021-11-09 23:14:08		  irc.look.color_nicks_in_nicklist = off
+2021-11-09 23:14:08		  irc.look.color_nicks_in_server_messages = on
+2021-11-09 23:14:08		  irc.look.color_pv_nick_like_channel = on
+2021-11-09 23:14:08		  irc.look.topic_strip_colors = off
+2021-11-09 23:14:08		[color] (irc.conf)
+2021-11-09 23:14:08		  irc.color.input_nick = lightcyan
+2021-11-09 23:14:08		  irc.color.item_channel_modes = default
+2021-11-09 23:14:08		  irc.color.item_lag_counting = default
+2021-11-09 23:14:08		  irc.color.item_lag_finished = yellow
+2021-11-09 23:14:08		  irc.color.item_nick_modes = default
+2021-11-09 23:14:08		  irc.color.message_account = cyan
+2021-11-09 23:14:08		  irc.color.message_chghost = brown
+2021-11-09 23:14:08		  irc.color.message_join = green
+2021-11-09 23:14:08		  irc.color.message_kick = red
+2021-11-09 23:14:08		  irc.color.message_quit = red
+2021-11-09 23:14:08		  irc.color.mirc_remap = "1,-1:darkgray"
+2021-11-09 23:14:08		  irc.color.nick_prefixes = "y:lightred;q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+2021-11-09 23:14:08		  irc.color.notice = green
+2021-11-09 23:14:08		  irc.color.reason_kick = default
+2021-11-09 23:14:08		  irc.color.reason_quit = default
+2021-11-09 23:14:08		  irc.color.topic_current = default
+2021-11-09 23:14:08		  irc.color.topic_new = 36  (default: white)
+2021-11-09 23:14:08		  irc.color.topic_old = default
+2021-11-09 23:14:08		[network] (irc.conf)
+2021-11-09 23:14:08		  irc.network.colors_receive = on
+2021-11-09 23:14:08		  irc.network.colors_send = on
+2021-11-09 23:14:08		[color] (relay.conf)
+2021-11-09 23:14:08		  relay.color.client = cyan
+2021-11-09 23:14:08		  relay.color.status_active = green
+2021-11-09 23:14:08		  relay.color.status_auth_failed = lightmagenta
+2021-11-09 23:14:08		  relay.color.status_connecting = white
+2021-11-09 23:14:08		  relay.color.status_disconnected = lightred
+2021-11-09 23:14:08		  relay.color.status_waiting_auth = yellow
+2021-11-09 23:14:08		  relay.color.text = default
+2021-11-09 23:14:08		  relay.color.text_bg = default
+2021-11-09 23:14:08		  relay.color.text_selected = white
+2021-11-09 23:14:08		[look] (script.conf)
+2021-11-09 23:14:08		  script.look.diff_color = on
+2021-11-09 23:14:08		[color] (script.conf)
+2021-11-09 23:14:08		  script.color.status_autoloaded = cyan
+2021-11-09 23:14:08		  script.color.status_held = white
+2021-11-09 23:14:08		  script.color.status_installed = lightcyan
+2021-11-09 23:14:08		  script.color.status_obsolete = lightmagenta
+2021-11-09 23:14:08		  script.color.status_popular = yellow
+2021-11-09 23:14:08		  script.color.status_running = lightgreen
+2021-11-09 23:14:08		  script.color.status_unknown = lightred
+2021-11-09 23:14:08		  script.color.text = default
+2021-11-09 23:14:08		  script.color.text_bg = default
+2021-11-09 23:14:08		  script.color.text_bg_selected = red
+2021-11-09 23:14:08		  script.color.text_date = default
+2021-11-09 23:14:08		  script.color.text_date_selected = white
+2021-11-09 23:14:08		  script.color.text_delimiters = default
+2021-11-09 23:14:08		  script.color.text_description = default
+2021-11-09 23:14:08		  script.color.text_description_selected = white
+2021-11-09 23:14:08		  script.color.text_extension = default
+2021-11-09 23:14:08		  script.color.text_extension_selected = white
+2021-11-09 23:14:08		  script.color.text_name = cyan
+2021-11-09 23:14:08		  script.color.text_name_selected = lightcyan
+2021-11-09 23:14:08		  script.color.text_selected = white
+2021-11-09 23:14:08		  script.color.text_tags = brown
+2021-11-09 23:14:08		  script.color.text_tags_selected = yellow
+2021-11-09 23:14:08		  script.color.text_version = magenta
+2021-11-09 23:14:08		  script.color.text_version_loaded = default
+2021-11-09 23:14:08		  script.color.text_version_loaded_selected = white
+2021-11-09 23:14:08		  script.color.text_version_selected = lightmagenta
+2021-11-09 23:14:08		[look] (fset.conf)
+2021-11-09 23:14:08		  fset.look.use_color_value = off
+2021-11-09 23:14:08		[color] (fset.conf)
+2021-11-09 23:14:08		  fset.color.default_value = default
+2021-11-09 23:14:08		  fset.color.default_value_selected = white
+2021-11-09 23:14:08		  fset.color.description = default
+2021-11-09 23:14:08		  fset.color.description_selected = white
+2021-11-09 23:14:08		  fset.color.file = default
+2021-11-09 23:14:08		  fset.color.file_changed = brown
+2021-11-09 23:14:08		  fset.color.file_changed_selected = yellow
+2021-11-09 23:14:08		  fset.color.file_selected = white
+2021-11-09 23:14:08		  fset.color.help_default_value = white
+2021-11-09 23:14:08		  fset.color.help_description = default
+2021-11-09 23:14:08		  fset.color.help_name = white
+2021-11-09 23:14:08		  fset.color.help_quotes = darkgray
+2021-11-09 23:14:08		  fset.color.help_values = default
+2021-11-09 23:14:08		  fset.color.index = cyan
+2021-11-09 23:14:08		  fset.color.index_selected = lightcyan
+2021-11-09 23:14:08		  fset.color.line_marked_bg1 = default
+2021-11-09 23:14:08		  fset.color.line_marked_bg2 = default
+2021-11-09 23:14:08		  fset.color.line_selected_bg1 = blue
+2021-11-09 23:14:08		  fset.color.line_selected_bg2 = red
+2021-11-09 23:14:08		  fset.color.marked = brown
+2021-11-09 23:14:08		  fset.color.marked_selected = yellow
+2021-11-09 23:14:08		  fset.color.max = default
+2021-11-09 23:14:08		  fset.color.max_selected = white
+2021-11-09 23:14:08		  fset.color.min = default
+2021-11-09 23:14:08		  fset.color.min_selected = white
+2021-11-09 23:14:08		  fset.color.name = yellow  (default: default)
+2021-11-09 23:14:08		  fset.color.name_changed = brown
+2021-11-09 23:14:08		  fset.color.name_changed_selected = yellow
+2021-11-09 23:14:08		  fset.color.name_selected = white
+2021-11-09 23:14:08		  fset.color.option = default
+2021-11-09 23:14:08		  fset.color.option_changed = brown
+2021-11-09 23:14:08		  fset.color.option_changed_selected = yellow
+2021-11-09 23:14:08		  fset.color.option_selected = white
+2021-11-09 23:14:08		  fset.color.parent_name = default
+2021-11-09 23:14:08		  fset.color.parent_name_selected = white
+2021-11-09 23:14:08		  fset.color.parent_value = cyan
+2021-11-09 23:14:08		  fset.color.parent_value_selected = lightcyan
+2021-11-09 23:14:08		  fset.color.quotes = darkgray
+2021-11-09 23:14:08		  fset.color.quotes_changed = default
+2021-11-09 23:14:08		  fset.color.quotes_changed_selected = white
+2021-11-09 23:14:08		  fset.color.quotes_selected = default
+2021-11-09 23:14:08		  fset.color.section = default
+2021-11-09 23:14:08		  fset.color.section_changed = brown
+2021-11-09 23:14:08		  fset.color.section_changed_selected = yellow
+2021-11-09 23:14:08		  fset.color.section_selected = white
+2021-11-09 23:14:08		  fset.color.string_values = default
+2021-11-09 23:14:08		  fset.color.string_values_selected = white
+2021-11-09 23:14:08		  fset.color.title_count_options = cyan
+2021-11-09 23:14:08		  fset.color.title_current_option = lightcyan
+2021-11-09 23:14:08		  fset.color.title_filter = yellow
+2021-11-09 23:14:08		  fset.color.title_marked_options = lightgreen
+2021-11-09 23:14:08		  fset.color.title_sort = white
+2021-11-09 23:14:08		  fset.color.type = green
+2021-11-09 23:14:08		  fset.color.type_selected = lightgreen
+2021-11-09 23:14:08		  fset.color.unmarked = default
+2021-11-09 23:14:08		  fset.color.unmarked_selected = white
+2021-11-09 23:14:08		  fset.color.value = cyan
+2021-11-09 23:14:08		  fset.color.value_changed = brown
+2021-11-09 23:14:08		  fset.color.value_changed_selected = yellow
+2021-11-09 23:14:08		  fset.color.value_selected = lightcyan
+2021-11-09 23:14:08		  fset.color.value_undef = magenta
+2021-11-09 23:14:08		  fset.color.value_undef_selected = lightmagenta
+2021-11-09 23:14:08		254 options (matching with "*color*")
+2021-11-09 23:17:59		Option changed: weechat.color.chat_read_marker = yellow  (default: magenta)
+2021-11-09 23:19:16		Option changed: weechat.color.chat_time = magenta  (default: default)
+2021-11-09 23:19:28		Option changed: weechat.color.chat_time = default
+2021-11-09 23:20:30		Option changed: weechat.color.status_name = yellow  (default: white)
+2021-11-09 23:20:39		Options saved to sec.conf
+2021-11-09 23:20:39		Options saved to weechat.conf
+2021-11-09 23:20:39		Options saved to plugins.conf
+2021-11-09 23:20:39		Options saved to charset.conf
+2021-11-09 23:20:39		Options saved to logger.conf
+2021-11-09 23:20:39		Options saved to exec.conf
+2021-11-09 23:20:39		Options saved to trigger.conf
+2021-11-09 23:20:39		Options saved to spell.conf
+2021-11-09 23:20:39		Options saved to alias.conf
+2021-11-09 23:20:39		Options saved to buflist.conf
+2021-11-09 23:20:39		Options saved to fifo.conf
+2021-11-09 23:20:39		Options saved to xfer.conf
+2021-11-09 23:20:39		Options saved to irc.conf
+2021-11-09 23:20:39		Options saved to relay.conf
+2021-11-09 23:20:39		Options saved to perl.conf
+2021-11-09 23:20:39		Options saved to ruby.conf
+2021-11-09 23:20:39		Options saved to python.conf
+2021-11-09 23:20:39		Options saved to script.conf
+2021-11-09 23:20:39		Options saved to fset.conf
+2021-11-09 23:23:16	=!=	Error: failed to set option "weechat.color.chat"
+2021-11-09 23:23:21		Option changed: weechat.color.chat = yellow  (default: default)
+2021-11-09 23:24:54		Option changed: weechat.color.chat = 22  (default: default)
+2021-11-09 23:25:16		Option changed: weechat.color.chat = 4  (default: default)
+2021-11-09 23:25:51		Option changed: weechat.color.chat = 5  (default: default)
+2021-11-09 23:25:55		Option changed: weechat.color.chat = 6  (default: default)
+2021-11-09 23:25:58		Option changed: weechat.color.chat = 7  (default: default)
+2021-11-09 23:26:05		Option changed: weechat.color.chat = default
+2021-11-09 23:26:11		Option changed: weechat.color.chat = 7  (default: default)
+2021-11-09 23:26:20		Option changed: weechat.color.chat = 8  (default: default)
+2021-11-09 23:26:21		Option changed: weechat.color.chat = 9  (default: default)
+2021-11-09 23:26:23		Option changed: weechat.color.chat = 10  (default: default)
+2021-11-09 23:26:25		Option changed: weechat.color.chat = 11  (default: default)
+2021-11-09 23:26:26		Option changed: weechat.color.chat = 12  (default: default)
+2021-11-09 23:26:27		Option changed: weechat.color.chat = 13  (default: default)
+2021-11-09 23:26:29		Option changed: weechat.color.chat = 14  (default: default)
+2021-11-09 23:26:30		Option changed: weechat.color.chat = 15  (default: default)
+2021-11-09 23:26:34		Option changed: weechat.color.chat = 16  (default: default)
+2021-11-09 23:26:36		Option changed: weechat.color.chat = 17  (default: default)
+2021-11-09 23:26:37		Option changed: weechat.color.chat = 18  (default: default)
+2021-11-09 23:26:39		Option changed: weechat.color.chat = 19  (default: default)
+2021-11-09 23:26:41		Option changed: weechat.color.chat = 20  (default: default)
+2021-11-09 23:26:43		Option changed: weechat.color.chat = 21  (default: default)
+2021-11-09 23:26:46		Option changed: weechat.color.chat = 30  (default: default)
+2021-11-09 23:26:48		Option changed: weechat.color.chat = 40  (default: default)
+2021-11-09 23:26:49		Option changed: weechat.color.chat = 50  (default: default)
+2021-11-09 23:26:52		Option changed: weechat.color.chat = 50  (default: default)
+2021-11-09 23:26:57		Option changed: weechat.color.chat = 60  (default: default)
+2021-11-09 23:27:00		Option changed: weechat.color.chat = 70  (default: default)
+2021-11-09 23:27:02		Option changed: weechat.color.chat = 80  (default: default)
+2021-11-09 23:27:04		Option changed: weechat.color.chat = 90  (default: default)
+2021-11-09 23:27:06		Option changed: weechat.color.chat = 100  (default: default)
+2021-11-09 23:27:10		Option changed: weechat.color.chat = 105  (default: default)
+2021-11-09 23:27:13		Option changed: weechat.color.chat = 101  (default: default)
+2021-11-09 23:27:19		Option changed: weechat.color.chat = 102  (default: default)
+2021-11-09 23:27:20		Option changed: weechat.color.chat = 103  (default: default)
+2021-11-09 23:27:25		Option changed: weechat.color.chat = 104  (default: default)
+2021-11-09 23:27:27		Option changed: weechat.color.chat = 4  (default: default)
+2021-11-09 23:27:30		Option changed: weechat.color.chat = 200  (default: default)
+2021-11-09 23:27:32		Option changed: weechat.color.chat = 300  (default: default)
+2021-11-09 23:27:57		Option changed: weechat.color.chat = 229  (default: default)
+2021-11-09 23:28:20		Option changed: weechat.color.chat = 230  (default: default)
+2021-11-09 23:28:33		Options saved to sec.conf
+2021-11-09 23:28:33		Options saved to weechat.conf
+2021-11-09 23:28:33		Options saved to plugins.conf
+2021-11-09 23:28:33		Options saved to charset.conf
+2021-11-09 23:28:33		Options saved to logger.conf
+2021-11-09 23:28:33		Options saved to exec.conf
+2021-11-09 23:28:33		Options saved to trigger.conf
+2021-11-09 23:28:33		Options saved to spell.conf
+2021-11-09 23:28:33		Options saved to alias.conf
+2021-11-09 23:28:33		Options saved to buflist.conf
+2021-11-09 23:28:33		Options saved to fifo.conf
+2021-11-09 23:28:33		Options saved to xfer.conf
+2021-11-09 23:28:33		Options saved to irc.conf
+2021-11-09 23:28:33		Options saved to relay.conf
+2021-11-09 23:28:33		Options saved to perl.conf
+2021-11-09 23:28:33		Options saved to ruby.conf
+2021-11-09 23:28:33		Options saved to python.conf
+2021-11-09 23:28:33		Options saved to script.conf
+2021-11-09 23:28:33		Options saved to fset.conf
+2021-11-09 23:30:12		Option changed: weechat.color.chat_bg = 4  (default: default)
+2021-11-09 23:30:33		Option changed: weechat.color.chat_bg = 14  (default: default)
+2021-11-09 23:30:40		Option changed: weechat.color.chat_bg = default
+2021-11-09 23:34:15		List of bars:
+2021-11-09 23:34:15		  input: window, bottom, height: auto
+2021-11-09 23:34:15		  title: window, top, height: 1
+2021-11-09 23:34:15		  status: window, bottom, height: 1
+2021-11-09 23:34:15		  nicklist: window, right, width: auto
+2021-11-09 23:34:15		  fset: window, top, height: 3
+2021-11-09 23:34:15		  buflist: root, left, width: auto
+2021-11-09 23:37:22	=!=	irc: command "time" must be executed on irc buffer (server, channel or private)
+2021-11-09 23:52:39		Option changed: weechat.color.chat_delimiters = 10  (default: green)
+2021-11-09 23:52:51		Option changed: weechat.color.chat_delimiters = 20  (default: green)
+2021-11-09 23:53:16		Option changed: weechat.color.chat_delimiters = 30  (default: green)
+2021-11-09 23:56:01		Option changed: irc.server.twitch.autoconnect = on  (default if null: off)
+2021-11-09 23:56:41		Options saved to sec.conf
+2021-11-09 23:56:41		Options saved to weechat.conf
+2021-11-09 23:56:41		Options saved to plugins.conf
+2021-11-09 23:56:41		Options saved to charset.conf
+2021-11-09 23:56:41		Options saved to logger.conf
+2021-11-09 23:56:41		Options saved to exec.conf
+2021-11-09 23:56:41		Options saved to trigger.conf
+2021-11-09 23:56:41		Options saved to spell.conf
+2021-11-09 23:56:41		Options saved to alias.conf
+2021-11-09 23:56:41		Options saved to buflist.conf
+2021-11-09 23:56:41		Options saved to fifo.conf
+2021-11-09 23:56:41		Options saved to xfer.conf
+2021-11-09 23:56:41		Options saved to irc.conf
+2021-11-09 23:56:41		Options saved to relay.conf
+2021-11-09 23:56:41		Options saved to perl.conf
+2021-11-09 23:56:41		Options saved to ruby.conf
+2021-11-09 23:56:41		Options saved to python.conf
+2021-11-09 23:56:41		Options saved to script.conf
+2021-11-09 23:56:41		Options saved to fset.conf
+2021-11-09 23:58:07		Option changed: irc.server_default.nicks = "rwxcircles"  (default: "")
+2021-11-09 23:58:49		List of bars:
+2021-11-09 23:58:49		  input: window, bottom, height: auto
+2021-11-09 23:58:49		  title: (hidden) window, top, height: 1
+2021-11-09 23:58:49		  status: window, bottom, height: 1
+2021-11-09 23:58:49		  nicklist: (hidden) window, right, width: auto
+2021-11-09 23:58:49		  fset: window, top, height: 3
+2021-11-09 23:58:49		  buflist: root, left, width: auto
+2021-11-10 00:12:11	=!=	Error: unknown command "/colors" (type /help for help)
+2021-11-10 00:27:15		Option changed: weechat.color.chat_prefix_suffix = 230  (default: green)
+2021-11-10 00:29:08		Options saved to sec.conf
+2021-11-10 00:29:08		Options saved to weechat.conf
+2021-11-10 00:29:08		Options saved to plugins.conf
+2021-11-10 00:29:08		Options saved to charset.conf
+2021-11-10 00:29:08		Options saved to logger.conf
+2021-11-10 00:29:08		Options saved to exec.conf
+2021-11-10 00:29:08		Options saved to trigger.conf
+2021-11-10 00:29:08		Options saved to spell.conf
+2021-11-10 00:29:08		Options saved to alias.conf
+2021-11-10 00:29:08		Options saved to buflist.conf
+2021-11-10 00:29:08		Options saved to fifo.conf
+2021-11-10 00:29:08		Options saved to xfer.conf
+2021-11-10 00:29:08		Options saved to irc.conf
+2021-11-10 00:29:08		Options saved to relay.conf
+2021-11-10 00:29:08		Options saved to perl.conf
+2021-11-10 00:29:08		Options saved to ruby.conf
+2021-11-10 00:29:08		Options saved to python.conf
+2021-11-10 00:29:08		Options saved to script.conf
+2021-11-10 00:29:08		Options saved to fset.conf
+2021-11-10 00:29:39	=!=	irc: command "join" must be executed on connected irc server
+2021-11-10 00:29:51	=!=	irc: command "join" must be executed on connected irc server
+2021-11-10 00:30:01	=!=	irc: command "join" must be executed on connected irc server
+2021-11-10 00:30:42		fifo: pipe closed
+2021-11-10 00:41:59		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-10 00:42:37		fifo: pipe closed
+2021-11-10 00:42:41		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-10 00:44:17	=!=	irc: command "join" must be executed on connected irc server
+2021-11-10 00:44:21		fifo: pipe closed
+2021-11-10 00:44:23		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-10 01:00:09		fifo: pipe closed

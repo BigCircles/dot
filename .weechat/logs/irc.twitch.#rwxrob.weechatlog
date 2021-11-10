@@ -1,0 +1,403 @@
+2021-11-09 19:50:57	-->	lasting_ (lasting_@lasting_.tmi.twitch.tv) has joined #rwxrob
+2021-11-09 19:50:57	--	Channel #rwxrob: 1 nick (0 ops, 0 voices, 1 normal)
+2021-11-09 19:51:43	rwxrob	🏢 creating simple template repo to contain k8s apps
+2021-11-09 19:52:34	lasting_	Just testing irc client
+2021-11-09 19:53:06	<--	lasting_ (lasting_@lasting_.tmi.twitch.tv) has left #rwxrob
+2021-11-09 19:54:27	-->	lasting_ (lasting_@lasting_.tmi.twitch.tv) has joined #rwxrob
+2021-11-09 19:54:27	--	Channel #rwxrob: 1 nick (0 ops, 0 voices, 1 normal)
+2021-11-09 19:54:28	kinslay3r	I swear I've done enough tech support for my parents I have enough experience to qualify for a senior position LUL
+2021-11-09 22:14:34	--	irc: disconnected from server
+2021-11-09 22:14:45	-->	lasting_ (lasting_@lasting_.tmi.twitch.tv) has joined #rwxrob
+2021-11-09 22:14:45	--	Channel #rwxrob: 1 nick (0 ops, 0 voices, 1 normal)
+2021-11-09 22:14:46	jalopyjones	make sure you put on the santa hat..
+2021-11-09 22:15:01	osgmr	reading rwxrainbow
+2021-11-09 22:15:20	--	irc: disconnected from server
+2021-11-09 22:17:22	-->	lasting_ (lasting_@lasting_.tmi.twitch.tv) has joined #rwxrob
+2021-11-09 22:17:22	--	Channel #rwxrob: 1 nick (0 ops, 0 voices, 1 normal)
+2021-11-09 22:18:33	codeforf00d	i definitely dont remember those days ):
+2021-11-09 22:18:35	jalopyjones	"the more you learn n shit"
+2021-11-09 22:18:38	codeforf00d	i do remember reading rainbow though!!
+2021-11-09 22:18:50	jalopyjones	and whats a book?
+2021-11-09 22:18:54	codeforf00d	holy shit flashback to my childhood
+2021-11-09 22:19:06	10x_programmer	isn't C99 pretty outdated? There is already C17
+2021-11-09 22:19:24	osgmr	youtube nostalgia hits are like digital LSD with the flashback triggers
+2021-11-09 22:19:34	10x_programmer	https://en.wikipedia.org/wiki/C17_(C_standard_revision)
+2021-11-09 22:20:30	codeforf00d	rob: i wanna keep chat clean chat: hentai and aliens
+2021-11-09 22:21:20	10x_programmer	no argument number testing LUL
+2021-11-09 22:21:46	jalopyjones	musics loud
+2021-11-09 22:22:11	codeforf00d	music on but down around 30-40%
+2021-11-09 22:22:37	codeforf00d	right now its great
+2021-11-09 22:23:00	jalopyjones	right, so strange... might need a graphical interface that shows you where the audio is.. and then you could like have slider bars to where its decent and louder and then quiet and then just ignore all of it and move the volumes wherever whenever...
+2021-11-09 22:23:03	porschephilth	we have a "pre-defined" dockerfile in the repo, the devs can't change params, they can only add the bits they need
+2021-11-09 22:23:46	porschephilth	yes, then we jam things through our tool that builds a custom helm chart
+2021-11-09 22:24:07	porschephilth	we do
+2021-11-09 22:24:10	lousenti	@10x_programmer, the switch from C89 to C11 in the linux kernel is currently ongoing and as far as I have heard is a big deal => https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.15-Raising-GCC
+2021-11-09 22:24:47	porschephilth	then deploy process runs helm to deploy to the cluster
+2021-11-09 22:25:51	codeforf00d	are helm charts basically instructions for a how an app is built/ran?
+2021-11-09 22:25:58	porschephilth	i won't touch any of that because we're not prepared to take that on right now
+2021-11-09 22:25:59	codeforf00d	for generalized purpose?
+2021-11-09 22:26:09	codeforf00d	sorry if thats a loaded question
+2021-11-09 22:26:22	codeforf00d	ah ok thanks!
+2021-11-09 22:26:54	10x_programmer	@lousenti the Linux kernel is a nightmare anyway regarding the standard, a lot of GCC specific code, like all the non-standard structure initialization
+2021-11-09 22:27:33	codeforf00d	yeah that sounds great rob, i love to learn
+2021-11-09 22:28:23	codeforf00d	i think a template that requires you to delete pieces isnt a very good template, maybe thats just my opinion
+2021-11-09 22:28:33	codeforf00d	i know a template is generalized but ehh
+2021-11-09 22:28:45	jalopyjones	yea but if they have to use the template, the template needs to be able to return null if a thing isnt being used...
+2021-11-09 22:29:08	codeforf00d	ohh ok thanks, this is all new info for me
+2021-11-09 22:29:33	codeforf00d	never used any of these tools but its interesting
+2021-11-09 22:30:28	jalopyjones	"just chatting - im doin shit" all the bases covered
+2021-11-09 22:32:33	jalopyjones	you need a name, for this? well you arent bulding anything either... so this is just a call script?
+2021-11-09 22:34:12	codeforf00d	i think app sounds good, its fast and quick and pretty generic
+2021-11-09 22:34:15	jalopyjones	your nightmare im just along for the ride
+2021-11-09 22:34:19	codeforf00d	kapp yeah sure
+2021-11-09 22:34:59	jalopyjones	i think it should be kappa
+2021-11-09 22:35:03	jalopyjones	Kappa
+2021-11-09 22:35:18	jalopyjones	complete mock
+2021-11-09 22:35:22	porschephilth	i'm trying to think wht my equiv is for those items
+2021-11-09 22:35:24	jalopyjones	do it
+2021-11-09 22:35:33	codeforf00d	cmonBruh
+2021-11-09 22:36:04	codeforf00d	i think kapp is perfect
+2021-11-09 22:36:09	codeforf00d	best thing next to app
+2021-11-09 22:36:13	porschephilth	validate - we use SonarQube for code quality
+2021-11-09 22:36:24	codeforf00d	yup absolutely
+2021-11-09 22:36:28	porschephilth	install - we use Helm
+2021-11-09 22:36:45	lousenti	some other ideas: "setup" or "package" (too generic?) or "deployment" (a bit long?).
+2021-11-09 22:37:20	codeforf00d	every readme should REQUIRE install instructions idc how obvious
+2021-11-09 22:37:34	codeforf00d	absolutely rediculous when github repos just assume
+2021-11-09 22:38:18	jalopyjones	what?
+2021-11-09 22:38:20	codeforf00d	WOW
+2021-11-09 22:38:25	porschephilth	ah, we are not allowed to let the devs have any rights related to deploying anything, separation of duty for auditing reqs
+2021-11-09 22:38:34	codeforf00d	great engineer != good manager lol
+2021-11-09 22:38:43	jalopyjones	you dont have a centralized compelation of things, or was it his personal shit?
+2021-11-09 22:39:59	jalopyjones	fork of a fork, so fork everyones shit and make a business repo... for just work stuff...
+2021-11-09 22:40:03	codeforf00d	yeah absolutely rob; it can be frustrating but at the same time you dont want to damage relationships. its a weird emotion dance you have to do
+2021-11-09 22:40:04	lousenti	A little late, but "Standards" => https://imgs.xkcd.com/comics/standards.png :p
+2021-11-09 22:41:09	porschephilth	how can you not like Manjaro?" haha
+2021-11-09 22:41:41	codeforf00d	amazing comic LOL
+2021-11-09 22:41:45	codeforf00d	describes work so well
+2021-11-09 22:42:58	osgmr	I have yet to get shiboleet to work on a support call :|
+2021-11-09 22:50:33	porschephilth	pretty std readme for our stuff -
+2021-11-09 22:50:38	porschephilth	Ubuntu Service Base Image Base Image Details Layout structure is based on Ubuntu 18.04.xx LTS (Bionic Beaver) xx additions to the base image xx Root and Intermediate Certificates Standard service user to run the application as. User: appsvc (2000), Group: appsvc (2000) Example Dockerfile (golang usage) FROM xx.com/docker-virtual/base-ubuntu:<version> ARG $APP WORKDIR /app COPY $APP /app/app-bin USER 2000 RUN chmod 755 /app/app-bin Base Image Development Operations Running unit tests Currently un
+2021-11-09 22:50:56	lasting_	Comments
+2021-11-09 22:50:56	lasting_	1. On Friday, September 2 2011, 10:29 by nils_2
+2021-11-09 22:50:56	lasting_	    i am using:
+2021-11-09 22:50:56	lasting_	    /set weechat.look.prefix_join " "
+2021-11-09 22:50:56	lasting_	    /set weechat.look.prefix_quit " "
+2021-11-09 22:50:56	lasting_	    /set weechat.look.prefix_error "⚠ "
+2021-11-09 22:50:56	lasting_	    /set weechat.look.prefix_network "ℹ "
+2021-11-09 22:50:56	lasting_	    /set weechat.look.prefix_action "⚡"
+2021-11-09 22:50:56	lasting_	    /set weechat.look.item_buffer_filter "⚑"
+2021-11-09 22:50:56	lasting_	Search
+2021-11-09 22:50:56	lasting_	    Home
+2021-11-09 22:50:56	lasting_	    Archives
+2021-11-09 22:50:56	lasting_	Categories
+2021-11-09 22:50:56	lasting_	    core
+2021-11-09 22:50:56	lasting_	    scripts
+2021-11-09 22:50:56	lasting_	    plugins
+2021-11-09 22:50:56	lasting_	    site
+2021-11-09 22:50:56	lasting_	    irc
+2021-11-09 22:50:56	lasting_	    support
+2021-11-09 22:50:56	lasting_	Tags
+2021-11-09 22:50:56	lasting_	    api bar buffer colors debian filter game git highlight ignore irc layout perl plugin python regex relay release script security 
+2021-11-09 22:50:56	lasting_	Tous les mots-clés
+2021-11-09 22:50:56	lasting_	Subscribe
+2021-11-09 22:50:56	lasting_	    Entries feed
+2021-11-09 22:51:00	codeforf00d	offtopic but are you american rob?
+2021-11-09 22:51:08	lasting_	uhh sorry
+2021-11-09 22:51:18	lasting_	im special
+2021-11-09 22:51:36	codeforf00d	>.>
+2021-11-09 22:52:05	codeforf00d	Squid1 Squid2 TehePelo
+2021-11-09 22:52:33	codeforf00d	rob are you based in america atm?
+2021-11-09 22:53:24	codeforf00d	amurica' f yeah!
+2021-11-09 22:53:30	<--	lasting_ (lasting_@lasting_.tmi.twitch.tv) has left #rwxrob
+2021-11-09 22:53:39	Lasting_	join
+2021-11-09 22:54:50	-->	lasting_ (lasting_@lasting_.tmi.twitch.tv) has joined #rwxrob
+2021-11-09 22:54:50	--	Channel #rwxrob: 1 nick (0 ops, 0 voices, 1 normal)
+2021-11-09 22:56:31	lasting_	Is prefixing functions with 'x.' a go thing? Or is that a convention you like to follow?
+2021-11-09 22:57:11	elemossy	argument is for a commmand. parameter is fed into a function
+2021-11-09 22:57:56	elemossy	interesting
+2021-11-09 22:58:33	codeforf00d	good anology
+2021-11-09 22:58:42	codeforf00d	im gonna steal it
+2021-11-09 22:58:45	codeforf00d	:D
+2021-11-09 22:58:48	jalopyjones	i missed all that but im certain it was a useful analogy...
+2021-11-09 23:00:50	jalopyjones	no i dont understand that shell code cuz i have yet to find any good shell code learning resources...
+2021-11-09 23:01:40	jalopyjones	yes like make ghost scripts...
+2021-11-09 23:01:54	jalopyjones	on close - remove script
+2021-11-09 23:03:37	codeforf00d	it interests me!
+2021-11-09 23:04:25	codeforf00d	i dont know shell or any of the tools youre using. it may or may not look like hieroglyphs but thats ok!
+2021-11-09 23:04:32	proportionate1	Do you know "kapp" is already taken?
+2021-11-09 23:04:48	jalopyjones	but kappa is not HahaThink
+2021-11-09 23:04:50	jalopyjones	LUL
+2021-11-09 23:05:13	rwxrob	🦆 searching: what is kapp https://lite.duckduckgo.com/lite?kd=-1&kp=-1&q=what%20is%20kapp
+2021-11-09 23:05:18	proportionate1	https://github.com/vmware-tanzu/carvel-kapp
+2021-11-09 23:06:10	jalopyjones	is dirt taken?
+2021-11-09 23:06:15	codeforf00d	dirt hahaha
+2021-11-09 23:06:16	proportionate1	It's a Helm/kustomze/whatever alternative
+2021-11-09 23:06:34	jalopyjones	what about rock? is rock taken?
+2021-11-09 23:06:48	proportionate1	It has a kapp operator LUL
+2021-11-09 23:06:51	jalopyjones	"rock upgrade"
+2021-11-09 23:06:52	lasting_	sweet beaver?
+2021-11-09 23:06:59	jalopyjones	"rock install"
+2021-11-09 23:07:43	rwxrob	🦆 searching: john deere https://lite.duckduckgo.com/lite?kd=-1&kp=-1&q=john%20deere
+2021-11-09 23:07:55	lousenti	Run Forest Run, PaPaPanties
+2021-11-09 23:09:39	jalopyjones	oh just call the script "Cuda"
+2021-11-09 23:10:07	jalopyjones	"leather moto-coat"
+2021-11-09 23:10:16	proportionate1	krap
+2021-11-09 23:10:21	codeforf00d	call it 'f***in'
+2021-11-09 23:10:27	jalopyjones	lmao
+2021-11-09 23:10:34	jalopyjones	kraps not taken
+2021-11-09 23:10:46	proportionate1	i accept royalties
+2021-11-09 23:10:55	jalopyjones	lmao
+2021-11-09 23:10:57	codeforf00d	lmaooooo
+2021-11-09 23:11:11	codeforf00d	HA
+2021-11-09 23:11:11	jalopyjones	"its all krap, and if you dont like krap fuck em"
+2021-11-09 23:11:14	codeforf00d	YES
+2021-11-09 23:11:49	jalopyjones	but now you gotta fix all the auto complete
+2021-11-09 23:11:54	jalopyjones	i would
+2021-11-09 23:11:54	lousenti	setup control (setctl)
+2021-11-09 23:11:57	jalopyjones	hope that sticks
+2021-11-09 23:11:58	codeforf00d	krap is actually a really good name
+2021-11-09 23:11:59	proportionate1	What if all of these tools are the wrong abstraction? Hint: they are
+2021-11-09 23:12:07	jalopyjones	HA
+2021-11-09 23:12:30	jalopyjones	i would
+2021-11-09 23:12:40	jalopyjones	id be so annoyed
+2021-11-09 23:12:42	proportionate1	krapctl
+2021-11-09 23:13:00	jalopyjones	krapctl is only for the gui
+2021-11-09 23:13:02	isonec4	lol
+2021-11-09 23:13:17	proportionate1	the package manager is named diaper
+2021-11-09 23:13:29	jalopyjones	lmao
+2021-11-09 23:13:45	isonec4	@proportionate1 LUL
+2021-11-09 23:14:00	proportionate1	I pronounce it "krap control"
+2021-11-09 23:14:11	jalopyjones	everyone typically wonders where these names come from... this is how its brainstormed..
+2021-11-09 23:14:36	codeforf00d	when krap takes off ill remember this moment
+2021-11-09 23:14:37	jalopyjones	started with something that was already there... and it turns into krap
+2021-11-09 23:15:27	proportionate1	jalopy - the irony is that kapp is krap
+2021-11-09 23:15:47	jalopyjones	yea but thats fine cuz this is the replacement
+2021-11-09 23:15:54	codeforf00d	i can buy krap.gg for $85
+2021-11-09 23:16:00	proportionate1	krap.wtf
+2021-11-09 23:16:13	jalopyjones	and the replacement encapsulates the former kapp
+2021-11-09 23:16:29	codeforf00d	HAHHAAH YES
+2021-11-09 23:16:51	jalopyjones	so awesome
+2021-11-09 23:17:05	proportionate1	I may or may not have been the owner of openstack.wtf at one point in time.
+2021-11-09 23:17:16	jalopyjones	meanwhile the wife wondering why a domain of "krap.wtf" was on the creditcard...
+2021-11-09 23:17:37	jalopyjones	lmao
+2021-11-09 23:17:52	jalopyjones	which makes her happy so thats good..
+2021-11-09 23:18:22	codeforf00d	thats a great investment
+2021-11-09 23:18:26	proportionate1	poop emoji
+2021-11-09 23:18:40	jalopyjones	perfect
+2021-11-09 23:18:48	codeforf00d	god damn genius
+2021-11-09 23:19:38	isonec4	the logo could be a ruby
+2021-11-09 23:19:55	proportionate1	my favorite colleague and i are well-steeped in irreverent devops takes
+2021-11-09 23:22:11	isonec4	gavin belson from hooli
+2021-11-09 23:22:58	jalopyjones	so productive
+2021-11-09 23:22:59	isonec4	Kappa
+2021-11-09 23:23:22	jalopyjones	i can tell... now we have a new sudo
+2021-11-09 23:24:26	jalopyjones	ive make lots of krap
+2021-11-09 23:24:31	jalopyjones	but i dont share that shit
+2021-11-09 23:24:45	proportionate1	I joined late...is this for an oss project?
+2021-11-09 23:25:45	elemossy	My favorite real business name Cut Rate Auto Parts (acronym).
+2021-11-09 23:25:54	proportionate1	everyone who has k8s has shit everywhere...i see it all the time
+2021-11-09 23:26:32	proportionate1	the problem is these tools...totally wrong abstraction
+2021-11-09 23:28:19	proportionate1	interesting...ive done a LOT with investment banks and k8s
+2021-11-09 23:28:42	proportionate1	Kubebuilder
+2021-11-09 23:31:05	proportionate1	I'm of the opinion that if you're templating yaml, you're already fucked.
+2021-11-09 23:31:25	taniwha3	don't yaml at me!
+2021-11-09 23:31:40	taniwha3	i didn't hear my name :p just popped in
+2021-11-09 23:31:45	taniwha3	hello @proportionate1
+2021-11-09 23:32:01	proportionate1	:wave:
+2021-11-09 23:32:02	taniwha3	oh, a monolith
+2021-11-09 23:32:16	proportionate1	a microlith
+2021-11-09 23:32:38	taniwha3	control it with OPA and call it a regolith
+2021-11-09 23:35:51	taniwha3	i think the k8s app is the wrong abstraction at scale
+2021-11-09 23:35:58	taniwha3	good for small apps, but breaks down at scale
+2021-11-09 23:36:01	proportionate1	i legitimately convert all helm to kustomize
+2021-11-09 23:36:28	taniwha3	i want to use dagger and naml for all k8s deployments
+2021-11-09 23:37:58	proportionate1	solution: gitops
+2021-11-09 23:38:04	proportionate1	no one gets creds
+2021-11-09 23:38:19	taniwha3	yep, i don't want anyone having access to prod
+2021-11-09 23:39:28	bleedfuel	whaaat?/
+2021-11-09 23:39:30	taniwha3	gitops requires what?
+2021-11-09 23:39:46	taniwha3	oh that's not true but it helps
+2021-11-09 23:40:00	taniwha3	google is a monolith repo
+2021-11-09 23:40:05	taniwha3	but they don't use git
+2021-11-09 23:40:27	taniwha3	git's architecture requires us to move towards lots of little repos
+2021-11-09 23:40:30	taniwha3	which isn't a bad thing
+2021-11-09 23:41:11	taniwha3	you sure about that? ;)
+2021-11-09 23:41:26	proportionate1	I spent last week teaching git basics
+2021-11-09 23:41:58	bleedfuel	master as dev? why
+2021-11-09 23:42:28	bleedfuel	master is prod
+2021-11-09 23:42:37	taniwha3	also use main instead of master, inclusive naming :)
+2021-11-09 23:43:06	lasting_	excuse me, but using "master" is offensive. I'm very offended.
+2021-11-09 23:43:10	taniwha3	m<tab> and never start branches starting with m
+2021-11-09 23:43:21	codeforf00d	im offended at you being offended!
+2021-11-09 23:43:32	lasting_	kidding, kidding
+2021-11-09 23:43:34	bleedfuel	we have branch tests off of main. but then once code passes then it goes to "Main"
+2021-11-09 23:44:16	bleedfuel	why do you not like it
+2021-11-09 23:44:52	taniwha3	i always push for a new branch for every PR, and always squash merge into main
+2021-11-09 23:44:54	bleedfuel	i have not anyone has told me this. that is why i am wondering
+2021-11-09 23:45:11	taniwha3	specifically squash/merge, not rebase/merge
+2021-11-09 23:45:30	bleedfuel	noooo all PR /mr is to main
+2021-11-09 23:45:50	proportionate1	I force squashes on merge
+2021-11-09 23:45:54	taniwha3	CI/CD squashes, you don't get a choice ;)
+2021-11-09 23:45:56	taniwha3	enforced
+2021-11-09 23:46:07	proportionate1	You can force it as a CODEOWNER
+2021-11-09 23:46:40	taniwha3	i need to ressurect the pulls command from github.com/docker/gordon
+2021-11-09 23:46:47	proportionate1	This is one reason I liked Gerrit...you have no choice but to squash
+2021-11-09 23:47:14	bleedfuel	i dont like sqashing. i like to see every commit
+2021-11-09 23:47:41	taniwha3	why do you want to see all my intermediate commits from my dev work?
+2021-11-09 23:47:44	taniwha3	that's noise you don't need
+2021-11-09 23:47:57	proportionate1	@bleedfuel it depends...I have folks who commit "Fixed it" or "typo"
+2021-11-09 23:48:13	bleedfuel	ya so why do you not want to show it?
+2021-11-09 23:48:28	taniwha3	you want my completed feature, not all the tiny intermediate commits/snapshots
+2021-11-09 23:48:36	taniwha3	and i don't want all your intermediate steps :p
+2021-11-09 23:48:47	taniwha3	exactly, that's why we squash on PR
+2021-11-09 23:48:52	proportionate1	A commit that reads "Fixed it" says nothing about the change.
+2021-11-09 23:49:14	bleedfuel	you want commits so you can go back if someone f*** up and breakes the whole system
+2021-11-09 23:49:28	taniwha3	they don't, because you keep features small
+2021-11-09 23:49:41	bleedfuel	nooo
+2021-11-09 23:49:44	taniwha3	large commits you reject
+2021-11-09 23:49:50	taniwha3	tell the author to send smaller commits
+2021-11-09 23:49:54	proportionate1	@bleedfuel I get the same capability with a squash
+2021-11-09 23:50:16	bleedfuel	then you still have a "big" commit
+2021-11-09 23:50:43	taniwha3	so if i make a small change, then add a test, then fix a typo... then submit a PR... then CI/CD squashes. no problem ;)
+2021-11-09 23:50:48	proportionate1	Github UI lets you squash
+2021-11-09 23:50:48	taniwha3	you don't need to know how to squash
+2021-11-09 23:50:55	taniwha3	CI/CD does it
+2021-11-09 23:51:13	taniwha3	then you can't have gitops
+2021-11-09 23:51:19	taniwha3	ci/cd is crucial to gitops
+2021-11-09 23:51:35	bleedfuel	so that is not a problem with how you commit code. you are scared of the ci/di pipline
+2021-11-09 23:51:37	proportionate1	well...no
+2021-11-09 23:51:42	taniwha3	ci/cd doesn't negate good PR reviews
+2021-11-09 23:52:08	proportionate1	solarwinds
+2021-11-09 23:52:11	taniwha3	that isn't an issue with ci/cd, that's an issue with the human processes
+2021-11-09 23:52:22	taniwha3	ci/cd is a control but doesn't solve all problems
+2021-11-09 23:52:31	proportionate1	@taniwha3 agreed
+2021-11-09 23:52:58	taniwha3	yea, you need humans involved... but automate the processes between humans
+2021-11-09 23:53:16	proportionate1	you know how you solve this? immutable (and enforced) artifacts
+2021-11-09 23:53:46	bleedfuel	I just implemeted the new ci/cd and its flawed in many ways
+2021-11-09 23:53:50	taniwha3	e.g. i send a patch, why should you check if it compiles? ci/cd can check that automatically. only pull you in when a minimum set of quality gates are met, then it's you're responsibility as a repo owner to ensure what gets merged in is high quality and properly reviewed
+2021-11-09 23:54:19	bleedfuel	no you should check if you crap compiles
+2021-11-09 23:54:30	taniwha3	the humans break down in all cases :p
+2021-11-09 23:54:32	bleedfuel	that makes no sence
+2021-11-09 23:54:39	proportionate1	@bleedfuel worked on my laptop!
+2021-11-09 23:54:56	taniwha3	ugh, that's terrible
+2021-11-09 23:55:05	bleedfuel	test you own code @proportionate1 wtf. it should works before you commit
+2021-11-09 23:55:10	taniwha3	i used to be the "build cop" and I was harsh on my engineers :p
+2021-11-09 23:55:20	taniwha3	i had a team that reviewed all that stuff in detail
+2021-11-09 23:55:42	proportionate1	I do test before I commit...but that doesnt mean that anyone else should just trust my word
+2021-11-09 23:56:03	taniwha3	lol
+2021-11-09 23:56:07	taniwha3	please do
+2021-11-09 23:56:18	taniwha3	and then i met the president... again
+2021-11-09 23:56:25	bleedfuel	build cop, how you doing this then
+2021-11-09 23:56:45	bleedfuel	build cop RON
+2021-11-09 23:57:04	taniwha3	@bleedfuel lots and lots of automated integration tests that took control of the mouse and keyboard at the kernel level and ran a massive battery of tests on hundreds of systems simultaneously
+2021-11-09 23:57:34	proportionate1	Oh jesus hadoop
+2021-11-09 23:57:36	bleedfuel	Ok what does that point out
+2021-11-09 23:57:52	taniwha3	that important workflows don't break
+2021-11-09 23:58:01	taniwha3	not just unit tests, but integration tests
+2021-11-09 23:58:02	bleedfuel	ya pull crap
+2021-11-09 23:58:52	taniwha3	BDD gets devs to think of what the user is going to do, serves a good purpose
+2021-11-09 23:59:07	bleedfuel	yes that is fine
+2021-11-09 23:59:30	taniwha3	i worry about how much BDD scales in the long run, but it works in a lot of cases
+2021-11-09 23:59:47	taniwha3	eventually you need someone or a team to own the user's experience on the largest projects
+2021-11-10 00:00:02	taniwha3	devs don't do UX well, and that's a full time job
+2021-11-10 00:00:05	proportionate1	I have a crazier idea
+2021-11-10 00:00:16	taniwha3	let's hear it @proportionate1
+2021-11-10 00:00:17	proportionate1	how about TALKING to a customer?
+2021-11-10 00:00:21	bleedfuel	i kinda agree. you need to get the workflow of what is needed
+2021-11-10 00:00:23	taniwha3	oh couldn't possibly do that :p
+2021-11-10 00:00:35	taniwha3	i love talking with customers
+2021-11-10 00:00:59	bleedfuel	the other thing is you need to sell what you implemented.
+2021-11-10 00:01:02	taniwha3	listen to what customer pain points are carefully, then find a way to solve it more holistically than how they are thinking
+2021-11-10 00:02:39	taniwha3	what problem does k8s solve that google engineers had? ;)
+2021-11-10 00:03:34	basedpath	One of my biggest gripes at my current job is that sometimes it's hard to get documentation for internal services that you need to integrate to. Sometimes your customer/client is other devs, make documentation!
+2021-11-10 00:04:57	proportionate1	Lots of operators gripe about k8s being complicated...yet have never used it.
+2021-11-10 00:05:36	basedpath	Sure, but these services are sometimes massive. Reading the code is sometimes a huge task on it's own. One of our monoliths is over 6 million lines. Determining side effects is really hard.
+2021-11-10 00:05:57	lousenti	On a side note and a little late, but I think the workflow you mentioned earlier is called "trunk based development" => https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development && https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development
+2021-11-10 00:06:05	taniwha3	@proportionate1 i've found that to be true, they hear war stories from other people who supposedly ran it
+2021-11-10 00:06:16	taniwha3	i mean, there is real complexity there, but not where they often think
+2021-11-10 00:06:49	proportionate1	@taniwha3 they just want their shit-ass Chef recipes with their cushy job
+2021-11-10 00:08:01	proportionate1	honest question (because I see this a lot too)...how did your team land on k8s if they perhaps dont have the skills?
+2021-11-10 00:09:04	proportionate1	I mean who made the decision for k8s?
+2021-11-10 00:09:08	basedpath	I've had mixed experience with ops/product support people. I've known some that do the bare minimum and some that have their own runbooks, support script repos and know the product almost as well as some of the senior devs.
+2021-11-10 00:09:15	proportionate1	to pick
+2021-11-10 00:09:39	bleedfuel	nooo windows
+2021-11-10 00:09:39	proportionate1	No linux in banks
+2021-11-10 00:09:47	proportionate1	Kerberos everywhere
+2021-11-10 00:10:17	proportionate1	When I was contracted there it was PuTTY over VDI
+2021-11-10 00:10:19	aethuall	Docker desktop makes me throw up in my mouth
+2021-11-10 00:10:24	taniwha3	wait, banks use synchronous encryption everywhere? ;)
+2021-11-10 00:10:37	taniwha3	kerberos is synchronous encryption
+2021-11-10 00:10:42	bleedfuel	at least use cygwin
+2021-11-10 00:11:39	proportionate1	PuTTY is shit.
+2021-11-10 00:11:52	proportionate1	middle click to paste...LUL
+2021-11-10 00:12:20	aethuall	oh no
+2021-11-10 00:12:36	codeforf00d	thats scary
+2021-11-10 00:13:10	het_tanis	How goes the build?
+2021-11-10 00:13:21	aethuall	when I was at university somebody changed the server's default tmux binding from ctrl-B to ctrl-A LUL
+2021-11-10 00:13:30	het_tanis	I appreciate it.
+2021-11-10 00:13:39	aethuall	(one of the grumpy sysadmins in the university IT department no doubt)
+2021-11-10 00:13:52	het_tanis	Nice
+2021-11-10 00:14:04	het_tanis	I'll watch, yeah.
+2021-11-10 00:14:36	het_tanis	Shoot
+2021-11-10 00:14:49	het_tanis	I have not, actually.
+2021-11-10 00:14:54	het_tanis	I don't even use qq
+2021-11-10 00:15:02	taniwha3	ctrl c or ctrl z?
+2021-11-10 00:15:07	taniwha3	i misheard maybe
+2021-11-10 00:15:11	het_tanis	I just use : w q
+2021-11-10 00:15:19	het_tanis	yeah, I'm a nerd
+2021-11-10 00:15:23	taniwha3	ctrl z, killall vim :D
+2021-11-10 00:15:24	bleedfuel	:wq a;;l dau
+2021-11-10 00:15:29	het_tanis	I don't know any other cool ways
+2021-11-10 00:15:37	het_tanis	I only do what works for my simple brain. LOL
+2021-11-10 00:15:49	het_tanis	ha
+2021-11-10 00:15:50	aethuall	I just :wq
+2021-11-10 00:17:14	taniwha3	the best way to quit vim is with timeout
+2021-11-10 00:17:20	bleedfuel	yy<x numbers> is the best
+2021-11-10 00:17:22	taniwha3	e.g. i want to use it for 5 minutes
+2021-11-10 00:17:25	taniwha3	timeout 5m vim
+2021-11-10 00:17:33	taniwha3	auto kills at 5m
+2021-11-10 00:18:02	bleedfuel	timeout? really that is a thing
+2021-11-10 00:18:10	aethuall	did I ever get you to look at my crappy attempt at learning go with a shell emulator?
+2021-11-10 00:18:24	aethuall	https://github.com/jaydonhansen/gosh
+2021-11-10 00:18:32	taniwha3	timeout is a thing
+2021-11-10 00:19:20	lousenti	@proportionate1, don't know about the company rob is working at, but my best guess: Money and long term planning. Building up a k8s cluster on commodity hardware/server is probably way (!) cheaper, future proof (hardware/people) and flexible/scalable (eg with AWS) than doing all the HPC/CAE stuff on old legacy Cray, SGI and IBM hardware.
+2021-11-10 00:20:11	aethuall	yeah my inexperience with Go shows in my code but it's my first hacky attempt at something
+2021-11-10 00:20:17	aethuall	LUL
+2021-11-10 00:21:37	taniwha3	he moonwalked off the set
+2021-11-10 00:21:53	taniwha3	he was
+2021-11-10 00:22:00	proportionate1	She was on Real Housewives of Orange County
+2021-11-10 00:22:13	proportionate1	yep
+2021-11-10 00:23:00	proportionate1	Jeana Keough
+2021-11-10 00:23:02	bleedfuel	lol
+2021-11-10 00:23:20	taniwha3	i know someone who was on the first-ever music video shown on MTV :p
+2021-11-10 00:23:24	taniwha3	song was video killed the radio star
+2021-11-10 00:23:37	taniwha3	no, someone different
+2021-11-10 00:23:49	taniwha3	i know the daughter of one of the dancers
+2021-11-10 00:24:02	bleedfuel	yo you got her. just DM her
+2021-11-10 00:24:26	bleedfuel	lol
+2021-11-10 00:24:29	taniwha3	this convo is so sus lol
+2021-11-10 00:24:40	taniwha3	suspicious
+2021-11-10 00:24:52	taniwha3	not at all :p
+2021-11-10 00:25:28	het_tanis	Stacy's mom has got it going on.
+2021-11-10 00:25:30	taniwha3	i don't understand why people care
+2021-11-10 00:25:35	taniwha3	lol, stacy's mom
+2021-11-10 00:26:05	het_tanis	Wait, your wife's name is Julie?
+2021-11-10 00:26:08	het_tanis	Mine is too
+2021-11-10 00:26:11	het_tanis	Not kidding
+2021-11-10 00:26:19	het_tanis	ha
+2021-11-10 00:26:25	taniwha3	his wife is stacy's mom
+2021-11-10 00:27:25	het_tanis	It's soft porn because you stay soft when you watch it....
+2021-11-10 00:27:48	taniwha3	Adam Schlesinger who did stacy's mom song passed away
+2021-11-10 00:27:56	taniwha3	coavid
+2021-11-10 00:27:57	het_tanis	I have to turn in, in a bit too.
+2021-11-10 00:28:05	taniwha3	take care!
+2021-11-10 00:28:12	taniwha3	<fish><
+2021-11-10 00:29:22	--	irc: disconnected from server
+2021-11-10 00:42:11	-->	lasting_ (lasting_@lasting_.tmi.twitch.tv) has joined #rwxrob
+2021-11-10 00:42:11	--	Channel #rwxrob: 1 nick (0 ops, 0 voices, 1 normal)
+2021-11-10 00:42:35	--	irc: disconnected from server
+2021-11-10 00:42:51	-->	lasting_ (lasting_@lasting_.tmi.twitch.tv) has joined #rwxrob
+2021-11-10 00:42:52	--	Channel #rwxrob: 1 nick (0 ops, 0 voices, 1 normal)
+2021-11-10 00:43:45	lasting_	night
+2021-11-10 00:43:59	--	irc: disconnected from server

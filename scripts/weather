@@ -101,6 +101,7 @@ rc(){
     if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
       shortcut_check "$@"
     fi
+    curr_weather_at_location "$@"
   fi
   if test "$1" = "-cm"; then
     shift 1
