@@ -1,0 +1,89 @@
+#!/bin/bash
+
+declare -a COMMANDS=(help)
+#------------------------------ Completion --------------------------------
+# complete -C programname programname - Add to your .bashrc
+# All completion logic goes here
+if [[ -n $COMP_LINE ]]; then
+  for c in ${COMMANDS[@]}; do
+    [[ ${c:0:${#2}} = $2 ]] && echo "$c"
+  done
+  exit
+fi
+#------------------------------- Variables --------------------------------
+stringlength=0
+linelength=69
+commentprefix="#"
+commentsymbol="-"
+commentstring=""
+currentline=""
+#--------------------------------------------------------------------------
+filter(){
+  if test "$#" -eq 0; then
+    read -r currentline
+    stringlength=${#currentline} 
+    if test "$stringlength" -eq 0; then
+      linelength=72
+    fi
+  fi
+
+  if test "$#" -ge 1; then
+    currentline="$1"
+    stringlength=${#currentline} 
+  fi
+
+    fillnum=$((linelength-stringlength))
+    side=$((fillnum/2))
+    x=0
+    while test "$x" -le "$side";
+    do 
+      commentstring=${commentstring}${commentsymbol}
+      x=$((x+1))
+    done
+    side="$commentstring"
+
+    if test "$stringlength" -eq 0; then
+      commentstring="${commentprefix}${side}${side}"
+      echo "$commentstring"
+      return 0
+    fi
+    if test "$((stringlength%2))" -eq 0; then
+      commentstring="${commentprefix}${side} ${currentline} ${side}${commentsymbol}${commentsymbol}"
+      echo "$commentstring"
+      return 0
+    fi
+
+    commentstring="${commentprefix}${side} ${currentline} ${side}${commentsymbol}"
+    echo "$commentstring"
+    return 0
+}
+#------------------------------ Delegation --------------------------------
+mktitle(){
+  if test "$#" -eq 0; then
+    filter 
+    return 0
+  fi
+
+  if test -n "$1"; then
+    if test "$1" = "help"; then
+      help 
+      return 0
+    fi
+    filter "$@" 
+    return 0
+  fi
+}
+#--------------------------------- Help -----------------------------------
+help(){
+  printf "  This function creates comment 'titles'. It can be used as a filter
+  or you can call it directly. With no argument passed or no text on current
+  line it will draw a blank dashed at line 72 width by default.\n\n " 
+  printf "Usage: ctitle [help | [texttocenter]]\n"
+
+}
+#--------------------------------- Main -----------------------------------
+main(){
+  mktitle "$@"
+}
+main "$@"
+#--------------------------------------------------------------------------
