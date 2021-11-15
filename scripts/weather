@@ -21,7 +21,7 @@ if test -z "$WEATHER_API"; then
   printf "%s\n" "Weather API environment variable isn't currently set"
   exit 1
 fi
-
+#------------------------------- Call API ---------------------------------
 curr_weather_at_location(){
     curl -s GET "api.openweathermap.org/data/2.5/weather?zip={$1},us&units=imperial&appid={$WEATHER_API}" | jq "." |
       (
@@ -60,7 +60,7 @@ short_curr_weather_at_location(){
      )   
 }
 
-
+#------------------------------- Shortcuts --------------------------------
 shortcut_check(){
   home_zip="48198"
   tim_zip="19102"
@@ -88,7 +88,7 @@ shortcut_check(){
     exit 1
   fi
 }
-
+#------------------------------ Run Command -------------------------------
 rc(){
   # If weather command is called with no args then print "help" to show commands
   if test "$#" -eq 0 -o "$#" -eq 1 -a "$1" = "help"; then
@@ -115,7 +115,7 @@ rc(){
 _help(){
   printf "%s\n" "Usage:weather ([current | -c] | help)"
 }
-
+#--------------------------------- Main -----------------------------------
 main(){
  rc "$@"
 }

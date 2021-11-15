@@ -5,8 +5,8 @@ declare -a COMMANDS=(help)
 # complete -C programname programname - Add to your .bashrc
 # All completion logic goes here
 if [[ -n $COMP_LINE ]]; then
-  for c in ${COMMANDS[@]}; do
-    [[ ${c:0:${#2}} = $2 ]] && echo "$c"
+  for c in "${COMMANDS[@]}"; do
+    [[ ${c:0:${#2}} = "$2" ]] && echo "$c"
   done
   exit
 fi
@@ -19,17 +19,13 @@ commentstring=""
 currentline=""
 #--------------------------------------------------------------------------
 filter(){
+  commentprefix=${1:-#}
   if test "$#" -eq 0; then
     read -r currentline
     stringlength=${#currentline} 
     if test "$stringlength" -eq 0; then
       linelength=72
     fi
-  fi
-
-  if test "$#" -ge 1; then
-    currentline="$1"
-    stringlength=${#currentline} 
   fi
 
     fillnum=$((linelength-stringlength))
@@ -69,8 +65,10 @@ mktitle(){
       help 
       return 0
     fi
-    filter "$@" 
-    return 0
+    if test "$1" = "'" || test "$1" = "//"; then
+      filter "$@" 
+      return 0
+    fi
   fi
 }
 #--------------------------------- Help -----------------------------------
