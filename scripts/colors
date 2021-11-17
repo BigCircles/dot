@@ -1,0 +1,62 @@
+#!/bin/bash
+
+declare -a COMMANDS=(help term 256)
+#------------------------------ Completion --------------------------------
+# complete -C completiontest completiontest - Use this program to do completion
+# All completion logic goes here
+if [[ -n $COMP_LINE ]]; then
+  for c in "${COMMANDS[@]}"; do
+    [[ ${c:0:${#2}} = "$2" ]] && echo "$c"
+  done
+  exit
+fi
+#--------------------------------- Notes ----------------------------------
+# a 5 prefix makes the text blink so ex; \e[5;31m
+# a 1 prefix makes the text BOLD: ex: 1;31 # a 4 makes the text underlined: ex: 4;31M
+# https://chrisyeh96.github.io/2020/03/28/terminal-colors.html - more info
+#---------------------------- Terminal Colors -----------------------------
+terminal_colors_fg(){
+  declare -a colorlist=(1 2 3 4 5 7 9 31 32 33 34 35 36 41 42 43 44 45 46 47 91 92 93 94 95 96 100 101 102 103 104 105 106)
+  printf "%s\n\n" "Usage: \e[[colornumber]m - example: \e[31m"
+
+  for color in "${colorlist[@]}"; do
+    printf "%b%s " "\e[0;${color}m${color}\e[0m"
+  done
+  printf "\n"
+}
+#------------------------------ 256 Colors --------------------------------
+256_colors_fg(){
+  printf "%s\n" "--------------------------------- Usage ----------------------------------"
+  printf "%s\n" "Usage: \e[38;5;[colornum]m for fg colors"
+  printf "%s\n" "Usage: \e[48;5;[colornum]m for bg colors"
+  printf "%s\n" "To experiment with rgb use: \e[38;2;r;g;b"
+  printf "%s\n" "Usage: \e[0m to reset color or use a different color code to change"
+ 
+  printf "%s\n" "------------------------------ Foreground --------------------------------"  
+  for color in {0..255}; do
+    printf "%b%s" "\e[38;5;${color}m${color}\e[0m "
+  done
+  printf "\n"
+  printf "%s" "------------------------------ Background --------------------------------"  
+  printf "\n"
+  for color in {0..255}; do
+    printf "%b%s" "\e[48;5;${color}m${color}\e[0m "
+  done
+}
+#--------------------------------- Usage ----------------------------------
+usage(){
+  printf "%s\n" "Usage: colors [ help | term | 256 ]"
+}
+#--------------------------------- Main -----------------------------------
+main(){
+  if test "$#" -eq 0 -o "$#" -eq 1 -a "$1" = "help"; then
+    usage
+  elif test "$1" = "term"; then
+    terminal_colors_fg
+  elif test "$1" = "256"; then
+    256_colors_fg else
+  else
+    printf "Invalid argument, type 'help' for usage."
+  fi
+}
+main "$@"

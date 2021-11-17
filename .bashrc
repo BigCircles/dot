@@ -153,3 +153,4 @@ complete -C completiontest completiontest
 complete -C weather weather
 complete -C lab lab
 complete -C ctitle ctitle
+complete -C colors colors

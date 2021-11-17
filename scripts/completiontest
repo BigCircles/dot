@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 declare -a COMMANDS=(foo bar blah)
-#----------------------------- Completion --------------------------
+#------------------------------ Completion --------------------------------
 # complete -C completiontest completiontest - Use this program to do completion
 # All completion logic goes here
 if [[ -n $COMP_LINE ]]; then
@@ -10,7 +10,6 @@ if [[ -n $COMP_LINE ]]; then
   done
   exit
 fi
-#--------------------------- End Completion ------------------------
-
+#--------------------------------------------------------------------------
 
 
