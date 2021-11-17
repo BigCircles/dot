@@ -2399,3 +2399,87 @@
 2021-11-10 00:44:21		fifo: pipe closed
 2021-11-10 00:44:23		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
 2021-11-10 01:00:09		fifo: pipe closed
+2021-11-16 17:05:30		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-16 17:05:58		[irc]  /disconnect  [<server>|-all|-pending [<reason>]]
+2021-11-16 17:05:58		disconnect from one or all IRC servers
+2021-11-16 17:05:58		  server: internal server name
+2021-11-16 17:05:58		    -all: disconnect from all servers
+2021-11-16 17:05:58		-pending: cancel auto-reconnection on servers currently reconnecting
+2021-11-16 17:05:58		  reason: reason for the "quit"
+2021-11-16 17:06:14		[irc]  /disconnect  [<server>|-all|-pending [<reason>]]
+2021-11-16 17:06:14		disconnect from one or all IRC servers
+2021-11-16 17:06:14		  server: internal server name
+2021-11-16 17:06:14		    -all: disconnect from all servers
+2021-11-16 17:06:14		-pending: cancel auto-reconnection on servers currently reconnecting
+2021-11-16 17:06:14		  reason: reason for the "quit"
+2021-11-16 17:06:30	=!=	irc: command "join" must be executed on connected irc server
+2021-11-16 17:06:38	=!=	irc: command "join" must be executed on connected irc server
+2021-11-16 17:06:51		fifo: pipe closed
+2021-11-16 17:06:53		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-16 17:07:25		fifo: pipe closed
+2021-11-16 17:07:27		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-16 17:07:53		[core]
+2021-11-16 17:07:53		  away     cursor   history  mute     reload   unset    window 
+2021-11-16 17:07:53		  bar      debug    input    plugin   repeat   upgrade
+2021-11-16 17:07:53		  buffer   eval     key      print    save     uptime 
+2021-11-16 17:07:53		  color    filter   layout   proxy    secure   version
+2021-11-16 17:07:53		  command  help     mouse    quit     set      wait   
+2021-11-16 17:07:53		[perl]
+2021-11-16 17:07:53		  perl
+2021-11-16 17:07:53		[relay]
+2021-11-16 17:07:53		  relay
+2021-11-16 17:07:53		[logger]
+2021-11-16 17:07:53		  logger
+2021-11-16 17:07:53		[spell]
+2021-11-16 17:07:53		  spell
+2021-11-16 17:07:53		[script]
+2021-11-16 17:07:53		  script
+2021-11-16 17:07:53		[fset]
+2021-11-16 17:07:53		  fset
+2021-11-16 17:07:53		[exec]
+2021-11-16 17:07:53		  exec
+2021-11-16 17:07:53		[fifo]
+2021-11-16 17:07:53		  fifo
+2021-11-16 17:07:53		[ruby]
+2021-11-16 17:07:53		  ruby
+2021-11-16 17:07:53		[charset]
+2021-11-16 17:07:53		  charset
+2021-11-16 17:07:53		[xfer]
+2021-11-16 17:07:53		  me  xfer
+2021-11-16 17:07:53		[irc]
+2021-11-16 17:07:53		  admin       halfop      motd        rehash      time      
+2021-11-16 17:07:53		  allchan     ignore      msg         remove      topic     
+2021-11-16 17:07:53		  allpv       info        names       restart     trace     
+2021-11-16 17:07:53		  allserv     invite      nick        sajoin      unban     
+2021-11-16 17:07:53		  ban         ison        notice      samode      unquiet   
+2021-11-16 17:07:53		  cap         join        notify      sanick      userhost  
+2021-11-16 17:07:53		  connect     kick        op          sapart      users     
+2021-11-16 17:07:53		  ctcp        kickban     oper        saquit      version   
+2021-11-16 17:07:53		  cycle       kill        part        server      voice     
+2021-11-16 17:07:53		  dcc         links       ping        service     wallchops 
+2021-11-16 17:07:53		  dehalfop    list        pong        servlist    wallops   
+2021-11-16 17:07:53		  deop        lusers      query       squery      who       
+2021-11-16 17:07:53		  devoice     map         quiet       squit       whois     
+2021-11-16 17:07:53		  die         me          quote       stats       whowas    
+2021-11-16 17:07:53		  disconnect  mode        reconnect   summon    
+2021-11-16 17:07:53		[trigger]
+2021-11-16 17:07:53		  trigger
+2021-11-16 17:07:53		[buflist]
+2021-11-16 17:07:53		  buflist
+2021-11-16 17:07:53		[python]
+2021-11-16 17:07:53		  python
+2021-11-16 17:07:53		[alias]
+2021-11-16 17:07:53		  AAWAY    C        IG       M        REDRAW   UMODE    WII    
+2021-11-16 17:07:53		  alias    CHAT     J        MSGBUF   SAY      V        WM     
+2021-11-16 17:07:53		  ANICK    CL       K        MUB      SIGNOFF  W        WW     
+2021-11-16 17:07:53		  BEEP     CLOSE    KB       N        T        WC     
+2021-11-16 17:07:53		  BYE      EXIT     LEAVE    Q        UB       WI     
+2021-11-16 17:08:53	=!=	irc: command "join" must be executed on connected irc server
+2021-11-16 17:09:06		All servers:
+2021-11-16 17:09:06		   twitch
+2021-11-16 17:09:11	=!=	Error with command "/server twitch" (help on command: /help server)
+2021-11-16 17:09:22	=!=	Error with command "/server connect twitch" (help on command: /help server)
+2021-11-16 17:09:24		fifo: pipe closed
+2021-11-16 17:09:27		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2021-11-16 17:10:33	=!=	irc: command "join" must be executed on connected irc server
+2021-11-16 17:10:37		fifo: pipe closed

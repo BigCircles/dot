@@ -157,3 +157,55 @@
 2021-11-10 00:44:23	--	You are in a maze of twisty passages, all alike.
 2021-11-10 00:44:23	--	>
 2021-11-10 01:00:09	--	irc: disconnected from server
+2021-11-16 17:05:30	--	irc: connecting to server irc.twitch.tv/6667...
+2021-11-16 17:05:30	--	irc: connected to irc.twitch.tv/6667 (44.226.36.141)
+2021-11-16 17:05:30	--	Welcome, GLHF!
+2021-11-16 17:05:30	--	Your host is tmi.twitch.tv
+2021-11-16 17:05:30	--	This server is rather new
+2021-11-16 17:05:30	--	-
+2021-11-16 17:05:30	--	-
+2021-11-16 17:05:30	--	You are in a maze of twisty passages, all alike.
+2021-11-16 17:05:30	--	>
+2021-11-16 17:05:37	=!=	irc: this buffer is not a channel!
+2021-11-16 17:06:23	--	irc: disconnected from server
+2021-11-16 17:06:45	--	irc: connecting to server irc.twitch.tv/6667...
+2021-11-16 17:06:45	--	irc: connected to irc.twitch.tv/6667 (34.217.198.238)
+2021-11-16 17:06:45	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2021-11-16 17:06:45	--	irc: disconnecting from server...
+2021-11-16 17:06:45	--	irc: disconnected from server
+2021-11-16 17:06:45	--	irc: reconnecting to server in 10 seconds
+2021-11-16 17:06:51	--	irc: disconnected from server
+2021-11-16 17:06:53	--	irc: connecting to server irc.twitch.tv/6667...
+2021-11-16 17:06:53	--	irc: connected to irc.twitch.tv/6667 (44.226.36.141)
+2021-11-16 17:06:53	--	Welcome, GLHF!
+2021-11-16 17:06:53	--	Your host is tmi.twitch.tv
+2021-11-16 17:06:53	--	This server is rather new
+2021-11-16 17:06:53	--	-
+2021-11-16 17:06:53	--	-
+2021-11-16 17:06:53	--	You are in a maze of twisty passages, all alike.
+2021-11-16 17:06:53	--	>
+2021-11-16 17:07:25	--	irc: disconnected from server
+2021-11-16 17:07:27	--	irc: connecting to server irc.twitch.tv/6667...
+2021-11-16 17:07:27	--	irc: connected to irc.twitch.tv/6667 (44.226.36.141)
+2021-11-16 17:07:27	--	Welcome, GLHF!
+2021-11-16 17:07:27	--	Your host is tmi.twitch.tv
+2021-11-16 17:07:27	--	This server is rather new
+2021-11-16 17:07:27	--	-
+2021-11-16 17:07:27	--	-
+2021-11-16 17:07:27	--	You are in a maze of twisty passages, all alike.
+2021-11-16 17:07:27	--	>
+2021-11-16 17:07:51	=!=	irc: this buffer is not a channel!
+2021-11-16 17:08:45	--	irc: disconnected from server
+2021-11-16 17:09:24	--	irc: disconnected from server
+2021-11-16 17:09:27	--	irc: connecting to server irc.twitch.tv/6667...
+2021-11-16 17:09:27	--	irc: connected to irc.twitch.tv/6667 (100.20.159.232)
+2021-11-16 17:09:27	--	Welcome, GLHF!
+2021-11-16 17:09:27	--	Your host is tmi.twitch.tv
+2021-11-16 17:09:27	--	This server is rather new
+2021-11-16 17:09:27	--	-
+2021-11-16 17:09:27	--	-
+2021-11-16 17:09:27	--	You are in a maze of twisty passages, all alike.
+2021-11-16 17:09:27	--	>
+2021-11-16 17:10:22	--	irc: disconnected from server
+2021-11-16 17:10:27	=!=	irc: this buffer is not a channel!
+2021-11-16 17:10:37	--	irc: disconnected from server

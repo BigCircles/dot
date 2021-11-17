@@ -1,12 +1,12 @@
 #!/bin/bash
 
-declare -a COMMANDS=(current -c  help)
+declare -a COMMANDS=(current -c -cm help)
 #----------------------------- Completion --------------------------
 # complete -C completiontest completiontest - Use this program to do completion
 # All completion logic goes here
 if [[ -n $COMP_LINE ]]; then
-  for c in ${COMMANDS[@]}; do
-    [[ ${c:0:${#2}} = $2 ]] && echo "$c"
+  for c in "${COMMANDS[@]}"; do
+    [[ ${c:0:${#2}} = "$2" ]] && echo "$c"
   done
   exit
 fi
@@ -54,7 +54,7 @@ short_curr_weather_at_location(){
           result="$(cat)"
           temp="$(echo "$result" | jq ".main.temp")"
           condition="$(echo "$result" | jq ".weather[].main?")"
-          printf "Temp:%s°F Condition:%s" \
+          printf "Temp:%s°F Condition:%s\n" \
           "$temp" \
           "$condition"; exit 0
      )   
@@ -65,50 +65,66 @@ shortcut_check(){
   home_zip="48198"
   tim_zip="19102"
   dave_zip="94559"
-
-  if test "$1" == "home"; then
-    if test "$current_minimized" = true; then
-      short_curr_weather_at_location "$home_zip" 
-      exit 0
-    fi
-    curr_weather_at_location "$home_zip"
-    exit 0
-  fi
+  kay_zip="48130"
   
-  if test "$1" == "tim"; then
-    curr_weather_at_location "$tim_zip"
-    exit 
-  fi
-
-  if test "$1" == "dave"; then
-    curr_weather_at_location "$dave_zip"
-    exit
-  else
-    printf "%s\n" "'$1' is not a valid shortcut."
-    exit 1
-  fi
+  case $1 in
+    "home")
+      zip_to_call="$home_zip";;
+    "tim")
+      zip_to_call="$tim_zip";;
+    "dave")
+      zip_to_call="$dave_zip";;
+    "kay")
+      zip_to_call="$kay_zip";;
+    *)
+      printf "%s\n" "'$1' is not a valid shortcut."
+      return 1
+  esac  
+  delagate_command
 }
+
+delagate_command(){
+  if test "$current_minimized" == true; then
+    short_curr_weather_at_location "$zip_to_call" 
+    return 0
+  fi
+    curr_weather_at_location "$zip_to_call"
+    return 0
+}
+
 #------------------------------ Run Command -------------------------------
 rc(){
+  zip_to_call=""
   # If weather command is called with no args then print "help" to show commands
   if test "$#" -eq 0 -o "$#" -eq 1 -a "$1" = "help"; then
     _help
     exit 0
   fi 
 
-  if test "$1" = "current" -o "$1" = "curr" -o  "$1" = "-c"; then
+  if test "$1" = "current" -o "$1" = "curr" -o  "$1" = "-c" -o "$1" = "-cm"; then
+    if test "$1" = "-cm"; then
+      current_minimized=true
+    fi
     shift 1
+
     if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
       shortcut_check "$@"
+      if test "$?" = 1; then
+        error="$?"
+        printf "%s\n" "The argument entered was not a valid shortcut; which is configured in the weather script."
+        return 1
+      fi
+      return 0
+    fi 
+
+    if [[ "$1" =~ ^[0-9]{5}$ ]]; then
+      zip_to_call="$1" 
+      delagate_command
+    else
+      printf "%s\n" "'$1' is not a valid argument! Please enter a 5 digit American Zip code." 
+      return 1
     fi
-    curr_weather_at_location "$@"
-  fi
-  if test "$1" = "-cm"; then
-    shift 1
-    current_minimized=true
-    if [[ $1 =~ ^[A-Z]?[a-z]+$ ]]; then
-      shortcut_check "$@"
-    fi
+    return 0
   fi
 }
 # Print possible commands related to weather

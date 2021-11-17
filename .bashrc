@@ -26,6 +26,7 @@ export PS1='\[\e[0;36m\]\u\[\e[0;33m\]@\[\e[0;35m\]\h \[\e[0;33m\]\W\$\[\e[0m\] 
 export EDITOR=vi
 export VISUAL=vi
 export PAGER="less"
+export MANPAGER='less -I'
 
  #-------------- Path  --------------------------
 
@@ -102,8 +103,8 @@ export LESS_TERMCAP_ue=""
 #-------------- dir colors ---------------------
 
 if command -v "dircolors" &>/dev/null; then
-  if test -r ~/.config/ls/.dircolors; then
-    eval "$(dircolors -b ~/.config/ls/.dircolors)"
+  if test -r ~/.dircolors; then
+    eval "$(dircolors -b ~/.dircolors)"
   else
     eval "$(dircolors -b)"
   fi

@@ -12,9 +12,8 @@ if [[ -n $COMP_LINE ]]; then
 fi
 #--------------------------- End Completion ------------------------
 filter(){
-  set -x
   while IFS= read -r args; do
-    echo "${1:=#}$args" 
+    echo "${1:-#}$args" 
   done
 }
 #--------------------------------- Main -----------------------------------
