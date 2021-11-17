@@ -28,6 +28,7 @@ export VISUAL=vi
 export PAGER="less"
 export MANPAGER='less -I'
 
+
  #-------------- Path  --------------------------
 
   export PATH="$HOME/.local/bin:$PATH"
