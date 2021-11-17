@@ -129,7 +129,7 @@ rc(){
 }
 # Print possible commands related to weather
 _help(){
-  printf "%s\n" "Usage:weather ([current | -c] | help)"
+  printf "%s\n" "Usage:weather ([current | -c | curr] | help)"
 }
 #--------------------------------- Main -----------------------------------
 main(){
