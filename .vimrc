@@ -3,6 +3,10 @@ set nocompatible
 
 " vimscript stuff learnvimscriptthehardway.stevelosh.com/
 
+" To add a word to your spell list cursor over the word and `zg`
+  set spelllang=en
+  set spell
+
 " activate line numbering
 set nu
 
@@ -38,7 +42,7 @@ filetype plugin indent on
 color desert
 
 "Run this function to find out what your cursor is currently
-"highlightning so that you can change it.
+"highlighting so that you can change it.
 function! <SID>SynStack()
   if !exists("*synstack")
     return

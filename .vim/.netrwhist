@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/stremler/.var'
+let g:netrw_dirhist_7='/home/stremler/.weechat'
+let g:netrw_dirhist_6='/home/stremler/.tmux.conf'
+let g:netrw_dirhist_5='/home/stremler/.gnupg'
+let g:netrw_dirhist_4='/home/stremler/repos/dotfiles/.git'
+let g:netrw_dirhist_3='/home/stremler/.mozilla'
+let g:netrw_dirhist_2='/home/stremler/repos/ubin'
+let g:netrw_dirhist_1='/home/stremler/repos/labs'

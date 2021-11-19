@@ -20,13 +20,13 @@ export LABDIR="/home/stremler/repos/labs"
 
 
 
-export PS1='\[\e[0;36m\]\u\[\e[0;33m\]@\[\e[0;35m\]\h \[\e[0;33m\]\W\$\[\e[0m\] '
+export PS1='\[\e[0;36m\]\u\[\e[0;33m\]@\[\e[0;35m\]\h:\[\e[0;33m\]\W\$\[\e[0m\] '
 
 #-----------------------------------------------
 export EDITOR=vi
 export VISUAL=vi
 export PAGER="less"
-export MANPAGER='less -I'
+export MANPAGER='less -I -X'
 
 
  #-------------- Path  --------------------------
@@ -62,7 +62,9 @@ mkdir -p "$SCRIPTS" &>/dev/null
 #remember first arg will be first in the path
 pathprepend \
   ~/.local/bin \
-  $SCRIPTS
+  $SCRIPTS \
+  ~/repos/education/headfirstc/exercises
+
 
 #remember last arg will be the first in the path
 pathappend \
@@ -84,6 +86,10 @@ export CDPATH=.:\
 ~/repos:\
 ~/repos/scripts:\
 ~/repos/labs:\
+/home/stremler/repos/education/headfirstc/exercises:\
+/home/stremler/repos/education/headfirstc:\
+
+
 
 # example path ~/repos/zet:\
 
