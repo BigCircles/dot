@@ -1,3 +1,5 @@
 vimscript
 learnvimscriptthehardway
 echom
+const
+strstr
