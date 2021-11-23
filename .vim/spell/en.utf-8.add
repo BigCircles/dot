@@ -3,3 +3,6 @@ learnvimscriptthehardway
 echom
 const
 strstr
+argv
+argc
+args
