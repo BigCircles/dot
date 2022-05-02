@@ -2483,3 +2483,10 @@
 2021-11-16 17:09:27		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
 2021-11-16 17:10:33	=!=	irc: command "join" must be executed on connected irc server
 2021-11-16 17:10:37		fifo: pipe closed
+2022-04-17 20:03:01		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, xfer
+2022-04-17 20:03:28	=!=	You can not write text in this buffer
+2022-04-17 20:03:29	=!=	You can not write text in this buffer
+2022-04-17 20:03:38	=!=	You can not write text in this buffer
+2022-04-17 20:03:40	=!=	You can not write text in this buffer
+2022-04-17 20:03:42	=!=	You can not write text in this buffer
+2022-04-17 20:03:44		fifo: pipe closed
