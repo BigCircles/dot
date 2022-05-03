@@ -20,21 +20,24 @@ int main(){
   char gameboard[HEIGHT][LENGTH];
   char prev_input; 
   fruit currentfruit = spawnfruit();
-  coords player = {(HEIGHT/2),(LENGTH/2)};
+  linkedlist* player = createnode((HEIGHT/2), (LENGTH/2));
 
   // ncurses init
   initscr(); // Start curses mode
   curs_set(0);
   nocbreak;
   noecho();
+  initboard(gameboard, player, currentfruit);
+
   
   // game loop
   while(!gamelost(prev_input)){
     nanosleep((const struct timespec[]){{0,500000000}},NULL);
-    draw(gameboard, player, currentfruit);
     input = getinput();
-    prev_input = update(input,&player, gameboard, prev_input, &currentfruit);
+    prev_input = update(input, player, gameboard, prev_input, &currentfruit);
+    draw(gameboard, player, currentfruit);
   }
+  freemem(player);
   endwin();
   return 0;
 }
@@ -44,31 +47,16 @@ int main(){
  Left / Right Array position Length 0, max-1 
  Top / Bottom Array position Height 0, max-1
  * */
-void draw(char array[HEIGHT][LENGTH], coords p1, fruit curr){
+void draw(char array[HEIGHT][LENGTH], linkedlist* p1, fruit curr){
   clear();
+  
   for(int x=0; x < HEIGHT;x++){ 
     for(int y=0; y < LENGTH; y++){
-      if(x == p1.x & p1.y == y){
-        array[p1.x][p1.y] = 'o';
         printw("%c", array[x][y]);
-        continue;
-      }
-      if(x == curr.coord.x && y == curr.coord.y){
-        array[x][y] = curr.fruitsym;
-        printw("%c", array[x][y]);
-        continue;
-      }
-
-      if (x == 0 || x == (HEIGHT-1) || y == 0 || y == (LENGTH-1)){
-        array[x][y] = '#';
-        printw("%c", array[x][y]);
-      }else{
-        array[x][y] = ' ';
-        printw("%c", array[x][y]);
-      }
     }
     printw("\n");
   }
+  refresh();
 }
 
 char getinput(){
@@ -78,35 +66,68 @@ char getinput(){
   return keyboard;
 }
 
-char update(char input, coords* p1, char array[HEIGHT][LENGTH], char prev_in, fruit* curr){
+char update(char input, linkedlist* p1, char array[HEIGHT][LENGTH], char prev_in, fruit* curr){
   char currinput = input; 
-  //printw("%c\n", prev_in);
- // printw("%i\n", currinput);
+
+  //zeroboard(array);
  
   // Player keeps moving in whichever direction they last played
   if ((int)currinput == -1){
     currinput = prev_in;
   }
 
-  if (p1->x == curr->coord.x && p1->y == curr->coord.y){
+  p1->prev = p1->current;
+  array[p1->prev.x][p1->prev.y] = ' ';
+  //Update player direction
+  switch(currinput){
+    case 'w':
+      p1->current.x = p1->current.x - 1; 
+      break;
+    case 'a':
+      p1->current.y = p1->current.y - 1; 
+      break;
+    case 's':
+      p1->current.x = p1->current.x + 1; 
+      break;
+    case 'd':
+      p1->current.y = p1->current.y + 1; 
+      break;
+  }
+  updateworm(p1, p1->current.x, p1->current.y); 
+  array[p1->current.x][p1->current.y] = 'o';
+
+  //make tmp list to iterate though - so i dont lose head
+  //update board with current worm position
+  linkedlist* playertmp = p1;
+  while(playertmp->next != NULL){
+    playertmp = playertmp->next;
+    array[playertmp->prev.x][playertmp->prev.y] = ' ';
+    array[playertmp->current.x][playertmp->current.y] = 'o';
+  }
+
+  //Fruit Spawning
+  if (p1->current.x == curr->coord.x && p1->current.y == curr->coord.y){
+    add(p1,p1->prev.x, p1->prev.y);
     fruit new = spawnfruit();
     while(new.coord.x == curr->coord.x && new.coord.y == curr->coord.y){
         new = spawnfruit();
     }
-    curr->coord.x = new.coord.x;
-    curr->coord.y = new.coord.y;
-    refresh();
+    curr->coord = new.coord;
+   array[curr->coord.x][curr->coord.y] = curr->symbol;
   }
 
+  // 
+  //
+  //
   // Check if player hit the border of the game
-  if(p1->x == 0 || p1->x == (HEIGHT-1)){
+  if(p1->current.x == 0 || p1->current.x == (HEIGHT-1)){
     //printw("%s%i\n", "Player Scored: ", p1->counter);
     printw("Game Lost");
     refresh();
     sleep(3);
     return 1;
   }
-  if(p1->y == 0 || p1->y == (LENGTH-1)){
+  if(p1->current.y == 0 || p1->current.y == (LENGTH-1)){
     //printw("%s%i\n", "Player Scored: ", p1->counter);
     printw("Game Lost");
     refresh();
@@ -114,23 +135,6 @@ char update(char input, coords* p1, char array[HEIGHT][LENGTH], char prev_in, fr
     return 1;
   }
 
-  //Update player direction
-  switch(currinput){
-    case 'w':
-      p1->x = p1->x - 1; 
-      break;
-    case 'a':
-      p1->y = p1->y - 1; 
-      break;
-    case 's':
-      p1->x = p1->x + 1; 
-      break;
-    case 'd':
-      p1->y = p1->y + 1; 
-      break;
-  }
-
-  refresh();
   return currinput;
 }
 
@@ -142,8 +146,27 @@ int gamelost(int gamestate){
 
 fruit spawnfruit(){
   fruit new;
-  new.coord.x = (rand()%(HEIGHT-2)+ 1);
-  new.coord.y = (rand()%(LENGTH-2)+ 1);
-  new.fruitsym = 'F';
+  srand(time(0));
+  new.coord.x = rand()%(HEIGHT-2)+ 1;
+  new.coord.y = rand()%(LENGTH-2)+ 1;
+  new.symbol = 'F';
   return new;
 }
+
+void initboard(char array[HEIGHT][LENGTH], linkedlist* player, fruit fruit){
+//Establish Bounds
+  for(int x=0; x < HEIGHT;x++){ 
+    for(int y=0; y < LENGTH; y++){
+      if (x == 0 || x == (HEIGHT-1) || y == 0 || y == (LENGTH-1)){
+        array[x][y] = '#';
+      }else{
+        array[x][y] = ' ';
+      }
+    }
+  }
+  // init player position
+  array[player->current.x][player->current.y] = 'o';
+  //init fruit position
+  array[fruit.coord.x][fruit.coord.y] = fruit.symbol;
+}
+

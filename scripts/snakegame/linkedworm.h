@@ -10,7 +10,8 @@ typedef struct node {
 
 void add(linkedlist* head, int x, int y );
 linkedlist* createnode(int x, int y);
-void displayworm(linkedlist* head);
 void incrementworm(linkedlist* head, coord prev);
-void updatewormhead(linkedlist* head, int x, int y);
+void updateworm(linkedlist* head, int x, int y);
+void freemem(linkedlist* head);
+
 

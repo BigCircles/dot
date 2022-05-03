@@ -9,7 +9,6 @@ esac
 export TERM=xterm-256color
 # Exports added by @stremler
 export GIT_USERNAME="BigCircles"
-export GIT_PASSWORD="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"
 export PATH='$PATH:~/repos/scripts'
 export DOTPATH="/home/stremler/repos/dotfiles"
 export WEATHER_API="b7eabd4f923c3357d060db217e7c6f39"
