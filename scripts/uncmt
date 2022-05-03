@@ -1,5 +1,5 @@
 #!/bin/bash
 
 while IFS= read -r line; do
-  echo "${line:1}"
+  echo "${line:2}"
 done
