@@ -4,6 +4,7 @@
 #include <ncurses.h>
 #include <time.h>
 #include "snake2.h"
+#include <sys/ioctl.h>
 
 /*
 Daniel Stremler
@@ -12,11 +13,13 @@ Snake Game
 Parts of the Game
 - Spawn a board - X
 - Snake movement, one link - X
-- Fruit spawning 
+- Fruit spawning - X
 - Map Area (Array seems good as size never changes) - X
  * */
 int main(){
-  int input;
+  int input=0;
+  int fruitcounter = 0;
+
   char gameboard[HEIGHT][LENGTH];
   char prev_input; 
   fruit currentfruit = spawnfruit();
@@ -28,13 +31,12 @@ int main(){
   nocbreak;
   noecho();
   initboard(gameboard, player, currentfruit);
-
   
   // game loop
   while(!gamelost(prev_input)){
     nanosleep((const struct timespec[]){{0,500000000}},NULL);
     input = getinput();
-    prev_input = update(input, player, gameboard, prev_input, &currentfruit);
+    prev_input = update(input, player, gameboard, prev_input, &currentfruit, &fruitcounter);
     draw(gameboard, player, currentfruit);
   }
   freemem(player);
@@ -49,8 +51,25 @@ int main(){
  * */
 void draw(char array[HEIGHT][LENGTH], linkedlist* p1, fruit curr){
   clear();
-  
+  struct winsize w;
+  ioctl(0, TIOCGWINSZ, &w);
+  int rows=w.ws_row;
+  int cols=w.ws_col;
+
+  int rowcenter = (rows - HEIGHT)/2;
+  int colcenter = (cols - LENGTH)/2;
+
+  //Probably an easier way to do this with ncurses
+  //Center Columns
+  for(int x=0; x <rowcenter;x++){ 
+    printw("\n");
+  }
+
   for(int x=0; x < HEIGHT;x++){ 
+    //Center Rows
+    for(int x=0;x<colcenter;x++){
+      printw(" ");
+    }
     for(int y=0; y < LENGTH; y++){
         printw("%c", array[x][y]);
     }
@@ -66,16 +85,21 @@ char getinput(){
   return keyboard;
 }
 
-char update(char input, linkedlist* p1, char array[HEIGHT][LENGTH], char prev_in, fruit* curr){
+char update(char input, linkedlist* p1, char array[HEIGHT][LENGTH], char prev_in, fruit* curr, int* fruitcount){
   char currinput = input; 
 
-  //zeroboard(array);
- 
+  struct winsize w;
+  ioctl(0, TIOCGWINSZ, &w);
+  int rows=w.ws_row;
+  int cols=w.ws_col;
+
+  int rowcenter = (rows - HEIGHT)/2;
+  int colcenter = (cols - LENGTH)/2;
+
   // Player keeps moving in whichever direction they last played
   if ((int)currinput == -1){
     currinput = prev_in;
   }
-
   p1->prev = p1->current;
   array[p1->prev.x][p1->prev.y] = ' ';
   //Update player direction
@@ -108,6 +132,9 @@ char update(char input, linkedlist* p1, char array[HEIGHT][LENGTH], char prev_in
   //Fruit Spawning
   if (p1->current.x == curr->coord.x && p1->current.y == curr->coord.y){
     add(p1,p1->prev.x, p1->prev.y);
+    //deferenced so i'm not incrementing address value by 1
+    //pointer++ would give the value of the next place in memory
+    *fruitcount = *fruitcount+1;
     fruit new = spawnfruit();
     while(new.coord.x == curr->coord.x && new.coord.y == curr->coord.y){
         new = spawnfruit();
@@ -116,24 +143,24 @@ char update(char input, linkedlist* p1, char array[HEIGHT][LENGTH], char prev_in
    array[curr->coord.x][curr->coord.y] = curr->symbol;
   }
 
-  // 
-  //
   //
   // Check if player hit the border of the game
-  if(p1->current.x == 0 || p1->current.x == (HEIGHT-1)){
-    //printw("%s%i\n", "Player Scored: ", p1->counter);
-    printw("Game Lost");
+  if(p1->current.x == 0 || p1->current.x == (HEIGHT-1)
+    || p1->current.y == 0 || p1->current.y == (LENGTH-1)){
+    //Dereferenced fruitcount because i sent in its address into the function
+    mvprintw(rowcenter+HEIGHT, colcenter,"%s%i\n", "Player Scored: ", *fruitcount);
+    mvprintw(rowcenter+HEIGHT+1, colcenter,"%s\n", "Game Over");
     refresh();
     sleep(3);
     return 1;
   }
-  if(p1->current.y == 0 || p1->current.y == (LENGTH-1)){
-    //printw("%s%i\n", "Player Scored: ", p1->counter);
-    printw("Game Lost");
-    refresh();
-    sleep(3);
-    return 1;
-  }
+//  if(p1->current.y == 0 || p1->current.y == (LENGTH-1)){
+//    printw("%s%i\n", "Player Scored: ", fruitcounter);
+//    printw("Game Lost");
+//    refresh();
+//    sleep(3);
+//    return 1;
+//  }
 
   return currinput;
 }

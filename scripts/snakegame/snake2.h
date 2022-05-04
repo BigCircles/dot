@@ -14,7 +14,7 @@ typedef struct fruit {
 } fruit;
 
 void draw(char array[HEIGHT][LENGTH], linkedlist* p1, fruit curr); char getinput();
-char update(char input, linkedlist* p1, char array[HEIGHT][LENGTH] ,char prev_in, fruit *curr);
+char update(char input, linkedlist* p1, char array[HEIGHT][LENGTH] ,char prev_in, fruit *curr, int *fruitcount);
 int gamelost(int gamestate);
 fruit spawnfruit();
 void initboard(char array[HEIGHT][LENGTH], linkedlist* player, fruit currentfruit);
