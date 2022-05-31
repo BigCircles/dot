@@ -7,7 +7,7 @@ fi
 
 ISO=($isosec)
 
-cd $ZETPATH;
+cd $ZETPATH
 mkdir -v $ISO
 touch $ZETPATH/$ISO/README.md
 git add .

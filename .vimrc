@@ -1,3 +1,4 @@
+let ccomp ="gcc % -o %<"
 " see vim options at :options , also :viusage, :help, :set all
 set nocompatible
 
@@ -56,11 +57,20 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 " Function Example
 " echom gives you the call + return value, where echo just gives the msg no return
 fu! Greet()
-  echo "Hello World!"
+  echo "Hello World"
+endf
+
+fu! Runccomp(ccomp)
+  execute ":!"a:ccomp
+endf
+
+fu! Runeccomp(ccomp)
+ execute ":!"a:ccomp." && ./%<"
 endf
 
 " Command Example - Calls Greet
 command! Greet call Greet()
+command! Ccomp call Getccomp(ccomp)
 
 " To see all Vim console messages, do the command: 
 
@@ -69,6 +79,8 @@ command! Greet call Greet()
 " outputs: Tue Nov  2 22:31:43 UTC 2021
 "_____________________________ Function Mappings  ________________
 map <F1> :call <SID>SynStack()<CR>
+nnoremap <F4> :w; call Runccomp(ccomp) <RETURN>
+nnoremap <F5> :w; call Runeccomp(ccomp) <RETURN>
 
 "------------------------------- Auto Commands  -------------------
 "example:
