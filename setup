@@ -1,60 +1,37 @@
 #!/bin/bash
 
 makelinks(){
+  filename=$1;
 # Test if vimrc symbolic link exists
-  if test -h "$HOME/.vimrc" 
+  if test -h "$HOME/$filename" 
   then
-    echo "vimrc symbolic link already exists";
+    echo "$filename symbolic link already exists";
   else
      #Check and remove current .vimrc if its already there
-     if test -e "$HOME/.vimrc" 
+     if test -e "$HOME/$filename" 
      then 
-          rm "$HOME/.vimrc";
+          rm "$HOME/$filename";
      fi
      $(
-       cd "$HOME" || exit && echo "cd failed";
-       ln -s "$HOME/repos/dot/.vimrc" .vimrc;
-       echo "vimrc symbolic link created";
+       ln -s "$HOME/repos/dot/$filename" "$HOME/$filename";
      )
-  fi
-
-# Test if bashrc symbolic link exists
-  if test -h "$HOME/.bashrc"
-  then
-    echo "bashrc symbolic link already exists"
-  else
-     if test -e "$HOME/.bashrc" 
-     then 
-          rm "$HOME/.bashrc";
-     fi
-     $(
-        cd "$HOME" || exit && echo "cd failed";
-        ln -s "$HOME/repos/dot/.bashrc" .bashrc;
-        echo "bashrc symbolic link created";
-       )
-  fi
-
-# Test if dircolors symbolic link exists
-  if test -h "$HOME/.dircolors"
-  then
-    echo "dircolors symbolic link already exists"
-  else
-     if test -e "$HOME/.dircolors" 
-     then 
-          rm "$HOME/.dircolors";
-     fi
-     $(
-        cd "$HOME" || exit && echo "cd failed";
-        ln -s "$HOME/repos/dot/.dircolors" .dircolors;
-        echo "dircolors symbolic link created";
-       )
+       echo "$filename symbolic link created";
   fi
 }
 
 main(){
-  makelinks
+#Check if directories exist
+  if test ! -d "$HOME/repos" && test ! -d "$HOME/repos/dot"
+  then
+    mkdir "$HOME/repos/dot";
+  fi
+
+  for file in ".bashrc" ".vimrc" ".dircolors"
+    do
+      makelinks "$file"
+    done
 }
 
-main "$@"
+main
 
 
