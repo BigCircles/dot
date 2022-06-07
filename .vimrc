@@ -1,13 +1,14 @@
-let ccomp ="gcc % -o %<"
+let ccomp = "gcc % -o %<"
 " see vim options at :options , also :viusage, :help, :set all
 set nocompatible
 
 " vimscript stuff learnvimscriptthehardway.stevelosh.com/
 
-" To add a word to your spell list cursor over the word and `zg`
+" To add a word to your spell list cursor over the word and zg
   set spelllang=en
   set spell
 
+syntax on
 " activate line numbering
 set nu
 
@@ -25,7 +26,6 @@ set textwidth=78
 set showmode
 set autowrite
 " --------------- TAB SETTINGS ------------------
-" Sets << , >> operation tab spacing
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
@@ -52,7 +52,7 @@ function! <SID>SynStack()
 endfunc
 "__________________________________________________________________
 "Start at the last place you were editing
-au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+"au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " Function Example
 " echom gives you the call + return value, where echo just gives the msg no return
@@ -86,4 +86,3 @@ nnoremap <F5> :w<RETURN> :call Runeccomp(ccomp) <RETURN>
 au FileType markdown,pandoc hi Title ctermfg=yellow ctermbg=NONE
 au FileType markdown,pandoc hi Operator ctermfg=yellow ctermbg=NONE 
 "------------------------------------------------------------------
-

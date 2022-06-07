@@ -1,0 +1,37 @@
+#!/bin/bash
+
+makelinks(){
+  filename=$1;
+# Test if vimrc symbolic link exists
+  if test -h "$HOME/$filename" 
+  then
+    echo "$filename symbolic link already exists";
+  else
+     #Check and remove current .vimrc if its already there
+     if test -e "$HOME/$filename" 
+     then 
+          rm "$HOME/$filename";
+     fi
+     $(
+       ln -s "$HOME/repos/dot/$filename" "$HOME/$filename";
+     )
+       echo "$filename symbolic link created";
+  fi
+}
+
+main(){
+#Check if directories exist
+  if test ! -d "$HOME/repos" && test ! -d "$HOME/repos/dot"
+  then
+    mkdir "$HOME/repos/dot";
+  fi
+
+  for file in ".bashrc" ".vimrc" ".dircolors"
+    do
+      makelinks "$file"
+    done
+}
+
+main
+
+
