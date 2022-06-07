@@ -70,7 +70,6 @@ endf
 
 " Command Example - Calls Greet
 command! Greet call Greet()
-command! Ccomp call Getccomp(ccomp)
 
 " To see all Vim console messages, do the command: 
 
@@ -79,8 +78,8 @@ command! Ccomp call Getccomp(ccomp)
 " outputs: Tue Nov  2 22:31:43 UTC 2021
 "_____________________________ Function Mappings  ________________
 map <F1> :call <SID>SynStack()<CR>
-nnoremap <F4> :w; call Runccomp(ccomp) <RETURN>
-nnoremap <F5> :w; call Runeccomp(ccomp) <RETURN>
+nnoremap <F4> :w<RETURN> :call Runccomp(ccomp) <RETURN>
+nnoremap <F5> :w<RETURN> :call Runeccomp(ccomp) <RETURN>
 
 "------------------------------- Auto Commands  -------------------
 "example:
