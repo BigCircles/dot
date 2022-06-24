@@ -9,8 +9,8 @@ esac
 export TERM=xterm-256color
 # Exports added by @stremler
 export GIT_USERNAME="BigCircles"
-export PATH='$PATH:~/repos/scripts'
-export DOTPATH="/home/stremler/repos/dotfiles"
+export PATH='$PATH:~/repos/dot/scripts'
+export DOTPATH="/home/stremler/repos/dot"
 export WEATHER_API="b7eabd4f923c3357d060db217e7c6f39"
 export ZETPATH="/home/stremler/repos/zet"
 export CDPATH=$CDPATH:"/home/stremler/bookmarks"
@@ -55,7 +55,7 @@ pathprepend(){
 done
 }
 
-export SCRIPTS=~/repos/dotfiles/scripts
+export SCRIPTS=~/repos/dot/scripts
 mkdir -p "$SCRIPTS" &>/dev/null
 
 #remember first arg will be first in the path

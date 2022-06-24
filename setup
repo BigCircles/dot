@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Add installation of Vim, jq, sudo, shellcheck
+# if they arent on
+
 makelinks(){
   filename=$1;
 # Test if vimrc symbolic link exists
@@ -26,7 +29,7 @@ main(){
     mkdir "$HOME/repos/dot";
   fi
 
-  for file in ".bashrc" ".vimrc" ".dircolors"
+  for file in ".bashrc" ".vimrc" ".dircolors" ".tmux.conf"
     do
       makelinks "$file"
     done
