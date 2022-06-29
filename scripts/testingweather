@@ -1,0 +1,10 @@
+#!/bin/sh
+
+lastweather="$(weather -cm home
+echo $PATH;
+echo "$WEATHER_API"
+)"
+echo "$lastweather"
+
+
+
