@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Add installation of Vim, jq, sudo, shellcheck
 # if they arent on
 
