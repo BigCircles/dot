@@ -65,7 +65,7 @@ fu! Runccomp(ccomp)
 endf
 
 fu! Runeccomp(ccomp)
- execute ":!"a:ccomp." && ./%<"
+ execute ":!"a:ccomp." && ./%< < testset"
 endf
 
 " Command Example - Calls Greet
