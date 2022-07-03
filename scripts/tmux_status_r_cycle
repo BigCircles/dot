@@ -1,7 +1,6 @@
 #!/bin/bash
 
 tmux_status_right_cycle(){
-  source weather -cm home > "/home/stremler/repos/dot/scripts/.tmuxoutput"
   cat "$HOME/repos/dot/scripts/.tmuxoutput"
 }
 
