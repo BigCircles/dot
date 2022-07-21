@@ -17,9 +17,7 @@ export CDPATH=$CDPATH:"/home/stremler/bookmarks"
 export LABDIR="/home/stremler/repos/labs"
 #------------- -Prompt --------------------------
 
-
-
-export PS1='\[\e[0;36m\]\u\[\e[0;33m\]@\[\e[0;35m\]\h:\[\e[0;33m\]\W\$\[\e[0m\] '
+export PS1='\[\e[0;94m\]\u\[\e[0;2m\]@\[\e[0;91m\]\h:\[\e[0;33m\]\W\$\[\e[0m\] '
 
 #-----------------------------------------------
 export EDITOR=vi

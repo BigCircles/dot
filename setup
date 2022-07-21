@@ -17,7 +17,7 @@ makelinks(){
           rm "$HOME/$filename";
      fi
      $(
-       ln -s "$HOME/repos/dot/$filename" "$HOME/$filename";
+       ln -s "$HOME/.local/dot/$filename" "$HOME/$filename";
      )
        echo "$filename symbolic link created";
   fi
