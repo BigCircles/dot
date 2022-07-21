@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-# Add installation of Vim, jq, sudo, shellcheck
+# Add installation of Vim, jq, sudo, shellcheck, zip, unzip, git, man, gcc,
+# g++, 
 # if they arent on
 
 makelinks(){
