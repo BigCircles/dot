@@ -18,7 +18,7 @@ makelinks(){
           rm "$HOME/$filename";
      fi
      $(
-       ln -s "$HOME/.local/dot/$filename" "$HOME/$filename";
+       ln -s "$HOME/.config/dot/$filename" "$HOME/$filename";
      )
        echo "$filename symbolic link created";
   fi
@@ -26,12 +26,12 @@ makelinks(){
 
 main(){
 #Check if directories exist
-  if test ! -d "$HOME/repos" && test ! -d "$HOME/repos/dot"
+  if test ! -d "$HOME/.config" && test ! -d "$HOME/.config/dot"
   then
-    mkdir "$HOME/repos/dot";
+    mkdir "$HOME/.config/dot";
   fi
 
-  for file in ".bashrc" ".vimrc" ".dircolors" ".tmux.conf"
+  for file in ".bashrc" ".vimrc" ".dircolors" ".tmux.conf" "bookmarks"
     do
       makelinks "$file"
     done

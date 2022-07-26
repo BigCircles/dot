@@ -6,7 +6,7 @@
 
 
 //Location the todo script is being ran from
-char installpath[80] = "/home/stremler/repos/dotfiles/scripts/todolist";
+char installpath[80] = "/home/stremler/.config/dot/scripts/todolist";
 char todotxt[80];
 
 int main(int argc, char* argv[]){

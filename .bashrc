@@ -8,13 +8,12 @@ esac
 
 export TERM=xterm-256color
 # Exports added by @stremler
-export GIT_USERNAME="BigCircles"
-export PATH='$PATH:~/repos/dot/scripts'
-export DOTPATH="/home/stremler/repos/dot"
+export SCRIPTS="$HOME/.config/dot/scripts"
+export PATH='$PATH:~/.config/dot/scripts'
+export DOTPATH="/home/stremler/.config/dot"
+export REPOSPATH="$HOME/.local/repos"
 export WEATHER_API="b7eabd4f923c3357d060db217e7c6f39"
-export ZETPATH="/home/stremler/repos/zet"
-export CDPATH=$CDPATH:"/home/stremler/bookmarks"
-export LABDIR="/home/stremler/repos/labs"
+export LABDIR="/home/stremler/.local/repos/labs"
 #------------- -Prompt --------------------------
 
 export PS1='\[\e[0;94m\]\u\[\e[0;2m\]@\[\e[0;91m\]\h:\[\e[0;33m\]\W\$\[\e[0m\] '
@@ -28,7 +27,6 @@ export MANPAGER='less -I -X'
 
  #-------------- Path  --------------------------
 
-  export PATH="$HOME/.local/bin:$PATH"
 
   #pathappend
 pathappend(){
@@ -53,9 +51,6 @@ pathprepend(){
 done
 }
 
-export SCRIPTS=~/repos/dot/scripts
-mkdir -p "$SCRIPTS" &>/dev/null
-
 #remember first arg will be first in the path
 pathprepend \
   ~/.local/bin \
@@ -74,14 +69,14 @@ pathappend \
 
  #-------------- CDPATH ------------------------
 
-export CDPATH=.:\
+CDPATH=.:\
 ~:\
 ~/.local:\
 ~/.local/bin:\
 ~/.local/bin/scripts:\
-~/repos:\
-~/repos/scripts:\
-~/repos/labs:\
+~/.local/repos:\
+~/bookmarks
+export CDPATH
 
  #------------- Pager Stuff ---------------------
 
@@ -128,6 +123,7 @@ shopt -s histappend
 # Alias added by @Stremler
 alias c='clear'
 alias labs='cd $LABDIR'
+alias repos='cd $REPOSPATH'
 alias scripts='cd $SCRIPTS'
 alias dot='cd $DOTPATH'
 alias ?='duck'
