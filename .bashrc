@@ -60,7 +60,6 @@ mkdir -p "$SCRIPTS" &>/dev/null
 pathprepend \
   ~/.local/bin \
   $SCRIPTS \
-  ~/repos/education/headfirstc/exercises
 
 
 #remember last arg will be the first in the path
@@ -83,12 +82,6 @@ export CDPATH=.:\
 ~/repos:\
 ~/repos/scripts:\
 ~/repos/labs:\
-/home/stremler/repos/education/headfirstc/exercises:\
-/home/stremler/repos/education/headfirstc:\
-
-
-
-# example path ~/repos/zet:\
 
  #------------- Pager Stuff ---------------------
 
